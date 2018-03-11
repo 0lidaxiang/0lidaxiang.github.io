@@ -1,4 +1,4 @@
-#  After install Ubuntu 16.04
+#  Problems in using Ubuntu 16.04
 > [荒岛书生](http://www.lidaxiang.cn/)  
 > StartTime: 2017-12-15,ModifyTime:2017-12-15
 
