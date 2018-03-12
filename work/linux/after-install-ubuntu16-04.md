@@ -1,6 +1,6 @@
 # After Install Ubuntu 16-04
 > [荒岛书生](http://www.lidaxiang.cn/)  
-> StartTime: 2018-03-11,ModifyTime: 2018-03-11
+> StartTime: 2018-03-11,ModifyTime: 2018-03-12
 
 ## 1.firefox
 firefox account settings：login to the account and change search energering
@@ -28,9 +28,11 @@ sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 sudo apt-get install google-chrome-stable atom
 ```
+### [atom setting](../tools/editor-tools.html)
 
-> atom : [first way:](http://tipsonubuntu.com/2016/08/05/install-atom-text-editor-ubuntu-16-04/)  
-another way:
+**atom installed more info:**  
+ [first way is the method above](http://tipsonubuntu.com/2016/08/05/install-atom-text-editor-ubuntu-16-04/)  
+another way:  
 ```
 sudo snap install atom --classic;sudo snap refresh atom
 ```
