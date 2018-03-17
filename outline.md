@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /outline/
 ---
 
 <div id='cat_cloud'>

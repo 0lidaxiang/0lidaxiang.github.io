@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /tags/
 ---
 
 <div id='tag_cloud'>
