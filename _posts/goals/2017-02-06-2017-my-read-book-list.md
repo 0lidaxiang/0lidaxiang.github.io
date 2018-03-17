@@ -7,14 +7,15 @@ tags:
 - book-notes
 ---
 
-# 我的阅读
->[荒岛书生](http://www.lidaxiang.cn/)
-StartTime: 2017-02-06,ModifyTime:2017-09-17
+> StartTime: 2017-02-06,ModifyTime:2017-09-17
+<!---more--->
 
 ## 2017年书单
+
 + [x] 1. 被讨厌的勇气(诚品畅销书)，2017-02读完
 + [x] 2. A Global History 全球通史(上)，2017-08读完
 + [ ] 3. 社会科学概论(通识课课本)，2017-12读完
+
 
 ## 2018年书单
 + [ ] 1. Modern_Operating_Systems
