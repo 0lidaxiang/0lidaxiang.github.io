@@ -1,9 +1,13 @@
-# About me（[English Version](./about_me_en.html)）
-> [荒岛书生](http://www.lidaxiang.cn/)  
-> StartTime: 2016-11-28, ModifyTime:2018-02-27  
-> 兴趣：技术，开源，历史，古琴，音乐，中国文学
+---
+layout: post
+title: "About Me"
+permalink: /about_me_zh/
+---
 
-我喜欢按计划做事，探索新的世界，学习新的知识，同时也乐于助人、分享我的经验。
+> StartTime: 2016-11-28, ModifyTime:2018-02-27  
+> [English Version](/about_me_en/)
+
+我喜欢按计划做事，探索新的世界，学习新的知识，同时也乐于助人、分享我的经验。兴趣：技术，开源，历史，古琴，音乐，中国文学。
 
 我现在是台湾科技大学的计算机科系的学生，擅长前后端全栈式构造网站系统，对资料检索、实时系统、文本分析、深度学习有一定了解和学习。
 

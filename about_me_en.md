@@ -1,6 +1,11 @@
-# About me([中文版](./about_me.html))
-> [荒岛书生](http://www.lidaxiang.cn/)  
+---
+layout: post
+title: "About Me"
+permalink: /about_me_en/
+---
+
 > StartTime: 2016-11-28, ModifyTime:2018-02-27  
+> [中文版](/about_me_zh/)
 
 ## Introduction myself
 I like explore new world and learn new knowledge. I am really willing to help the disadvantaged and share my experience.
