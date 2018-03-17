@@ -1,1 +1,31 @@
-theme: jekyll-theme-cayman
+# Site settings
+title:          荒岛书生
+description:    "程序员，流行音乐、古琴、网络文学与传统文学爱好者。"
+baseurl:        ""
+url:            "https://www.lidaxiang.cn"
+
+# Author
+author:
+  name:         荒岛书生
+  url:          https://www.lidaxiang.cn
+  email:        0lidaxiang@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# categories:
+#   - sssss
+#   - wowww
