@@ -26,11 +26,11 @@ permalink: /about_me_zh/
 |Others|MySQL, Base Linux, Git, SVN, Apache, Nginx|
 
 ## Research
-1. 2014年，[基于Andorid手机端的教室管理web系统](../research/classrooms-query-web-system-based-on-android.pdf)
+1. 2014年，[基于Andorid手机端的教室管理web系统]({{ site.baseurl }}/assets/research/classrooms-query-web-system-based-on-android.pdf)
 
-2. 2015年 ~ 2016年， [爱驿站婚恋平台的研究与实现 — 论文链接](../research/research-and-realization-of-ayizhan-marriage-platform.pdf)
+2. 2015年 ~ 2016年， [爱驿站婚恋平台的研究与实现 — 论文链接]({{ site.baseurl }}/assets/research/research-and-realization-of-ayizhan-marriage-platform.pdf)
 
-3. 2017年，[基于 Git 的共享创作平台 — 文章链接](../research/weArt.pdf)
+3. 2017年，[基于 Git 的共享创作平台 — 文章链接]({{ site.baseurl }}/assets/research/weArt.pdf)
 
 ## Projects 经验
 1. 2014.4-2015-3，[中国大学生计算机设计大赛](http://www.jsjds.org/Article_Class2.asp?ClassID=14)，前期负责写各种概要设计、解决方案等技术文档；后期比赛结束后，用C#语言为这个作品加入权限控制等功能。

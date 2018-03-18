@@ -9,8 +9,9 @@ permalink: /tags/
 {% endfor %}
 </div>
 
-<ul class="listing">
+
 {% for tag in site.tags %}
+<ul class="listing">
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item">
@@ -18,8 +19,9 @@ permalink: /tags/
   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
-{% endfor %}
 </ul>
+{% endfor %}
+
 
 <script src="/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">

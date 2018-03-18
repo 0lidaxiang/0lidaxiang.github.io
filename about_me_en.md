@@ -32,11 +32,11 @@ Interest : Technology, Opensource, History, Guqin, Music, Chinese literature.
 |Others|MySQL, Base Linux, Git, SVN, Apache, Nginx|
 
 ## Research
-1. 2014, [Classrooms Query Web System Based On Android](../research/classrooms-query-web-system-based-on-android.pdf)
+1. 2014, [Classrooms Query Web System Based On Android]({{ site.baseurl }}/assets/research/classrooms-query-web-system-based-on-android.pdf)
 
-2. 2015 ~ 2016, [Research and Realization of Ayizhan Marriage Platform — Paper link](../research/research-and-realization-of-ayizhan-marriage-platform.pdf)
+2. 2015 ~ 2016, [Research and Realization of Ayizhan Marriage Platform — Paper link]({{ site.baseurl }}/assets/research/research-and-realization-of-ayizhan-marriage-platform.pdf)
 
-3. 2017, [Git-based Shared Authoring Platform based on Git features — article link](../research/weArt.pdf)
+3. 2017, [Git-based Shared Authoring Platform based on Git features — article link]({{ site.baseurl }}/assets/research/weArt.pdf)
 
 ### Program Experiences
 1. 2014.4-2015-3, participate in [Chinese Students Computer Design Competition](http://www.jsjds.org/Article_Class2.asp?ClassID=14). This project aims to use one software to connnect and use many kinds of databases, using C# programming language.  Writing many technical documents like summary design and the solution document, and add the permissions control function and other functions for this work after the end of the game .

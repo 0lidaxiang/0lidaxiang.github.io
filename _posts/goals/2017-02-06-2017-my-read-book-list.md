@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "我的阅读"
+title:  "我的阅读清单"
 categories:
-- book-notes
+- goals
 tags:
-- book-notes
+- goals
 ---
 
 > StartTime: 2017-02-06,ModifyTime:2017-09-17
