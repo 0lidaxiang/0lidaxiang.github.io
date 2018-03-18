@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Fedora remove nouse kernel version"
+title:  "Fedora remove nouse kernel version"
 categories:
 - work
 tags:
