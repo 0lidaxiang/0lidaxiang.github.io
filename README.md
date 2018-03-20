@@ -1,119 +1,17 @@
-# Tale
+# 荒岛书生
 
-[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
+这里是我的个人主页和博客。
 
-Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
-
-![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
+<!-- ![ ]() -->
 
 ## Features
-- Easy installation
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-
-## Installation
-There are 3 ways to install this theme
-
-1. Install it as a Ruby Gem (for self-hosted sites)
-2. Install it with the `jekyll-remote-theme` plugin (for GitHub Pages hosted sites)
-3. Fork the project directly
-
-### Ruby Gem method
-1. Add this line to your `Gemfile`:
-
-```ruby
-gem "tale"
-```
-
-2. Install the theme's gems and dependencies:
-
-```bash
-$ bundle
-```
-
-3. In `_config.yml` add these lines:
-
-```yaml
-theme:      tale
-
-permalink:  /:year-:month-:day/:title
-paginate:   5
-```
-
-Remove any other `theme:` lines.
-
-4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
-
-5. In `about.md`, change the `layout:` field to `post`:
-
-```Markdown
-layout: post
-```
-
-### GitHub Pages method
-1. Add these 2 lines in to your `Gemfile`:
-
-```ruby
-gem "jekyll-remote-theme"
-gem "jekyll-paginate"
-```
-
-2. Install the newly added gems:
-
-```bash
-$ bundle
-```
-
-3. In `_config.yml` add these lines:
-
-```yaml
-remote_theme: chesterhow/tale
-
-permalink:    /:year-:month-:day/:title
-paginate:     5
-
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
-```
-
-Remove any other `theme:` or `remote_theme:` lines.
-
-4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
-
-5. In `about.md`, change the `layout:` field to `post`:
-
-```Markdown
-layout: post
-```
-
-### Fork method
-1. Fork this repository
-
-2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `tale.gemspec`
-
-3. Delete the `baseurl` line in `_config.yml`:
-
-```yaml
-baseurl:  "/tale"   # delete this line
-```
-
-## Usage
-Once you've installed the theme, you're ready to work on your Jekyll site. To start off, I would recommend updating `_config.yml` with your site's details.
-
-To build and serve your site, run:
-
-```bash
-$ bundle exec jekyll serve
-```
-
-And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
+- 个人主页
+- 博客
+- 简历
+- 主要研究
 
 ## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
+请到 Contanct 页面找到联系方式联系我。
 
 ## License
-See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
+本网站中除了研究论文(一般会为 PDF 格式)以外，若无特别说明，发表的文章均遵循 CC-BY-NC-SA 协议。
