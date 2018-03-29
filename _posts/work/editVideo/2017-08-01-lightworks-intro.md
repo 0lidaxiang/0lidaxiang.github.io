@@ -4,7 +4,9 @@ title:  "Lightworks Introduction"
 categories:
 - work
 tags:
-- work Lightworks editVideo
+- work
+- Lightworks 
+- editVideo
 ---
 
 > StartTime: 2017-08-01,ModifyTime:2017-08-01

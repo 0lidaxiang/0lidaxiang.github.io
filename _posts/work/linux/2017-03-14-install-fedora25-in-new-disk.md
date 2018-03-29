@@ -4,7 +4,10 @@ title:  "Install Fedora25 in New Disk"
 categories:
 - work
 tags:
-- work Linux Fedora Fedora-Install
+- work
+- Linux 
+- Fedora 
+- Fedora-Install
 ---
 
 > StartTime: 2017-03-14,ModifyTime: 2017-03-14

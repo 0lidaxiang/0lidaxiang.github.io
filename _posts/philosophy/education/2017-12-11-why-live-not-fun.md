@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "北大学子：你们为什么活得这么无趣？！"
+title:  "(转)北大学子：你们为什么活得这么无趣？！"
 categories:
 - philosophy
 tags:

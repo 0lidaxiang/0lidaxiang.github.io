@@ -4,7 +4,10 @@ title:  "在Fedora25上安装Apache2.4 & PHP7 &Mariadb"
 categories:
 - work
 tags:
-- work web_backEnd LAMP Fedora
+- work
+- web_backEnd 
+- LAMP 
+- Fedora
 ---
 
 > StartTime: 2017-02-25,ModifyTime:2017-02-25

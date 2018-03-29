@@ -4,7 +4,9 @@ title:  "对未来计算机行业的一点看法(2017~2050)"
 categories:
 - work
 tags:
-- work points future
+- work
+- points 
+- future
 ---
 
 > StartTime: 2017-02-05,ModifyTime:2017-04-25

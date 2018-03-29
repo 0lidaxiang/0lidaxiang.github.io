@@ -4,7 +4,9 @@ title:  "Fedora remove nouse kernel version"
 categories:
 - work
 tags:
-- work Linux Fedora
+- work
+- Linux
+- Fedora
 ---
 
 > StartTime: 2016-03-14,ModifyTime:2016-03-14

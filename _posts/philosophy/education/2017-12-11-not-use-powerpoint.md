@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "挽救學生智商，請停用 PowerPoint"
+title:  "(转)挽救學生智商，請停用 PowerPoint"
 categories:
 - philosophy
 tags:

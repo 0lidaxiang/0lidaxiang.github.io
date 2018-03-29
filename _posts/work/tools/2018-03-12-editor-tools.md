@@ -4,7 +4,11 @@ title:  "Editor tools(Atom Sublime)"
 categories:
 - work
 tags:
-- work tools Atom Sublime Editor
+- work
+- tools 
+- Atom 
+- Sublime 
+- Editor
 ---
 
 > StartTime: 2018-03-12,ModifyTime:2018-03-12

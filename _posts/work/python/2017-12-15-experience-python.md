@@ -4,7 +4,8 @@ title:  "Python and Python3 experience"
 categories:
 - work
 tags:
-- work Python3
+- work
+- Python3
 ---
 
 > StartTime: 2017-12-15,ModifyTime:2017-12-15  

@@ -4,7 +4,9 @@ title:  "Linux helpful commands"
 categories:
 - work
 tags:
-- work Linux command
+- work
+- Linux
+- command
 ---
 
 > StartTime: 2018-03-14,ModifyTime:2018-03-14

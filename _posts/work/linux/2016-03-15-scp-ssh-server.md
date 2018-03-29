@@ -4,7 +4,10 @@ title:  "Linux 远程连接与 SCP 复制 Files"
 categories:
 - work
 tags:
-- work Linux Fedora command
+- work
+- Linux 
+- Fedora 
+- command
 ---
 
 > StartTime: 2016-03-15,ModifyTime:2016-03-15

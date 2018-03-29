@@ -6,7 +6,7 @@ url:            "https://www.lidaxiang.cn"
 
 # Author
 author:
-  name:         荒岛书生
+  name:         荒岛书生1
   url:          https://www.lidaxiang.cn
   email:        0lidaxiang@gmail.com
 
@@ -27,6 +27,15 @@ permalink:      /:year-:month-:day/:title
 paginate:       5
 
 excerpt_separator: '<!---more--->'
+
+# 目录结构
+# source:      .
+# destination: ./_site
+# plugins:     ./_plugins
+# layouts:     ./_layouts
+# data_source: ./_data
+# collections: null
+
 
 # categories:
 #   - sssss

@@ -4,7 +4,10 @@ title:  "After Install Ubuntu 16-04"
 categories:
 - work
 tags:
-- work Linux Ubuntu Ubuntu-Install
+- work
+- Linux 
+- Ubuntu 
+- Ubuntu-Install
 ---
 
 > StartTime: 2018-03-11,ModifyTime: 2018-03-12

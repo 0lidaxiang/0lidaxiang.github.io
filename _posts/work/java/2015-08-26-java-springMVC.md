@@ -4,7 +4,9 @@ title:  "Java Spring MVC"
 categories:
 - work
 tags:
-- work Java Spring MVC
+- work
+- Java 
+- Spring MVC
 ---
 
 > StartTime: 2015-08-26,ModifyTime:2017-01-01

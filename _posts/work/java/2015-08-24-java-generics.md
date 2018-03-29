@@ -4,7 +4,8 @@ title:  "Java 泛型"
 categories:
 - work
 tags:
-- work Java
+- work
+- Java
 ---
 
 > StartTime: 2015-08-24,ModifyTime:2017-01-01

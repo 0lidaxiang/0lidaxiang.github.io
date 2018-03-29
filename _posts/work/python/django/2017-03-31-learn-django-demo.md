@@ -4,7 +4,9 @@ title:  "Learn Django by Demo"
 categories:
 - work
 tags:
-- work Python Django
+- work
+- Python 
+- Django
 ---
 
 > StartTime: 2017-03-31,ModifyTime:2017-04-02

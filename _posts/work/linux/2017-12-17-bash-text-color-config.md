@@ -4,7 +4,10 @@ title:  "Bash Text Color Config"
 categories:
 - work
 tags:
-- work Linux Ubuntu Ubuntu-Install
+- work
+- Linux 
+- Ubuntu 
+- Ubuntu-Install
 ---
 
 > StartTime: 2017-12-17,ModifyTime:2017-12-17

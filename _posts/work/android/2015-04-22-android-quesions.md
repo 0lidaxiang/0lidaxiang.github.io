@@ -4,7 +4,8 @@ title:  "Android 学习和错误"
 categories:
 - work
 tags:
-- work android
+- work
+- android
 ---
 
 > StartTime: 2015-04-22,ModifyTime:2017-01-01

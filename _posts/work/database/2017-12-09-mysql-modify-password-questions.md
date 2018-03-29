@@ -4,7 +4,9 @@ title:  "Quesions about MySQL/Mariadb modify password"
 categories:
 - work
 tags:
-- work database MySQL
+- work 
+- database
+- MySQL
 ---
 
 > StartTime: 2017-12-09,ModifyTime:2017-12-09

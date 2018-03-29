@@ -4,7 +4,8 @@ title:  "Keras Introduction"
 categories:
 - work
 tags:
-- work keras
+- work
+- keras
 ---
 
 > StartTime: 2017-11-17,ModifyTime:2017-11-27  
