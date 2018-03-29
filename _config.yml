@@ -2,12 +2,12 @@
 title:          荒岛书生
 description:    "程序员，流行音乐、古琴、网络文学与传统文学爱好者。"
 baseurl:        ""
-url:            "https://www.lidaxiang.cn"
+url:            "https://www.lidaxiang.cn/index/"
 
 # Author
 author:
-  name:         荒岛书生1
-  url:          https://www.lidaxiang.cn
+  name:         荒岛书生
+  url:          https://www.lidaxiang.cn/index/
   email:        0lidaxiang@gmail.com
 
 # Build settings
