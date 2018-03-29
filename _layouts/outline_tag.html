@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+<!-- {{ post.excerpt | remove: '<p>' | remove: '</p>' }} -->
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl | prepend: site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+        <ul>
+          <li><a href="{{ site.baseurl | prepend: site.baseurl }}/">Home</a></li>
+          <li><a href="{{ '/workOutline' | prepend: site.baseurl }}/">Work Outline</a></li>
+          <li><a href="{{ '/lifeOutline' | prepend: site.baseurl }}/">Life Outline</a></li>
+          <li><a href="{{ '/tags' | prepend: site.baseurl }}/">Tags</a></li>
+          <!-- <li><a href="{{ site.baseurl }}/">Posts</a></li> -->
+          <li><a href="{{ '/about_me_zh' | prepend: site.baseurl }}">About</a></li>
+          <li><a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <div class="pagination">
+      {% if page.next.url %}
+        <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+      {% endif %}
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+      {% endif %}
+
+      <a href="#" class="top">Top</a>
+    </div>
+    
+    <footer>
+
+      <span>
+        &copy; 2016-<time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}, All Rights Reserved. Use the <a href="https://github.com/chesterhow/tale/">Jekyll Tale</a> theme.
+      </span>
+
+      <a href="https://info.flagcounter.com/6972"><img src="https://s01.flagcounter.com/count2/6972/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_5/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </footer>
+  </body>
+</html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91050128-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-91050128-1');
+</script>

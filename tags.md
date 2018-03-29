@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: outline_tag
 title: "标签　Tags"
 permalink: /tags/
 ---

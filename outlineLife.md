@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: outline_tag
 title: "生活目录　Outline"
 permalink: /lifeOutline/
 ---
@@ -29,5 +29,3 @@ permalink: /lifeOutline/
 	</ol>
   {% endif %}
 {% endfor %}
-
-<a href="#" class="top">Top</a>

@@ -21,6 +21,7 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
@@ -35,7 +36,7 @@ excerpt_separator: '<!---more--->'
 # layouts:     ./_layouts
 # data_source: ./_data
 # collections: null
-
+# sitemap: True
 
 # categories:
 #   - sssss

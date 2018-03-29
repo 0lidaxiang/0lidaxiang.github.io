@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: outline_tag
 title: "目录　Outline"
 permalink: /workOutline/
 ---
@@ -30,5 +30,3 @@ permalink: /workOutline/
 	</ol>
   {% endif %}
 {% endfor %}
-
-<a href="#" class="top">Top</a>
