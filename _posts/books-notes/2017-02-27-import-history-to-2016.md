@@ -20,9 +20,7 @@ tags:
 [世界史年表 (16世纪-19世纪)](http://www.lidaxiang.cn/books-notes/import-history-from-1599-to-1900.html)
 [世界史年表 (20世纪-Now)](http://www.lidaxiang.cn/books-notes/import-history-from-1901-to-now.html)
 
-<span id="History-Before-People">
 ## History Before People
-</span>
 >
 地质时代，可以理解为人类没有出现或尚未诞生文明的时代。主要分为以下四个阶段：
 **冥古宙**: 生命现象开始的时期,开始于地球形成之初，结束于38亿年前。结束后内太阳系不再有大规模撞击事件 。
@@ -51,9 +49,8 @@ tags:
 | 18万年前 |山顶洞人生活在北京人活动过的地区。|
 | 1万年前  |打制石器流行，已使用火，大量使用骨、角器。狩猎和采集业发展，血缘家族及母系氏族公社产生。原始宗教出现。|
 
-<span id="History-After-People">
 ## History After People
-</span>
+
 > 人类文明史的公元前部分。关于公元0年可以参考这两件事：公元前770年周平王东迁，东周开始;公元前221年是秦始皇统一年。以下的"年前"都是公元前多少年。
 
 | Time        | Things   |

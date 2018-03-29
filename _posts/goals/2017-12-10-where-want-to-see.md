@@ -11,13 +11,14 @@ tags:
 <!---more--->
 
 ## 1. China
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
-|---|---|---|---|---|---|
-|1 | JiangSu  | Nanjing    | | 2013-09  | 365 |   |
-|2 | JiangSu  | SuZhou     | | 2014-10  | 3 |     |
-|3 | Taiwan  | Taipei      | | 2015-02  | 2 |     |
-|4 | Taiwan  | TaiZhong    | | 2015-05  | 1 |     |
-|5 |  ZheJiang | HangZhou |  | 2014-8  | 1  |     |
+|-----------|---------|---|---|---|---|
+|1 | JiangSu  | Nanjing    | 南京| 2013-09  | 365 |   |
+|2 | JiangSu  | SuZhou     | 苏州| 2014-10  | 3 |     |
+|3 | Taiwan  | Taipei      | 台北| 2015-02  | 2 |     |
+|4 | Taiwan  | TaiZhong    | 台中| 2015-05  | 1 |     |
+|5 |  ZheJiang | HangZhou | 杭州 | 2014-8  | 1  |     |
 |6 | Taiwan  | Kaohsiung  | |          |   |     |
 |7 | Shanghai  | Shanghai | |          |   |     |
 |8 | ShanXi  | Xi'an      | |          |   |     |
@@ -28,9 +29,10 @@ tags:
 |13| XiZang  | Lhasa      | |          |   |     |
 |14| GuangDong  | Xinhui | |          |   |     |
 |15| HongKong  | HongKong | |          |   |     |
-|  |      |     |          | |   |     ||
+|  |      |     |          | |   |     
 
 ## 2. Other parts of Asia
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
 |---|---|---|---|---|---|---|
 |1 |  Mongolia | Ulan Bator | 乌兰巴托 |   |     |  |
@@ -43,9 +45,10 @@ tags:
 |8 | Japan| Hokkaido | 北海道  |     |   |     |
 |9 | Thailand | Bangkok| 曼谷 |     |   |     |
 |10 | Singapore | Singapore | 新加坡 |     |   |     |
-| | |   |  |     |   |     ||
+| | |   |  |     |   |     |
 
 ## 3. Europe
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
 |---|---|---|---|---|---|---|
 |1   | France | Paris |  法国-巴黎  |          |     |        |
@@ -71,17 +74,19 @@ tags:
 |21  | Denmark | Copenhagen| 哥本哈根  |          |     |        |
 |22  | Norway | Longyearbyen| 朗伊尔城  |          |     |        |
 |23  | Norway | Tromso      | 特罗姆瑟  |          |     |        |
-|  |     |     |        |          |     |        ||
+|  |     |     |        |          |     |        |
 
 
 ## 4. Africa
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
 |---|---|---|---|---|---|---|
 |1 | South Africa  |Johannesburg |  约翰内斯堡   |  | |     |
 |2 | Egypt  |Cairo |  开罗   |  | |     |
-|2 ||   |  |     |   |     ||
+|2 ||   |  |     |   |     |
 
 ## 5. America
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
 |---|---|---|---|---|---|---|
 |1 | USA | Philadelphia | 费城 |     |   |     |
@@ -100,9 +105,10 @@ tags:
 |14 | Brazil | Brasilia | 巴西利亚 |     |   |     |
 |15 | Brazil | Manaus | 马瑙斯 |     |   |     |
 |16 | Argentina | Ushuaia | 乌斯怀亚 |     |   |     |
-|   |  |   |   |   |   |     ||
+|   |  |   |   |   |   |     |
 
 ## 6. Middle East
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
 |---|---|---|---|---|---|---|
 |1 | Iraq | Baghdad | 巴格达 |     |   |     |
@@ -111,13 +117,14 @@ tags:
 |4 | Saudi Arabia | Medina | 麦地那|     |   |     |
 |5 | Saudi Arabia | Mecca Mucarama | 麦加 |     |   |     |
 |6 | Arab Emirates | Dubai |迪拜 |     |   |     |
-| |  |   |  |     |   |     ||
+| |  |   |  |     |   |     |
 
 ## 7. Others
+
 |Id| Area  | City  | Chinese |  VisitTime | 	Frequency  | Recommend  |
 |---|---|---|---|---|---|---|
 |1 | Australia |  Melbourne| 墨尔本|  |   |     |
 |2 | Australia |  Sydney| 悉尼|  |   |     |
 |3 | Australia |  Gold Coast| 黃金海岸|  |   |     |
 |4 | New Zealand |  Wellington| 惠灵顿|  |   |     |
-| |  |  |   |     |   |     ||
+| |  |  |   |     |   |     |

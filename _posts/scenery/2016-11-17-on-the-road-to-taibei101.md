@@ -60,8 +60,8 @@ tags:
 ![]({{ site.baseurl }}/assets/images/scenery/onroadto-taipei101/8-4.jpg)
 ![]({{ site.baseurl }}/assets/images/scenery/onroadto-taipei101/8-5.jpg)  
 
-数不清是第几个路口了。对面是附属的初中部(台湾叫法：国中)。只是这名字实在是，我在猜诸葛亮要是看到了会怎么想？然后这个学园{{ site.baseurl }}/assets{{ site.baseurl }}/assets{{ site.baseurl }}/assets.老让我想起日本的电影和漫画里的各种学园和丧尸片。也许是前两天恶补了一番电影评论短片造成的后遗症。  
-对面忽然走过来一群学生。然后我就默默看着一个男生揽着姑娘往前走了。我{{ site.baseurl }}/assets{{ site.baseurl }}/assets{{ site.baseurl }}/assetsOK，我加快脚步，很快就看不见了。
+数不清是第几个路口了。对面是附属的初中部(台湾叫法：国中)。只是这名字实在是，我在猜诸葛亮要是看到了会怎么想？然后这个学园 ...... 老让我想起日本的电影和漫画里的各种学园和丧尸片。也许是前两天恶补了一番电影评论短片造成的后遗症。  
+对面忽然走过来一群学生。然后我就默默看着一个男生揽着姑娘往前走了。我 ...... OK，我加快脚步，很快就看不见了。
 ![]({{ site.baseurl }}/assets/images/scenery/onroadto-taipei101/9.jpg)  
 
 ### 过路，路与路灯
@@ -160,7 +160,9 @@ Surprise！一个小酒吧！看样子是清吧~~没什么人。
 ![]({{ site.baseurl }}/assets/images/scenery/onroadto-taipei101/35-1.jpg)
 ![]({{ site.baseurl }}/assets/images/scenery/onroadto-taipei101/35-2.jpg)
 
-最后一个侧面。看了多幅大型广告画，才突然想来101其实，貌似，也许，好像，本质上是一个购物中心{{ site.baseurl }}/assets{{ site.baseurl }}/assets{{ site.baseurl }}/assets还有一个名字叫台北101购物中心~~
+最后一个侧面。看了多幅大型广告画，才突然想来101其实，貌似，也许，好像，本质上是一个购物中心......
+
+还有一个名字叫台北101购物中心~~
 ![]({{ site.baseurl }}/assets/images/scenery/onroadto-taipei101/36.jpg)
 
 22点48分回到学校。
