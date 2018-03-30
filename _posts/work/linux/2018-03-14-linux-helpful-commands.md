@@ -17,3 +17,8 @@ tags:
  ```
  find . -name "*.html" -exec rm -r "{}" \;
  ```
+
+２. 批量修改一个文件夹下面所有文件的后缀名为 .jpg
+```
+for i in `ls`; do mv -f $i `echo $i | sed 's/.....$/.jpg/'`; done
+```
