@@ -109,6 +109,9 @@ tags:
 金老师是国际处负责陆生这一块的保险、体检、证件等相关校外事务的人员，他和注册组的刘老师也是我们通过邮件第一次接触到的台科印象。当初我还因为证件填写简体繁体的问题特别打电话给金老师，老师果然还是一如以往交换时候碰到的台湾学校的老师一样，细致耐心地给我解释，他会说：没关系，我来处理。后来还跟我们一起烤肉，一起吃饭，一起办下面的文化交流节大陆摊位的活动，聊一堆有的没的，有幸遇见跟我们这么聊得来的也是很开心了。
 ![2017_10_20_not_taiwan_students_party]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_10_20_not_taiwan_students_party.jpg)
 
+金老师和我们一群陆生，好羡慕能提前毕业的企管系：
+![2017_12_12_graduation_photos]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_12_12_graduation_photos.jpg)
+
 ## 台科的人们
 台科虽然不大，但是我们号称“天大地大台科大”。
 台科的人不少，一万多人挤在这片狭小的空间里，难为校方竟然能让学校顺畅运转起来。
@@ -182,7 +185,7 @@ tags:
 每个地方，每个人都有自己的故事，我的故事应该还算是挺无聊的故事。只是文字总有一种魅力和魔性，它可以把一个无聊的故事伪装成很有趣的样子。
 
 ### 正经人的正经事
-
+![2017_11_21_sunset]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_11_21_sunset.jpg)
 38度秋天的温和热烈真是很舒爽，所以晚霞才会这么美吧。这是去年十一月里，和后来申请去新竹交大的霁哥傻站在二舍和三舍之间的路边拍出来的照片。台湾晴天里的天空真的是很好看，不论白天还是夜晚，清澈透明。
 
 人生有多少个第一次扔在了台湾。第一次坐飞机是去台湾。第一次点燃放飞天灯是在台湾，小时候自己瞎折腾好久都没制作成功。第一次一年多没有回家，没有见父母，没在家里过年也是在台湾。第一次自己掏钱去看演出是在台湾。第一次通宵学习接着第二天白天不睡觉也是在台湾。第一次去看如此盛大的烟火秀。第一次看海......
@@ -196,11 +199,11 @@ tags:
 IR 资料检索课大概是让我能记忆很多年的课，作业超级多，而且要电脑运行很久，但是却让我很喜欢，痛并快乐着：
 
 ![2017_11_09_IR_homework]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_11_09_IR_homework.jpg)
-![2017_11_10_study_awards_]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_11_10_study_awards_.jpg)
-![2017_11_21_sunset]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_11_21_sunset.jpg)
-![2017_12_12_graduation_photos]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_12_12_graduation_photos.jpg)
 
-后来这样努力也算有点收获，拿了一次书卷奖，对于我这样不擅长考试的笨蛋，也许这是在台科唯一能拿的奖了。上个学期几次以为自己都要挂科，所以有了平生第一次通宵干活写作业，昼夜兼行的努力结果确实是意想不到的惊喜。与其相比，最近被作业和专题缠身的痛苦也不算什么了，即便听着洪老师罗嗦的讲课也还是会忍不住笑啊。在天大地大没有遗憾了。没给大陆学生丢脸。
+后来这样努力也算有点收获，拿了一次书卷奖，对于我这样不擅长考试的笨蛋，也许这是在台科唯一能拿的奖了。
+![2017_11_10_study_awards_]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_11_10_study_awards_.jpg)
+
+第二学期时候几次以为自己都要挂科，所以有了平生第一次通宵干活写作业，昼夜兼行的努力结果确实是意想不到的惊喜。与其相比，最近被作业和专题缠身的痛苦也不算什么了，即便听着洪老师罗嗦的讲课也还是会忍不住笑啊。在天大地大没有遗憾了。没给大陆学生丢脸。
 
 相比较起这个学期的沉默，上个学期回想一下真的发生了太多事情。６月搬去永和区的智光黄昏市场附近，很是悠闲的体验了一番台湾当地人的生活节奏和内容。
 ![2017_08_16_yonghe_breakfast_shop]({{ site.baseurl }}/assets/images/literature/twe-years-in-ntust/2017_08_16_yonghe_breakfast_shop.jpg)
