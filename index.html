@@ -4,12 +4,18 @@ title: Home
 lang: "en"
 ---
 
+<div class="content" style="color: #DF0000;">
+  人生有一条真理，不变化就是死路一条；不进步就是死路一条。
+</div>
+
 <div class="catalogue">
   {% for post in paginator.posts %}
     <a href="{{ post.url  }}" class="catalogue-item">
       <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title | prepend: site.baseurl }}</h1>
+
+        <h1 class="catalogue-title">{{ post.title | prepend: site.baseurl }}
+            <time style="font-size: 0.5em;" datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        </h1>
         <div class="catalogue-line"></div>
 
         <p>
