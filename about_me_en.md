@@ -8,16 +8,21 @@ permalink: /about_me_en/
 > [中文版](/about_me_zh/)
 
 ## Introduction myself
-I like explore new world and learn new knowledge. I am really willing to help the disadvantaged and share my experience.
 
-Now, I am a student at NTUST in Taiwan. I learn the computer engineering.
+I started learning and using PHP to build a website since my sophomore year in 2015. During my junior year, I made an O2O dating website for Xuzhou Fanji Technology Co., Ltd. and published it as a specialist thesis. After that, I also used PHP to do other small projects.
 
-I'm good at the whole stack construction website system, and has a certain understanding and learning for information retrieval system, real-system, text data analysis, depth learning.
+I like explore new world and learn new knowledge. I’m willing to help the disadvantaged and share my experience.
+I'm good at the whole stack construction website system.
+
+I am now a senior student in the Department of Information Engineering at Taiwan University of Science and Technology. Last year I learned and used Python to build a Git-based sharing authoring platform as an undergraduate graduation thesis. I also studied data analysis, text retrieval, and deep learning courses. I made some important algorithms and small special projects on deep learning and natural language understanding.
+
+When on holiday or weekend, I usually like to volunteer or read novels and play guqin. The volunteer projects includes the Nanjing Youth Olympic Games, Nanjing Olympic Museum, Midi Music Festival, TEDxnanjing, Taipei World Fortune, and Taipei 101 New Year's Eve environmental protection activities.
 
 Interest : Technology, Opensource, History, Guqin, Music, Chinese literature.
 
 ## Resume
 ### Educational Experience
+
 |Time|School|Type|
 |-   |-     |-   |
 |2016.9-2018.6|Undergraduate|National Taiwan University of Science and Technology|
@@ -25,6 +30,7 @@ Interest : Technology, Opensource, History, Guqin, Music, Chinese literature.
 |2013.9-2016.6|Junior college student|Nanjing Vocational College of Information Technology(NJCIT)|
 
 ### Skills
+
 |Type|Name|
 |-   |-     |
 |Program Lanuage|PHP, Python, Base C++/C#/Java|
@@ -32,6 +38,7 @@ Interest : Technology, Opensource, History, Guqin, Music, Chinese literature.
 |Others|MySQL, Base Linux, Git, SVN, Apache, Nginx|
 
 ## Research
+
 1. 2014, [Classrooms Query Web System Based On Android]({{ site.baseurl }}/assets/research/classrooms-query-web-system-based-on-android.pdf)
 
 2. 2015 ~ 2016, [Research and Realization of Ayizhan Marriage Platform — Paper link]({{ site.baseurl }}/assets/research/research-and-realization-of-ayizhan-marriage-platform.pdf)
