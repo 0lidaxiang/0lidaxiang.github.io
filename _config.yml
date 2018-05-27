@@ -1,6 +1,6 @@
 # Site settings
 title:          荒岛书生
-description:    "程序员，流行音乐、古琴、网络文学与传统文学爱好者。"
+description:    "程序员，文学、古琴、流行音乐、运动爱好者。"
 baseurl:        ""
 url:            "https://www.lidaxiang.cn/index/"
 
@@ -8,7 +8,7 @@ url:            "https://www.lidaxiang.cn/index/"
 author:
   name:         荒岛书生
   url:          https://www.lidaxiang.cn/index/
-  email:        0lidaxiang@gmail.com
+  email:        lidaxiang0@outlook.com
 
 # Build settings
 markdown:       kramdown
@@ -27,7 +27,7 @@ plugins:
 permalink:      /:year-:month-:day/:title
 
 # 首页显示的文章分页，每页数量
-paginate:       15
+paginate:       25
 
 # 文章摘要标识符
 excerpt_separator: '<!---more--->'

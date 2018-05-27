@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Learn Django by Demo"
+rootCate: "work"
 categories:
-- work
+- Python
 tags:
 - work
-- Python 
+- Python
 - Django
 ---
 

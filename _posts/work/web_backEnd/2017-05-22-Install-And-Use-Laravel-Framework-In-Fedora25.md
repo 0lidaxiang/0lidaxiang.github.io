@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "在Fedora25中安装和使用Laravel 框架"
+rootCate: "work"
 categories:
-- work
+- Web_BackEnd
 tags:
 - work
 - web_backEnd  

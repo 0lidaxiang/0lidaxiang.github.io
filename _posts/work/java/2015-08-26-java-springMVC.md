@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Java Spring MVC"
+rootCate: "work"
 categories:
-- work
+- Java
 tags:
 - work
-- Java 
+- Java
 - Spring MVC
 ---
 

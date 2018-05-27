@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Linux helpful commands"
+rootCate: "work"
 categories:
-- work
+- Linux
 tags:
 - work
 - Linux

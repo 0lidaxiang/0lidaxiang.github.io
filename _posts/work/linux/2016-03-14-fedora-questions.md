@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Fedora remove nouse kernel version"
+rootCate: "work"
 categories:
-- work
+- Linux
 tags:
 - work
 - Linux

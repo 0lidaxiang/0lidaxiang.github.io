@@ -1,7 +1,7 @@
 ---
 layout: outline_tag
 title: "标签　Tags"
-permalink: /tags/
+permalink: /tags_cloud/
 ---
 
 <div id='tag_cloud' style="height: auto;">
@@ -17,6 +17,7 @@ permalink: /tags/
 {% endfor %}
 {% assign diff = max | minus: min %}
 
+
 <style>
 
 .cpanel div.icon div{-moz-transition-duration: 0.8s;background-color: #FFFFFF;background-position: -30px 50%;border: 1px solid #CCCCCC;color: #565656;display: block;float: left;text-align:center;text-indent:0;}
@@ -24,10 +25,31 @@ permalink: /tags/
 </style>
 
 
-<div class="cpanel" style="width: 100%;height: 140px;">
+<div class="cpanel" style="width: 100%;height: 400px;">
+<!-- {{ max  | times: site.tags.size }}px -->
     <div class="icon">
     {% for tag in site.tags %}
-      <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+      {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}
+      {% assign base = temp | divided_by: 4 %}
+      {% assign remain = temp | modulo: 4 %}
+      {% if remain == 0 %}
+        {% assign size = base | plus: 9 %}
+      {% elsif remain == 1 or remain == 2 %}
+        {% assign size = base | plus: 9 | append: '.5' %}
+      {% else %}
+        {% assign size = base | plus: 10 %}
+      {% endif %}
+      {% if remain == 0 or remain == 1 %}
+        {% assign color = 9 | minus: base %}
+      {% else %}
+        {% assign color = 8 | minus: base %}
+      {% endif %}
+
+      <div style="border-radius: {{ size | times: 3}}px;height: {{ size | times: 5}}px;width: {{ size | times: 5}}px;margin-left: 20pt;">
+      <a href="#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}
+      </a>
+      <!-- <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} ({{ tag[1].size }})</a> -->
+      </div>
     {% endfor %}
 
     </div>

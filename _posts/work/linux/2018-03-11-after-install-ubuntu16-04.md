@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "After Install Ubuntu 16-04"
+rootCate: "work"
 categories:
-- work
+- Linux
 tags:
 - work
-- Linux 
-- Ubuntu 
+- Linux
+- Ubuntu
 - Ubuntu-Install
 ---
 

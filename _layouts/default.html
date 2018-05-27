@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 
-  {% include head.html %}
-<!-- {{ post.excerpt | remove: '<p>' | remove: '</p>' }} -->
+{% include head.html %}
+{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
   <body>
     <nav class="nav">
       <div class="nav-container">
@@ -10,13 +10,13 @@
           <h2 class="nav-title">{{ site.title }}</h2>
         </a>
         <ul>
-          <li><a href="{{ site.baseurl | prepend: site.baseurl }}/">首页</a></li>
-          <li><a href="{{ '/workOutline' | prepend: site.baseurl }}/">工作学习</a></li>
-          <li><a href="{{ '/lifeOutline' | prepend: site.baseurl }}/">关于生活</a></li>
-          <li><a href="{{ '/tags' | prepend: site.baseurl }}/">文章标签</a></li>
-          <li><a href="{{ '/about_me_zh' | prepend: site.baseurl }}">关于我</a></li>
-          <li><a href="{{ '/contact' | prepend: site.baseurl }}">联系我</a></li>
-          <li><a href="{{ '/donate' | prepend: site.baseurl }}">捐赠</a></li>
+          <li><a href="{{ site.baseurl | prepend: site.baseurl }}/">Home</a></li>
+          <li><a href="{{ '/workOutline' | prepend: site.baseurl }}/">Work</a></li>
+          <li><a href="{{ '/lifeOutline' | prepend: site.baseurl }}/">Life</a></li>
+          <li><a href="{{ '/tags' | prepend: site.baseurl }}/">Tag</a></li>
+          <li><a href="{{ '/about_me_zh' | prepend: site.baseurl }}">About Me</a></li>
+          <li><a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
+          <li><a href="{{ '/donate' | prepend: site.baseurl }}">Donate</a></li>
         </ul>
     </div>
   </nav>

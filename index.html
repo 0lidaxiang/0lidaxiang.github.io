@@ -8,8 +8,20 @@ lang: "en"
   人生有一条真理，不变化就是死路一条；不进步就是死路一条。
 </div>
 
+{% assign my_array = "" | split: ',' %}
+
+{% for post in paginator.posts %}
+{% if post.rootCate == 'work' %}
+{% assign my_array = my_array | push: post %}
+{% endif %}
+
+
+{% endfor %}
+
+{{ my_array | size }}
+
 <div class="catalogue">
-  {% for post in paginator.posts %}
+  {% for post in my_array %}
     <a href="{{ post.url  }}" class="catalogue-item">
       <div>
 
@@ -36,5 +48,6 @@ lang: "en"
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
 
-  <span>{{ paginator.page }}</span>
+  <!-- <span>{{ paginator.page }} {{ paginator.per_page }} {{ paginator.total_posts }}</span> -->
+  <span>第 {{ paginator.page }} 页, 本页有 {{ my_array | size }} 篇文章</span>
 </div>

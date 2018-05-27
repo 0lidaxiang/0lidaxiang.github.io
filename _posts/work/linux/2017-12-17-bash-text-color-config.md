@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Bash Text Color Config"
+rootCate: "work"
 categories:
-- work
+- Linux
 tags:
 - work
-- Linux 
-- Ubuntu 
+- Linux
+- Ubuntu
 - Ubuntu-Install
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Python and Python3 experience"
+rootCate: "work"
 categories:
-- work
+- Python
 tags:
 - work
 - Python3

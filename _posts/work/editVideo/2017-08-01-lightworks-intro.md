@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Lightworks Introduction"
+rootCate: "work"
 categories:
-- work
+- EditVideo
 tags:
 - work
-- Lightworks 
+- Lightworks
 - editVideo
 ---
 

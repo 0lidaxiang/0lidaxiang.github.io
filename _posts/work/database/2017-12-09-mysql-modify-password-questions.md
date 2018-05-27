@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Quesions about MySQL/Mariadb modify password"
+rootCate: "work"
 categories:
-- work
+- Database
 tags:
-- work 
-- database
+- work
+- Database
 - MySQL
 ---
 

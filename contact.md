@@ -11,8 +11,6 @@ permalink: /contact/
 
 <mailto:cad314@126.com>
 
-<mailto:0lidaxiang@gmail.com>
-
 ## Linkin
 [www.linkedin.com/in/lidaxiang](https://www.linkedin.com/in/lidaxiang)
 

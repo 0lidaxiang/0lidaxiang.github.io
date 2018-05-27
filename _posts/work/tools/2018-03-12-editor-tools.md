@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Editor tools(Atom Sublime)"
+rootCate: "work"
 categories:
-- work
+- Tools
 tags:
 - work
-- tools 
-- Atom 
-- Sublime 
+- tools
+- Atom
+- Sublime
 - Editor
 ---
 

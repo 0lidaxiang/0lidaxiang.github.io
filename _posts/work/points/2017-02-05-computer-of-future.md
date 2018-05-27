@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "对未来计算机行业的一点看法(2017~2050)"
+rootCate: "work"
 categories:
-- work
+- Points
 tags:
 - work
-- points 
+- points
 - future
 ---
 

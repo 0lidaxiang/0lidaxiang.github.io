@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Import Technoligy In Develop"
+rootCate: "work"
 categories:
-- work
+- Points
 tags:
 - work
 - points

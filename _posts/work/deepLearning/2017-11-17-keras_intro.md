@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Keras Introduction"
+rootCate: "work"
 categories:
-- work
+- DeepLearning
 tags:
 - work
-- keras
+- DeepLearning
+- Keras
 ---
 
 > StartTime: 2017-11-17,ModifyTime:2017-11-27  

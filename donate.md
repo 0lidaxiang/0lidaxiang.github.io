@@ -12,18 +12,18 @@ date:   2018-03-31 22:22:57
 
 ## 微信
 
-<img src="{{site.url}}/images/pay/weixin1.png" alt="支付宝捐赠图片" style="width: 50%;"/>
+<img src="{{site.url}}/assets/images/pay/weixin.png" alt="微信捐赠图片" style="width: 50%;"/>
 
 ## 支付宝
 
-<img src="{{site.url}}/images/pay/zhifubao.png" alt="支付宝捐赠图片" style="width: 50%;"/>
+<img src="{{site.url}}/assets/images/pay/zhifubao.png" alt="支付宝捐赠图片" style="width: 50%;"/>
 
 
 ## 捐赠人列表
 
 |Id| 昵称  | 途径  |　金额　| 备注|
 |-------|---------|---------|---------|---------|
-|1 | XXX  | 微信  |　1.0  |   |
-|2 | XXX  | 支付宝  |　1.0  |   |
+|1 | XXX  | 微信  |　1.0  |  示例 |
+|2 | XXX  | 支付宝  |　1.0  | 示例  |
 
 ### 感谢您的支持！

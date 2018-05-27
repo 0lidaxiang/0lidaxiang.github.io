@@ -10,22 +10,31 @@ permalink: /lifeOutline/
 {% for group in groups %}
 {% assign group_name = group.name | remove: '["' | remove: '"]'  %}
 
-{% if group_name != 'work' %}
-<a href="#{{ group_name }}" title="{{ group_name }}" rel="{{  group.items.size }}">{{ group_name }}  ({{ group.items.size }})</a>
-
-{% endif %}
+{% for post in group.items %}
+{% if post.rootCate != 'work' %}
+  <a href="#{{ group_name }}" title="{{ group_name }}" rel="{{  group.items.size }}">{{ group_name }}  ({{ group.items.size }})</a>
+  {% break %}
+  {% endif %}
+{% endfor %}
 {% endfor %}
 </div>
 
 {% for group in groups %}
 {% assign group_name = group.name | remove: '["' | remove: '"]'  %}
 
-{% if group_name != 'work' %}
-<h2>{{ group_name }}</h2>
+{% for post in group.items %}
+{% if post.rootCate != 'work' %}
+  <h2>{{ group_name }}</h2>
+  {% break %}
+  {% endif %}
+{% endfor %}
+
   <ol>
 		{% for post in group.items %}
+    {% if post.rootCate != 'work' %}
 			<li><a href="{{ post.url }}">{{ post.title  }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
+      {% endif %}
 		{% endfor %}
 	</ol>
-  {% endif %}
+
 {% endfor %}

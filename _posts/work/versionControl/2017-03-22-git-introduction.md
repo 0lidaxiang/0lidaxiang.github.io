@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Git Introduction and Questions"
+rootCate: "work"
 categories:
-- work
+- VersionControl
 tags:
 - work
-- tools 
-- Git 
+- tools
+- Git
 - Github
 ---
 

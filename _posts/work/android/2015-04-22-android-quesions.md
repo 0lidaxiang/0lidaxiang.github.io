@@ -2,10 +2,11 @@
 layout: post
 title:  "Android 学习和错误"
 categories:
-- work
+- android
+rootCate: "work"
 tags:
 - work
-- android
+- Android
 ---
 
 > StartTime: 2015-04-22,ModifyTime:2017-01-01

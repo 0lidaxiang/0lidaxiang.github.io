@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Java 泛型"
+rootCate: "work"
 categories:
-- work
+- Java
 tags:
 - work
 - Java

@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Linux 远程连接与 SCP 复制 Files"
+rootCate: "work"
 categories:
-- work
+- Linux
 tags:
 - work
-- Linux 
-- Fedora 
+- Linux
+- Fedora
 - command
 ---
 

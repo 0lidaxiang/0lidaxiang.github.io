@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "在Fedora25上安装Apache2.4 & PHP7 &Mariadb"
+rootCate: "work"
 categories:
-- work
+- Web_BackEnd
 tags:
 - work
-- web_backEnd 
-- LAMP 
+- web_backEnd
+- LAMP
 - Fedora
 ---
 

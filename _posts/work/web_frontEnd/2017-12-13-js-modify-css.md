@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "JS 改 Css 和 Style"
+rootCate: "work"
 categories:
-- work
+- Web_FrontEnd
 tags:
 - work
 - web_frontEnd  

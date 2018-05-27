@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "常用 Tools 记录"
+rootCate: "work"
 categories:
-- work
+- Tools
 tags:
 - work
 - tools  

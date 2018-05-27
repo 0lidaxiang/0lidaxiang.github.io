@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Install Fedora25 in New Disk"
+rootCate: "work"
 categories:
-- work
+- Linux
 tags:
 - work
-- Linux 
-- Fedora 
+- Linux
+- Fedora
 - Fedora-Install
 ---
 

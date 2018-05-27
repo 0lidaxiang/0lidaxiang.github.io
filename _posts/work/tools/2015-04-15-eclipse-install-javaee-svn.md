@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Use Eclipse Introduction"
+rootCate: "work"
 categories:
-- work
+- Tools
 tags:
 - work
-- tools 
+- tools
 - Eclipse
 ---
 
