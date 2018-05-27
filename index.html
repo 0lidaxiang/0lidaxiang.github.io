@@ -4,7 +4,7 @@ title: Home
 lang: "en"
 ---
 
-<div class="content" style="color: #DF0000;">
+<div class="content" style="color: #cccccc;">
   人生有一条真理，不变化就是死路一条；不进步就是死路一条。
 </div>
 
@@ -14,11 +14,7 @@ lang: "en"
 {% if post.rootCate == 'work' %}
 {% assign my_array = my_array | push: post %}
 {% endif %}
-
-
 {% endfor %}
-
-{{ my_array | size }}
 
 <div class="catalogue">
   {% for post in my_array %}
