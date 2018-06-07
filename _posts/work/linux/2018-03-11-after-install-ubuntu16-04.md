@@ -62,7 +62,7 @@ sudo apt-get install mysql-server
 
 ## 7.pip3
 ```
-pip3 install --upgrade pip;sudo pip3 install numpy django pandas tensorflow
+pip3 install --upgrade pip;sudo pip3 install numpy django pandas tensorflow mysqlclient
 ```
 
 ## 8.local machine
