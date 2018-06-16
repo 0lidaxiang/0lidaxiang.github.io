@@ -1,9 +1,8 @@
 ---
 layout: outline_tag
-title: "目录　Outline"
+title: "工作目录　Outline"
 permalink: /workOutline/
 ---
-
 
 {% assign groups = site.posts | group_by: "categories" | sort: "name" %}
 

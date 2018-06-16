@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+lang: "en"
+permalink: /index/
+---
+
+<div class="content" style="color: #cccccc;">
+  人生有一条真理，不变化就是死路一条；不进步就是死路一条。
+</div>
+
+{% assign my_array = "" | split: ',' %}
+
+{% for post in paginator.posts %}
+{% if post.rootCate == 'work' %}
+{% assign my_array = my_array | push: post %}
+{% endif %}
+{% endfor %}
+
+<div class="catalogue">
+  {% for post in my_array %}
+    <a href="{{ post.url  }}" class="catalogue-item">
+      <div>
+
+        <h1 class="catalogue-title">{{ post.title | prepend: site.baseurl }}
+            <time style="font-size: 0.5em;" datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        </h1>
+        <div class="catalogue-line"></div>
+
+        <p>
+          <!-- {{ post.content | strip_html | truncatewords: 30 }} -->
+          {{ post.excerpt }}
+        </p>
+
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <!-- <span>{{ paginator.page }} {{ paginator.per_page }} {{ paginator.total_posts }}</span> -->
+  <span>第 {{ paginator.page }} 页, 本页有 {{ my_array | size }} 篇文章</span>
+</div>
