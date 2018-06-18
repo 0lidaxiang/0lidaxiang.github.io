@@ -17,17 +17,12 @@ permalink: /lifeOutline/
   {% endif %}
 {% endfor %}
 {% endfor %}
-</div>
 
-<!-- <div style="width:100%;height: auto;margin-top:20px;"> -->
 {% for group in groups %}
 {% assign group_name = group.name | remove: '["' | remove: '"]'  %}
 
   <div style="width:100%;height: auto;margin-top:20px;">
-  <ul class="listing">
   {% for post in group.items %}
-
-
   {% if post.rootCate != 'work' %}
     <h2>{{ group_name }}</h2>
     {% break %}
@@ -39,7 +34,7 @@ permalink: /lifeOutline/
   			<li  class="listing-item"><a href="{{ post.url }}">{{ post.title  }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
         {% endif %}
   {% endfor %}
-  </ul>
 {% endfor %}
 
+</div>
 </div>
