@@ -2,7 +2,6 @@
 layout: default
 title: Home
 lang: "en"
-permalink: /index/
 ---
 
 <div class="content" style="color: #cccccc;">
@@ -12,9 +11,9 @@ permalink: /index/
 {% assign my_array = "" | split: ',' %}
 
 {% for post in paginator.posts %}
-<!-- {% if post.rootCate == 'work' %} -->
+{% if post.rootCate == 'life'  %}
 {% assign my_array = my_array | push: post %}
-<!-- {% endif %} -->
+{%  endif %}
 {% endfor %}
 
 <div class="catalogue">

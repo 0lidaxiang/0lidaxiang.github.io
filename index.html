@@ -11,9 +11,7 @@ lang: "en"
 {% assign my_array = "" | split: ',' %}
 
 {% for post in paginator.posts %}
-{% if post.rootCate == 'work' %}
 {% assign my_array = my_array | push: post %}
-{% endif %}
 {% endfor %}
 
 <div class="catalogue">
