@@ -49,6 +49,11 @@ mysql -u root -p
 > exit
 ```
 
+#### Ubuntu
+```
+sudo apt-get install libmysqlclient-dev 
+```
+
 ## Connect Django With Database
 1.  Install the mysqlclient package that will allow us to use the database we configured:
 ```
@@ -88,3 +93,15 @@ http://server_domain_or_IP:8000
 
 ## Reference
 [How To Use MySQL or MariaDB with your Django Application on Ubuntu 14.04]:https://www.digitalocean.com/community/tutorials/how-to-use-mysql-or-mariadb-with-your-django-application-on-ubuntu-14-04
+
+
+## Error
+Question1: ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+Answer:
+```
+sudo mysql -uroot
+use mysql;
+update user set plugin='' where user='root';
+flush privileges;
+exit;
+```
