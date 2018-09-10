@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "关于第二次毕业"
+title:  "关于职业选择"
 categories:
 - literature
 tags:
