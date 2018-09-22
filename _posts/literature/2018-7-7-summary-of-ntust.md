@@ -25,6 +25,8 @@ tags:
 
 我始终觉得能在台科学习，是走了莫大的好运气。在这里学习再努力，我也不会觉得不值得，台科提供的知识海洋如此繁杂深奥，值得我学习的地方实在太多。
 
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/教授.jpeg)
+
 至于拼命一词，这真的不是说说而已，以资工系、电子系、营建系这些工科为典型代表，不认真学习，不熬夜写作业和复习，按时毕业很危险。事实上，两年里自己的确很少有能够十二点之前睡觉的机会，大四甚至常常一点钟睡也是正常。而你做过的正能量的事情，一定会被别人记住，成为你的标签，成为你的优秀展示面。
 
 另外，尽量多动脑少动手，看起来勤奋的笔记和多写代码并没有什么用，这样你只能成为中层的工程师，无法更往上发展。多多涉猎其他系的科目，这样会大大扩大你的视野，增强你对社会生存的信心。
@@ -34,15 +36,19 @@ tags:
 
 当然，不是说不能有台湾朋友，反而我觉得很应该去交几个台湾朋友，感受当地人的热情。跟他们少谈没有结果的政治性话题，多聊聊共通的经济、文化类话题，台湾现在的经济发展看起来确实没有大陆有活力，但是有很多细节和管理方面是值得我们去学习的。
 
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/外出志愿者活动.jpeg)
+
 另外一个有意思的群体是交换生。只要你有心，每个学期都能碰见来自不同地方的有趣的人。以前常常听到一句话：
 ```
 这世界上好看的皮囊很多，有趣的灵魂很少。
 ```
+
 实际上这两年认识不同人的经历告诉我，这世界上好看与有趣兼具的人同样有很多。来自世界各地的交换生有很多，其实仅仅是大陆的交换生就足够我们聊了，他们都很优秀，有着自己独特的闪光点，我们能在这种交流中互相学习到很多有趣的文化和很好的习惯。
 
 ## 衣食住行吃喝玩乐
 #### 公馆
 公馆有超级多的吃的，陈三鼎奶茶、蓝家割包、三姐妹冰品、酸辣粉、夜市小吃、紫米牛奶、泰国小馆、云香亭、书店、CD音乐店、各种咖啡店......公馆夜市也几乎囊括了台湾夜市典型的小吃，让人流连忘返。陈三鼎奶茶是其中佼佼者了，典型的美食代表之一，物美价廉，味道很好，名气很高；云香亭的柠檬辣椒配闪面一直是让我难以忘记的美食。
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/陈三鼎.jpeg)
 
 这里是带新朋友去品尝台湾美食的地方，日常调节厌倦食堂胃口的好地方，也是跟老朋友最后聚餐的地方。
 
@@ -51,11 +57,14 @@ tags:
 
 #### 士林夜市
 士林夜市貌似快被大陆游客包围了，里面平价物品很多，但是貌似吃的很贵，所以个人建议去看看就好。只记得走到尽头有一家“台南焦糖炼乳包心粉圆”，夏天的夜里来这里吃完冰是个很冰爽的体验。
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/士林夜市包心粉圆.jpeg)
 
 #### 台大 118 巷和女巫店
 台大是无数次路过的地方，是有超好吃的小木屋松饼的地方，咸的牛肉馅和甜的奶油馅都超好吃。多少次骑车，在白天黑夜里穿过椰林大道，看过头顶的蓝天白云和明月星星，总以为这样的日子还会持续很久，却不曾想眨眼便是两年。
 
 女巫店看起来是一家酒吧，周末不定期提供演出场所，需要买票进场，可以凭票换调酒一杯或者饮料。女巫店似乎是台湾很多独立音乐人的“发家之地”，加上靠近三校，音乐氛围极为浓厚。周六晚上要从八点半就开始排队买票，来得晚可能就没票了。这么近的文艺场所，打卡圣地，两年时间里记得多多去看看啊。
+
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/女巫店.jpeg)
 
 #### 信义区夜店
 额，没去过，久闻大名。注意安全。
@@ -64,15 +73,25 @@ tags:
 大稻埕临近淡水河，买杯200台币的果酒，对着河水晃一晃，在夕阳下慢慢和朋友聊聊天也是不错的浪费时光方式。
 
 淡水老街是台湾景点的特色了，晚上去也很有feel。可以先到对岸的八里，逛一圈，吃个“双胞胎”面包甜甜圈再坐船去淡水。淡水旁边就是《不能说的秘密》里的淡江中学，遗憾的是始终没去过一次，而老街一路走到底则可以去渔人码头看夕阳，晚上回来可以在海水边吹吹海风、和老友喝杯啤酒、听听那路边弹唱的歌曲。
+
 #### 月亮公车
-101是游客必去的景点，而101旁边的月亮公车却少有人去观景。当晚上夜幕降临，蓝色灯光照耀着水池，涂满几米漫画的月亮公车就显得异常美丽，进门去看，一定会让你爱上这里。
+101是游客必去的景点，而101旁边的月亮公车却少有人去观景。
+
+当晚上夜幕降临，蓝色灯光照耀着水池，涂满几米漫画的月亮公车就显得异常美丽，进门去看，一定会让你爱上这里。
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/月亮公车.jpeg)
 
 #### 故宫博物院
 文艺爱好者必去，有的朋友可以在这里逛上一个下午也不嫌腻。毕竟去北京那么远，在台北看到故宫的东西方便多了。
 故宫博物院还会常常有欧美的博物馆来举办展览，需要多多关注官网信息。
 
-#### 十分平溪鼻头角
+#### 十分平溪鼻头角九份
 强烈推荐的景点之一，适合日常去逛吃逛喝看山看水，还能放天灯许愿。台北车站悠游卡刷一下，坐着小火车一个小时就到了瑞芳，再换个车一会就到了，很是方便。尤其每年元宵节，十分和平溪会举办天灯节，夜晚黑幕下的千百盏孔明灯同时放飞的场景让人记忆尤深。
+
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/平溪天灯.jpeg)
+
+九份山城也是很有台湾特色的景点，靠近鼻头角，靠近海边，看夕阳吃美食，别有一番滋味。
+
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/九份.jpeg)
 
 ## 最后的一点建议
 台北市幸福的地方在于有各种展览和活动，甚至常常有些欧美的大型博物馆来台北展出，学生票也会便宜很多，抓住机会多去看看；
@@ -89,24 +108,20 @@ tags:
 
 要对世界充满希望，对他人充满感谢，心里知道黑暗但是心向光明。
 
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/音乐厅.jpeg)
+
 ## 文末的福利
 #### 你需要知道的台科互联网服务：
 
-[学校主页]()
+[学校主页](https://www.ntust.edu.tw/home.php)
 
-[台科学生资讯系统]()
+[台科学生资讯系统](https://stu255.ntust.edu.tw/ntust_stu/stu.aspx)
 
 [查询流量](http://network.ntust.edu.tw/flowstatistical.aspx)
 
 [你们系的官网](http://www.csie.ntust.edu.tw/home.php)
 
 [你们系的修课规定](https://www.csie.ntust.edu.tw/files/11-1050-2142.php?Lang=zh-tw)
-
-[个人借书查询](https://millennium.lib.ntust.edu.tw/patroninfo~S1*cht/1059603/items)
-
-[台科大博硕士论文系统](https://etheses.lib.ntust.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=MU2CtJ/login?jstimes=1&loadingjs=1&o=dwebmge&cache=1537402189684)
-
-[台大校园网络登录](https://wireless.ntu.edu.tw/index237.html)
 
 [查询发票中奖](http://invoice.etax.nat.gov.tw/index.html)
 
@@ -116,9 +131,15 @@ tags:
 
 [银联汇率查询](http://www.kuaiyilicai.com/uprate/twd.html)
 
-[在线课表/可查询三校课程](https://www.crosslink.tw)
+[在线课表/可查询三校课程/强烈推荐去用用 ](https://www.crosslink.tw)
 
 [台风路径预报查询](http://typhoon.zjwater.gov.cn/default.aspx)
+
+[个人借书查询](https://millennium.lib.ntust.edu.tw/patroninfo~S1*cht/1059603/items)
+
+[台科大博硕士论文系统](https://etheses.lib.ntust.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=MU2CtJ/login?jstimes=1&loadingjs=1&o=dwebmge&cache=1537402189684)
+
+[台大校园网络登录](https://wireless.ntu.edu.tw/index237.html)
 
 [臺北小巨蛋公益票網路登錄取票平臺](https://ssl.metro.taipei/taticket/)
 
