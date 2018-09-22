@@ -108,7 +108,7 @@ tags:
 
 要对世界充满希望，对他人充满感谢，心里知道黑暗但是心向光明。
 
-![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/音乐厅.jpeg)
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/音乐厅.png)
 
 ## 文末的福利
 #### 你需要知道的台科互联网服务：
