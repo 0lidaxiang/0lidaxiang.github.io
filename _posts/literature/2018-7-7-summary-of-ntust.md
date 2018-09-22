@@ -91,7 +91,7 @@ tags:
 
 九份山城也是很有台湾特色的景点，靠近鼻头角，靠近海边，看夕阳吃美食，别有一番滋味。
 
-![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/九份.jpeg)
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/九份.png)
 
 ## 最后的一点建议
 台北市幸福的地方在于有各种展览和活动，甚至常常有些欧美的大型博物馆来台北展出，学生票也会便宜很多，抓住机会多去看看；
