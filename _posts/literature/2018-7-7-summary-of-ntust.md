@@ -64,7 +64,7 @@ tags:
 
 女巫店看起来是一家酒吧，周末不定期提供演出场所，需要买票进场，可以凭票换调酒一杯或者饮料。女巫店似乎是台湾很多独立音乐人的“发家之地”，加上靠近三校，音乐氛围极为浓厚。周六晚上要从八点半就开始排队买票，来得晚可能就没票了。这么近的文艺场所，打卡圣地，两年时间里记得多多去看看啊。
 
-![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/女巫店.jpeg)
+![dianli_all]({{ site.baseurl }}/assets/images/literature/summary-of-ntust/女巫店.png)
 
 #### 信义区夜店
 额，没去过，久闻大名。注意安全。
