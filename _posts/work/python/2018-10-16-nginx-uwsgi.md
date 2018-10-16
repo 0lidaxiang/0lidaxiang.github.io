@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nginx uwsgi confif for Django"
+title:  "Nginx uwsgi config for Django"
 rootCate: "work"
 categories:
 - Python
