@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Django experience"
+title:  "Some userful library of Django"
 rootCate: "work"
 categories:
 - Python
@@ -26,6 +26,7 @@ tags:
 9. numpy
 10. oauth
 11. pandas
+12. django-socketio(maybe need you download from website)
 
 
 ## software to help django
