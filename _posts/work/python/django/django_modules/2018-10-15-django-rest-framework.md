@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Django REST framework"
+rootCate: "work"
+categories:
+- Python
+tags:
+- work
+- Python3
+- Django
+- RESTful
+- restframework
+---
+
+Django REST框架是一个功能强大且灵活的工具包，用于构建Web API。
+它的功能包括以下内容：Web浏览器API为您的开发人员带来了巨大的可用性; 身份验证策略包括OAuth1a和OAuth2的程序包; 支持ORM和非ORM数据源的序列化;可自定义功能。
+
+<!---more--->
+
+## Django rest_framework
+rest_framework 可以轻易的甚至自动化的搞定很多事情，比如：
+
+自动生成符合 RESTful 规范的 API
++ 支持 OPTION、HEAD、POST、GET、PATCH、PUT、DELETE
++ 根据 Content-Type 来动态的返回数据类型（如 text、json）
++ 生成 browserable 的交互页面（自动为 API 生成非常友好的浏览器页面）
++ 非常细粒度的权限管理（可以细粒度到 field 级别）
+
+#### 使用教程
+1. Serializers
+定义好了 Models，我们可以开始写 Serializers，这个相当于 Django 的 Form
+
+2. Viewset
+定义好了 Serializers，就可以开始写 viewset 了
+其实 viewset 反而是最简单的部分，rest_framework 原生提供了四种 ViewSet
+
+3. Filters
+前面根据 serializers 和 viewset 我们已经可以很好的提供数据接口和展示了。但是有时候我们需要通过 url参数 来对数据进行一些排序或过滤的操作，为此，rest-framwork 提供了 filters 来满足这一需求。
+
+4. Premissions
+顾名思义就是权限管理，用来给 ViewSet 设置权限，使用 premissions 可以方便的设置不同级别的权限：
++ 全局权限控制
++ ViewSet 的权限控制
++ Method 的权限
++ Object 的权限
+
+#### 其他与 rest_framework 配套使用的工具
+APIView对django本身的View进行封装，从上述的代码，这样分析，两者的差别看起来不是很大，但实际中APIView做了很多东西，它定义了很多属性与方法。
+
+GenericAPIView对APIView再次封装，实现了强大功能：
+
+加入queryset属性，可以直接设置这个属性，不必再将实例化的courses，再次传给seriliazer,系统会自动检测到。除此之外，可以重载get_queryset()，这样就不必设置'queryset=*'，这样就变得更加灵活，可以进行完全的自定义。
+加入serializer_class属性与实现get_serializer_class()方法。两者的存在一个即可，通过这个，在返回时，不必去指定某个serilizer
+设置过滤器模板：filter_backends
+设置分页模板：pagination_class
+
+在generics除了GenericAPIView还包括了其他几个View: CreateAPIView、ListAPIView、RetrieveAPIView、ListCreateAPIView···等等，其实他们都只是继承了相应一个或多个mixins和GenericAPIView
+
+GenericAPIView以及它相关的View已经完成了许许多多的功能，但仍有不足之处。ViewSet 可以弥补缺陷：GenericViewSet继承了GenericAPIView，依然有get_queryset,get_serialize_class相关属性与方法，GenericViewSet重写了as_view方法，可以获取到HTTP的请求方法。
+
+但GenericViewSet本身依然不存在list, create方法，需要我们与mixins一起混合使用，那么新问题来了？我们依然需要自己写get、post方法，然后再return list或者create等方法吗？当然不！重写as_view的方法为我们提供了绑定的功能，我们在设置url的时候:
+
+这样，我们就将http请求方法与mixins方法进行了关联。那么还有更简洁的方法吗？很明显，当然有，这个时候，route就登场了！
+
+
+## 参考列表
+[django-rest-framework(概念篇)——apiview&viewset](https://www.jianshu.com/p/2700ff413250)

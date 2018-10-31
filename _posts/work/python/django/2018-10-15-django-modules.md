@@ -27,7 +27,7 @@ tags:
 10. oauth
 11. pandas
 12. django-socketio(maybe need you download from website)
-
+13. Celery : 是基于Python开发的一个分布式任务队列框架，支持使用任务队列的方式在分布的机器/进程/线程上执行任务调度。
 
 ## software to help django
 1. redis

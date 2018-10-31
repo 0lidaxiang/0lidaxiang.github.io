@@ -10,9 +10,15 @@ tags:
 - Django
 ---
 
-总结 Django Framework 使用过程中的小技巧，以备后用。
+总结 Django Framework 使用过程中的技巧和经验，以备后用。内容包括但不限于 ORM 模型、Static、Templates、Admin 模块等原生 Django 的功能。
 
 <!---more--->
+
+## migrate 和makemigrations的差别
+```python3 manger.py makemigrations``` 相当于在该app下建立 migrations目录，并记录下你所有的关于modes.py的改动，比如0001_initial.py， 但是这个改动还没有作用到数据库。
+
+在此之后执行命令```python3 manager.py migrate```
+将该改动作用到数据库文件，比如产生table之类。
 
 ## Django ORM
 1. ORM：Object Relational Mapping(关系对象映射)
@@ -30,3 +36,8 @@ tags:
 
 4. Django orm的优势：
 Django的orm操作本质上会根据对接的数据库引擎，翻译成对应的sql语句；所有使用Django开发的项目无需关心程序底层使用的是MySQL、Oracle、sqlite....，如果数据库迁移，只需要更换Django的数据库引擎即可；
+
+## Django class-view method
+基于函数的视图的问题在于，虽然它们很好地覆盖了简单的情形，但是不能扩展或自定义它们，即使是一些简单的配置选项，这让它们在现实应用中受到很多限制。  
+
+基于类的通用视图然后应运而生，目的与基于函数的通用视图一样，就是为了使得视图的开发更加容易。
