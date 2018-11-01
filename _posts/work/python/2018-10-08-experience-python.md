@@ -9,7 +9,7 @@ tags:
 - Python3
 ---
 
-总结 Python 使用过程中的小技巧，以备后用。
+总结 Python 使用过程中的小技巧，以备后用。内容包括但不限于对list/set/map等数据结构、算法的记录。
 
 <!---more--->
 
@@ -28,12 +28,21 @@ while ' ' in list1:
 ```
 ','.join(list1)
 ```
-5.  string 替换 replace：
+5.  string 替换 replace，可以去掉多余的字符或者重复的字符：
 ```
 str.replace(old, new[, max])
 old -- 将被替换的子字符串。
 new -- 新字符串，用于替换old子字符串。
 max -- 可选字符串, 替换不超过 max 次
 ```
-超级好用，可以去掉多余的字符或者重复的字符。
-6.
+
+6. python dict 数据类型
+```
+a={'a':1,'b':[2]}
+a['c']=3
+// 此时a = {'a':1,'b':[2],'c':3}
+
+a['b'].append(4)
+// 此时a = {'a':1,'b':[2,4],'c':3}
+ ```
+7.
