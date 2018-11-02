@@ -32,19 +32,9 @@ rest_framework 可以轻易的甚至自动化的搞定很多事情，比如：
 
 2. Viewset
 定义好了 Serializers，就可以开始写 viewset 了
-其实 viewset 反而是最简单的部分，rest_framework 原生提供了四种 ViewSet
+其实 viewset 反而是最简单的部分，rest_framework 原生提供了四种 ViewSet .
 
-3. Filters
-前面根据 serializers 和 viewset 我们已经可以很好的提供数据接口和展示了。但是有时候我们需要通过 url参数 来对数据进行一些排序或过滤的操作，为此，rest-framwork 提供了 filters 来满足这一需求。
-
-4. Premissions
-顾名思义就是权限管理，用来给 ViewSet 设置权限，使用 premissions 可以方便的设置不同级别的权限：
-+ 全局权限控制
-+ ViewSet 的权限控制
-+ Method 的权限
-+ Object 的权限
-
-#### 其他与 rest_framework 配套使用的工具
+3. APIView
 APIView对django本身的View进行封装，从上述的代码，这样分析，两者的差别看起来不是很大，但实际中APIView做了很多东西，它定义了很多属性与方法。
 
 GenericAPIView对APIView再次封装，实现了强大功能：
@@ -59,9 +49,46 @@ GenericAPIView对APIView再次封装，实现了强大功能：
 GenericAPIView以及它相关的View已经完成了许许多多的功能，但仍有不足之处。ViewSet 可以弥补缺陷：GenericViewSet继承了GenericAPIView，依然有get_queryset,get_serialize_class相关属性与方法，GenericViewSet重写了as_view方法，可以获取到HTTP的请求方法。
 
 但GenericViewSet本身依然不存在list, create方法，需要我们与mixins一起混合使用，那么新问题来了？我们依然需要自己写get、post方法，然后再return list或者create等方法吗？当然不！重写as_view的方法为我们提供了绑定的功能，我们在设置url的时候:
+```
+# 进行绑定
+courses = CourseViewSet.as_view({
+    'get': 'list',
+    'post': 'create'
+})
+urlpatterns = [
+    ...
+    # 常规加入url匹配项
+    url(r'courses/', CourseViewSet.as_view(), name='courses')]
+```
 
-这样，我们就将http请求方法与mixins方法进行了关联。那么还有更简洁的方法吗？很明显，当然有，这个时候，route就登场了！
+这样，我们就将http请求方法与mixins方法进行了关联。那么还有更简洁的方法吗？很明显，当然有，这个时候，route方法注册与绑定可以更加简化。
+```
+from rest_framework.routers import DefaultRouter
+router = DefaultRouter() # 只需要实现一次
+router.register(r'courses', CourseViewSet, base_name='courses')
+urlpatterns = [
+    ...
+    # 只需要加入一次
+    url(r'^', include(router.urls)),]
+```
+
+4. ViewSet 和 APIView 的区别和联系
+ViewSet类型的类：可以直接用router引入后，不用具体指定每个view方法的url。url最后以方法名结尾。ViewSet类会在背后做很多权限认证之类的事情，一般用于实现一套的RESTful风格的代码。
+
+APIView类型的类：可以用as_view方法引入，不用具体指定每个view方法的url。url最后以url文件里配置的名字结尾，django会转到view里面的类和类的方法。重点是APIView一般是比较裸的，也就是说当前端发起请求到最后找到方法执行的过程里会省略一些权限认证之类的东西，一般也只有一个方法实现。
+
+5. Filters
+前面根据 serializers 和 viewset 我们已经可以很好的提供数据接口和展示了。但是有时候我们需要通过 url参数 来对数据进行一些排序或过滤的操作，为此，rest-framwork 提供了 filters 来满足这一需求（filters）。
+
+6. Premissions
+顾名思义就是权限管理，用来给 ViewSet 设置权限，使用 premissions 可以方便的设置不同级别的权限：
++ 全局权限控制
++ ViewSet 的权限控制
++ Method 的权限
++ Object 的权限
+
 
 
 ## 参考列表
 [django-rest-framework(概念篇)——apiview&viewset](https://www.jianshu.com/p/2700ff413250)
+[利用 Django REST framework 编写 RESTful API（drf的filter）](https://www.cnblogs.com/xiaojikuaipao/p/6009882.html)

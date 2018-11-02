@@ -51,6 +51,8 @@ B.objects.filter(A)  //更快
 4. Django orm的优势：
 Django的orm操作本质上会根据对接的数据库引擎，翻译成对应的sql语句；所有使用Django开发的项目无需关心程序底层使用的是MySQL、Oracle、sqlite....，如果数据库迁移，只需要更换Django的数据库引擎即可；
 
+5. Q(status='COMPLETED', result='agree') | Q(status='RUNNING')
+
 ## Django class-view method
 基于函数的视图的问题在于，虽然它们很好地覆盖了简单的情形，但是不能扩展或自定义它们，即使是一些简单的配置选项，这让它们在现实应用中受到很多限制。  
 
