@@ -14,13 +14,27 @@ tags:
 
 <!---more--->
 
+## pip 安装 requirements.txt
+生成requirements.txt文件
+```
+pip freeze > requirements.txt
+```
+
+安装requirements.txt依赖
+```
+pip install -r requirements.txt
+```
+
 ## migrate 和makemigrations的差别
 ```python3 manger.py makemigrations``` 相当于在该app下建立 migrations目录，并记录下你所有的关于modes.py的改动，比如0001_initial.py， 但是这个改动还没有作用到数据库。
 
 在此之后执行命令```python3 manager.py migrate```
 将该改动作用到数据库文件，比如产生table之类。
 
+后来有种解释补充说，migrate是把别人的修改部署到自己这里。
+
 ## 关于优化执行时间
+
 1. **尽可能减少对database的访问次数**，把需要for循环多次请求的query一次全部提取出来再做进一步python的筛选和计算，即便会因此产生join问题、大量for循环和重复计算的问题。实例操作证明：通过把query从520个减少到10个，访问时间从2700ms降低到430ms，整体接口访问时间从6s降低到1s左右。(真实要看server当前访问的对database访问的压力，既有压力越大那么可能请求多的情况下速度更慢)
 2. 少用split，多使用他人开发好的Library。
 3. 多构造和使用复杂的数据结构(比如dict)，这样更容易理清代码的逻辑关系、也有助于解决牵扯多个model时的bussiness复杂逻辑处理的问题。
