@@ -13,6 +13,8 @@ tags:
 总结 Django Framework 使用过程中的技巧和经验，以备后用。内容包括但不限于 ORM 模型、Static、Templates、Admin 模块等原生 Django 的功能。
 
 <!---more--->
+## 调试
+加入`import pdb;pdb.set_trace()`这一行代码，之后访问该方法，命令行端会停在这里，等待手动输入python命令。
 
 ## pip 安装 requirements.txt
 生成requirements.txt文件
@@ -45,8 +47,6 @@ A.B_set.all()    //比下面的方法多消耗0.2-0.3秒
 B.objects.filter(A)  //更快
 ```
 5. 反向查询: 想查询A 中某个具体实例所关联的 B
-
-
 
 ## Django ORM
 1. ORM：Object Relational Mapping(关系对象映射)

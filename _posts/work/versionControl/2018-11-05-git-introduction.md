@@ -16,6 +16,7 @@ tags:
 <!---more--->
 
 ## 单账号单仓库
+一般情况下(单人单仓库使用默认master开发)，使用下面三条命令就足够用：
 ```
 git add .
 git commit -m ""
@@ -23,30 +24,38 @@ git push origin master
 ```
 
 ## 多人协作
+新建自己的分支：
+```
+git checkout -b XXX
+```
+
+更新自己的代码到远端自己的分支:
 ```
 git add .
 git commit -m ""
-git push origin XXX(自己的分支)
+git push origin XXX
 ```
 
-罗列本地现有的分支。
+之后可以在图形化界面发起request，指定master分支管理员合并。
 
+列出本地现有的分支:
 ```
 git branch
+// 前端加星号的是当前的分支
 ```
 
-本地切换到XXX分支。
+本地切换到XXX分支:
 ```
 git checkout XXX(某分支)
 ```
 
-本地把某个分支合并到master分支里，之后可以再提交到远端。
+本地把某个分支合并到master分支里，再合并其他分支的修改到master:
 ```
 git checkout master
 git merge XXX(某分支)
 ```
 
-把远端的代码同步下来，覆盖本地。
+把远端的代码同步下来，强制覆盖本地:
 ```
 git fetch --all && git reset --hard origin/master && git pull
 ```

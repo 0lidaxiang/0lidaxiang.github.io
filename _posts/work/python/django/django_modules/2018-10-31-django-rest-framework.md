@@ -26,6 +26,8 @@ rest_framework 可以轻易的甚至自动化的搞定很多事情，比如：
 + 生成 browserable 的交互页面（自动为 API 生成非常友好的浏览器页面）
 + 非常细粒度的权限管理（可以细粒度到 field 级别）
 
+继承这个框架后开发的view等，**可以不用写所有的post/get/put/delete方法**，只需要写自己新增的其他方法就好了。REST基恩的4~6个方法，可以直接访问使用。
+
 #### 使用教程
 1. Serializers
 定义好了 Models，我们可以开始写 Serializers，这个相当于 Django 的 Form
