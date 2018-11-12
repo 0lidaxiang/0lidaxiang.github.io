@@ -29,20 +29,21 @@ git push origin master
 git checkout -b XXX
 ```
 
-更新自己的代码到远端自己的分支:
+在开发和pull之前都要先查看一下本地目前所在分支是什么，列出本地现有的分支:
+```
+git branch
+// 显示的结果里，每行最前面有星号的是当前的分支
+```
+
+修改完自己本地的代码后，可以更新自己的代码本地仓库（使用前两条命令）或push到远端自己的分支:
 ```
 git add .
 git commit -m ""
 git push origin XXX
 ```
 
-之后可以在图形化界面发起request，指定master分支管理员合并。
+push到远端自己的分支后，下一步是在图形化界面发起request，指定master分支，指定review人员，请求管理员合并。
 
-列出本地现有的分支:
-```
-git branch
-// 前端加星号的是当前的分支
-```
 
 本地切换到XXX分支:
 ```
@@ -59,6 +60,25 @@ git merge XXX(某分支)
 ```
 git fetch --all && git reset --hard origin/master && git pull
 ```
+
+## 多个ssh-key如何使用
+git可以新建多个ssh-key，有的可以专门用于自己的github，有的可以用于公司提交代码。
+
+第一步是使用`ssh-keygen -t rsa -c 'YOUR_WANT_NAME'`创建自己想要命名的一对key文件，
+第二步是创建名为`config`的文件，里面内容类似下方代码这样:
+```
+Host github.com
+HostName github.com
+User git
+IdentityFile ~/.ssh/github
+
+Host code.aliyun.com
+HostName code.aliyun.com
+User git
+IdentityFile ~/.ssh/COMPANY
+```
+第三步是把.pub结尾的公钥文件里的全部内容，粘贴到对应的远端仓库服务里，比如GitHub的setting里可以加入ssh-key，
+第四步是提交或pull测试。
 
 ## 常出现的问题记录
 (1)`warning : permanently added the RSA host key for IP address '192.30.252.130' to the list of known list`  ：
