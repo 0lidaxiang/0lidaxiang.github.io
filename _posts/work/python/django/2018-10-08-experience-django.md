@@ -63,6 +63,7 @@ post_delete                     # Django中的model对象删除后,自动触发
 m2m_changed                     # Django中的model对象使用m2m字段操作数据库的第三张表(add,remove,clear,update),自动触发
 class_prepared                  # 程序启动时,检测到已注册的model类,对于每一个类,自动触发
 ```
+特别的，post_save 接收到的参数里created可以判断是否是第一次添加记录。
 
 Managemeng_signals
 ```
