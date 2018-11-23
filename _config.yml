@@ -46,12 +46,13 @@ plugins_dir:
 permalink:      /:year-:month-:day/:title
 
 # 首页显示的文章分页，每页数量
-paginate:       25
+paginate:       15
 
 # 文章摘要标识符
 excerpt_separator: '<!---more--->'
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -12,9 +12,9 @@ tags:
 - Editor
 ---
 
-> StartTime: 2018-03-12,ModifyTime:2018-03-12
-
+本文在记录用过的几种编辑器的插件，以及使用经验。
 <!---more--->
+> StartTime: 2018-03-12,ModifyTime:2018-03-12
 
 ## Atom
 

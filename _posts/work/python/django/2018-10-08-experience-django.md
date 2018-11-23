@@ -40,6 +40,7 @@ Django的orm操作本质上会根据对接的数据库引擎，翻译成对应�
 表.objects.get(id=2)---obj，得到一个单独的对象，确定能找到，可以用，如果找到多个或者没有的，都报异常错误。
 
 7. builk_create() 可以执行批量的插入：
+
 ```
 querysetlist=[]
 for i in resultlist:
@@ -53,6 +54,7 @@ Account.objects.bulk_create(querysetlist)
 信号也可以称为钩子。它可以在 model 某些操作之前或之后立刻执行某些命令。
 
 Model_signals
+
 ```
 pre_init                        # Django中的model对象执行其构造方法前,自动触发
 post_init                       # Django中的model对象执行其构造方法后,自动触发
@@ -66,25 +68,26 @@ class_prepared                  # 程序启动时,检测到已注册的model类,
 特别的，post_save 接收到的参数里created可以判断是否是第一次添加记录。
 
 Managemeng_signals
+
 ```
 pre_migrate                     # 执行migrate命令前,自动触发
 post_migrate                    # 执行migrate命令后,自动触发
 ```
-``
+
 Request/response_signals
+
 ```
 request_started                 # 请求到来前,自动触发
 request_finished                # 请求结束后,自动触发
 got_request_exception           # 请求异常时,自动触发
 ```
-``
+
 Test_signals
+
 ```
 setting_changed                 # 配置文件改变时,自动触发
 template_rendered               # 模板执行渲染操作时,自动触发
 Datebase_Wrapperd
-```
-```
 connection_created              # 创建数据库连接时,自动触发
 ```
 
@@ -102,11 +105,13 @@ connection_created              # 创建数据库连接时,自动触发
 
 ## pip 安装 requirements.txt
 生成requirements.txt文件
+
 ```
 pip freeze > requirements.txt
 ```
 
 安装requirements.txt依赖
+
 ```
 pip install -r requirements.txt
 ```
@@ -122,10 +127,11 @@ pip install -r requirements.txt
 
 ## 关于优化执行时间
 
-1. **尽可能减少对database的访问次数**，把需要for循环多次请求的query一次全部提取出来再做进一步python的筛选和计算，即便会因此产生join问题、大量for循环和重复计算的问题。实例操作证明：通过把query从520个减少到10个，访问时间从2700ms降低到430ms，整体接口访问时间从6s降低到1s左右。(真实要看server当前访问的对database访问的压力，既有压力越大那么可能请求多的情况下速度更慢)
-2. 少用split，多使用他人开发好的Library。
-3. 多构造和使用复杂的数据结构(比如dict)，这样更容易理清代码的逻辑关系、也有助于解决牵扯多个model时的bussiness复杂逻辑处理的问题。
+1. **尽可能减少对database的访问次数**，把需要for循环多次请求的query一次全部提取出来再做进一步python的筛选和计算，即便会因此产生join问题、大量for循环和重复计算的问题。实例操作证明：通过把query从520个减少到10个，访问时间从2700ms降低到430ms，整体接口访问时间从6s降低到1s左右。(真实要看server当前访问的对database访问的压力，既有压力越大那么可能请求多的情况下速度更慢)  
+2. 少用split，多使用他人开发好的Library。  
+3. 多构造和使用复杂的数据结构(比如dict)，这样更容易理清代码的逻辑关系、也有助于解决牵扯多个model时的bussiness复杂逻辑处理的问题。  
 4. 正向查询：以使用外键的表为主，以外键为id的表数据为条件。B中某个具体实例所关联的A。
+
 ```
 models.ForeignKey(A)
 A.B_set.all()    //比下面的方法多消耗0.2-0.3秒

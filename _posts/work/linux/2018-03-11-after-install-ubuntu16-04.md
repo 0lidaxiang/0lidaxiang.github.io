@@ -11,8 +11,11 @@ tags:
 - Ubuntu-Install
 ---
 
-> StartTime: 2018-03-11,ModifyTime: 2018-03-12
+详细记录描述安装了 Ubuntu 16 之后需要安装的开发软件等。适用于程序员。
 <!---more--->
+
+> StartTime: 2018-03-11,ModifyTime: 2018-03-12
+
 
 ## 1.firefox
 firefox account settings：login to the account and change search energering

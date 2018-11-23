@@ -11,12 +11,13 @@ tags:
 - Github
 ---
 
-介绍Git的几种基本使用场景和解决问题方案，末尾附上更全面的来源资料。
-> StartTime: 2017-03-22,ModifyTime:2018-11-19
+介绍Git的一些基本概念和规范。
 <!---more--->
+> StartTime: 2017-03-22,ModifyTime:2018-11-23
 
 ## 1.基本概念
-1. commit或merge发生冲突的情况解释：
+1. commit或merge发生冲突的情况解释：  
+
 ```
 <<<<<<< HEAD
 <div id="footer">contact : email.support@github.com</div>
@@ -26,6 +27,7 @@ tags:
 </div>
 >>>>>>> iss53
 ```
+
 可以看到 `=======` 隔开的上半部分，是 HEAD（即 master 分支，在运行 merge 命令时所切换到的分支）中的内容，下半部分是在 iss53 分支(与自己修改内容冲突的分支)中的内容。
 
 2. GitHub以开源代码出名，GitLab比GitHub更方便的在于提供免费私有仓库。
@@ -55,7 +57,7 @@ Header包括 type（必需）、scope（可选）和subject（必需） :
 ### 3.1 Header
 Header部分只有一行，包括三个字段：type（必需）、scope（可选）和subject（必需）。
 
-####（1）type
+#### 3.1.1 type
 
 type用于说明 commit 的类别，只允许使用下面7个标识。
 
@@ -69,11 +71,11 @@ type用于说明 commit 的类别，只允许使用下面7个标识。
 
 如果type为feat和fix，则该 commit 将肯定出现在 Change log 之中。其他情况（docs、chore、style、refactor、test）由你决定，要不要放入 Change log，建议是不要。
 
-####（2）scope
+#### 3.1.2 scope
 
 scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
 
-####（3）subject
+#### 3.1.3 subject
 
 subject是 commit 目的的简短描述，不超过50个字符。
 
@@ -83,10 +85,12 @@ subject是 commit 目的的简短描述，不超过50个字符。
 
 ### 3.2 Body
 Body 部分是对本次 commit 的详细描述，可以分成多行。下面是一个范例。
+
 ```
 More detailed explanatory text, if necessary.  Wrap it to
 about 72 characters or so. Further paragraphs come after blank lines.- Bullet points are okay, too- Use a hanging indent
 ```
+注意两点：  
 （1）使用第一人称现在时，比如使用change而不是changed或changes。
 
 （2）应该说明代码变动的动机，以及与以前行为的对比。
