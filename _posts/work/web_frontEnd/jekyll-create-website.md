@@ -26,3 +26,5 @@ xcode-select --install
 
 ## 参考
 [xcode-select --install](https://stackoverflow.com/questions/10725767/error-installing-jekyll-native-extension-build)
+
+[Mac 中配置 Jekyll](https://www.jianshu.com/p/25111a6002ec)

@@ -48,6 +48,10 @@ for i in resultlist:
 Account.objects.bulk_create(querysetlist)
 ```
 8. update 和 save 区别:update 可以结合 filter 一次更新多条数据，save一次只能更新一条数据。
+9. django获取某一个字段的列表:
++ values方法可以获取number字段的字典列表。
++ values_list可以获取number的元组列表。
++ values_list方法加个参数flat=True可以获取number的值列表。
 
 
 ## Django Signal

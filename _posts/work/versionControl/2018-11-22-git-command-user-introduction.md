@@ -38,7 +38,7 @@ git branch
 // 显示的结果里，每行最前面有星号的是当前的分支
 ```
 
-3. 修改完自己本地的代码后，可以更新自己的代码本地仓库（使用前两条命令）或push到远端自己的分支:  
+3. 修改完自己本地的代码后，可以更新自己的代码本地仓库（使用前两条命令）或push到远端自己的分支( **git push 加上u参数，会在远端创建该分支** ):  
 ```
 git add .
 git commit -m "XXXX"
@@ -49,7 +49,7 @@ git merge XXX(某分支)
 //另一个选择是本地不合并，按照第4点发起merge request交给其他人merge
 git push origin XXX
 ```
-> git pull 加上rebase参数，好处是调整自己的分支到develop分支的最新基准，这样极大可能避免冲突。另外一个好处在于可以检查git pull默认的merge操作，这样就减少了一个分支。(每次merge都会延伸某个新的分支)
+> git pull 加上rebase参数，好处是调整自己的分支到develop分支的最新基准，这样极大可能避免冲突。另外一个好处在于可以检查git pull默认的merge操作，这样就减少了一个分支。(每次merge都会延伸某个新的分支)  
 
 4. push到远端自己的分支后，下一步是在图形化界面发起对master的merge request，指定master分支，指定review人员，请求管理员合并。
 5. 合并完成后，如果是bug修复或者不需要这个分支了，可以使用`git branch -d hotfix`命令删除本地这个分支。远端删除使用命令：`git push origin :branch_name`
