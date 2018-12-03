@@ -62,7 +62,6 @@ git fetch --all && git reset --hard origin/master && git pull
 
 2. `git fetch` 从服务器下载index区域，并放到新分支，不下载code。
 
-
 ## git commit 正确用法
 #### git push 之前，合并式地本地提交多次commit，不应该每次用`-m`的参数零碎的提交:
 ```
@@ -78,7 +77,7 @@ git log
 git show HEAD^3
 ```
 
-1. 先rebase要合并的前面的一个commit_id
+1. 先`rebase`要合并的前面的一个commit_id
 `git rebase -i commit_id`.之后可以修改前面的commit，可以加入文件，可以删除commit
 2. 修改类似下面内容的文件里的第二个开始的所有pick为s
 ```
@@ -88,39 +87,37 @@ pick 7b16b28 update1
  # Rebase a9269a3..7b16b28 onto a9269a3 (3 commands)
  #.....
 ```
+
 `:x`命令保存退出后会进入下一个文件修改。
 
 3. 再修改下一个结果文件
 4. `git log` //查看修改后 commit 时候已经合并，应该已经合并。但此时本地当前分支的 base commit_id 已经变了，所以需要重新和目标远端分支 rebase 基准，也就是执行下一步。
 
-5. git pull origin master/develop --rebase //这里执行后极有可能发现冲突，解决冲突
-6. 现在是返回了之前未push 的状态，可以看一下git status是否所有代码都加入了index区域，然后直接再来一次push就可以了。
+5. `git pull origin master/develop --rebase` //这里执行后极有可能发现冲突，解决冲突
+6. 现在是返回了之前未 push 的状态，可以看一下`git status`是否所有代码都加入了index区域，然后直接再来一次push就可以了。
 
 
 ## Git status
-git status 查看目前代码的状态，哪些是冲突的，哪些已经被加入了index进入版本控制，哪些还在workspace。
+`git status` 查看目前代码的状态，哪些是冲突的，哪些已经被加入了index进入版本控制，哪些还在 workspace。
 
 ## Git reset 本地回滚
 
 ```
-//本地列出所有commit_id
-git log
-//本地回滚
-git reset --hard commit-id
-//从远端恢复代码和记录
-git reset --hard origin/master HEAD
+git log //本地列出所有commit_id
+git reset --hard commit-id //本地回滚
+git reset --hard origin/master HEAD //从远端恢复代码和记录
 ```
 
-git reset 回滚后想返回原来的代码，则可以用 **git reflog** 命令查看commit_ids操作记录，再恢复代码。
+`git reset` 回滚后想返回原来的代码，则可以用 `git reflog` 命令查看commit_ids操作记录，再恢复代码。
 
 git reset 参数:
-+ --mixed是git-reset的默认选项，它的作用是重置index索引内容，将其定位到指定的项目版本，而不改变你的工作树中的所有内容，只是提示你有哪些文件还未更新。
-+ --soft选项既不触动索引的位置，也不改变工作树中的任何内容。该选项会保留你在工作树中的所有更新并使之处于待提交状态。相当于在--mixed基础上加上git add。
-+ --hard 把整个目录还原到一个版本，包括所有文件。之后如果想返回之前的版本，可以用`git reflog`命令查看操作记录，返回move to的主语commit_id。
++ `--mixed`是git-reset的默认选项，它的作用是重置index索引内容，将其定位到指定的项目版本，而不改变你的工作树中的所有内容，只是提示你有哪些文件还未更新。
++ `--soft`选项既不触动索引的位置，也不改变工作树中的任何内容。该选项会保留你在工作树中的所有更新并使之处于待提交状态。相当于在--mixed基础上加上git add。
++ `--hard` 把整个目录还原到一个版本，包括所有文件。之后如果想返回之前的版本，可以用`git reflog`命令查看操作记录，返回move to的主语commit_id。
 
-+ --continue //挨个检查每次commit的冲突情况，修复冲突;
-+ --abort    //会回到rebase操作之前的状态，之前的提交的不会丢弃；
-+ --skip     //将引起冲突的commits丢弃掉；
++ `--continue` //挨个检查每次commit的冲突情况，修复冲突;
++ `--abort`    //会回到rebase操作之前的状态，之前的提交的不会丢弃；
++ `--skip`     //将引起冲突的commits丢弃掉；
 
 ## Git pull 远端回滚
 当自动部署系统发布后发现问题后，需要回滚到某一个commit，再重新发布。
@@ -139,14 +136,11 @@ git reset 参数:
 7、git push origin :the_branch_backup //如果前面都成功了，删除这个备份分支
 ```
 
-
-
 ## Git branch
 #### modify branch name
-1. Rename your local branch:
+1. Rename your local branch:  
 ```
 git branch -m new-name //you are on the branch you want to rename
-
 git branch -m old-name new-name // you are on a different branch
 ```
 
@@ -167,10 +161,8 @@ git push origin -u new-name
 ```
 git checkout -b 本地分支名x origin/远程分支名x
 ```
-
 使用该方式会在本地新建分支x，会 **自动切换到该本地分支x**。
 并 **会自动和远程分支建立映射关系**。
-
 2. 方式二：
 ```
 git fetch origin 远程分支名x:本地分支名x

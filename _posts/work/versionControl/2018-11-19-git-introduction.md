@@ -17,29 +17,24 @@ tags:
 
 ## 1.基本概念
 1. commit或merge发生冲突的情况解释：  
-
 ```
 <<<<<<< HEAD
-<div id="footer">contact : email.support@github.com</div>
+XXXXX
 =======
-<div id="footer">
-  please contact us at support@github.com
-</div>
+XXXXX
 >>>>>>> iss53
 ```
-
 可以看到 `=======` 隔开的上半部分，是 HEAD（即 master 分支，在运行 merge 命令时所切换到的分支）中的内容，下半部分是在 iss53 分支(与自己修改内容冲突的分支)中的内容。
-
 2. GitHub以开源代码出名，GitLab比GitHub更方便的在于提供免费私有仓库。
 
 ## 2. git 分支命名规范
 git 分支分为集成分支、功能分支和修复分支，分别命名为 develop、feature 和 hotfix，均为单数。不可使用 features、future、hotfixes、hotfixs 等错误名称。请注意，一个分支尽量开发一个功能模块，不要多个功能模块在一个分支上开发。
 
-+ master（主分支，永远是可用的稳定版本，不能直接在该分支上开发）
-+ develop（开发主分支，所有新功能以这个分支来创建自己的开发分支，该分支只做只合并操作，不能直接在该分支上开发）
-+ feature-xxx（功能开发分支，在develop上创建分支，以自己开发功能模块命名，功能测试正常后合并到develop分支）
-+ feature-xxx-fix(功能bug修复分支，feature分支合并之后发现bug，在develop上创建分支修复，之后合并回develop分支。PS:feature分支在申请合并之后，未合并之前还是可以提交代码的，所以feature在合并之前还可以在原分支上继续修复bug)
-+ hotfix-xxx（紧急bug修改分支，在master分支上创建，修复完成后合并到 master）
++ **master**（主分支，永远是可用的稳定版本，不能直接在该分支上开发）
++ **develop**（开发主分支，所有新功能以这个分支来创建自己的开发分支，该分支只做只合并操作，不能直接在该分支上开发）
++ **feature-xxx**（功能开发分支，在develop上创建分支，以自己开发功能模块命名，功能测试正常后合并到develop分支）
++ **feature-xxx-fix** (功能bug修复分支，feature分支合并之后发现bug，在develop上创建分支修复，之后合并回develop分支。PS:feature分支在申请合并之后，未合并之前还是可以提交代码的，所以feature在合并之前还可以在原分支上继续修复bug)
++ **hotfix-xxx**（紧急bug修改分支，在master分支上创建，修复完成后合并到 master）
 个分支尽量开发一个功能模块，不要多个功能模块在一个分支上开发。
 
 ## 3.  git commit 规范
@@ -48,7 +43,7 @@ Commit message 的格式
 
 
 Header包括 type（必需）、scope（可选）和subject（必需） :
-+ \<type>(<scope>): \<subject>// 空一行
++ \<type>(<scope>): <subject>// 空一行
 + \<body>// 空一行
 + \<footer>
 

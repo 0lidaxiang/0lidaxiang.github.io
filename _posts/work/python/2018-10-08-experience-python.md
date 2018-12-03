@@ -45,4 +45,12 @@ a['c']=3
 a['b'].append(4)
 // 此时a = {'a':1,'b':[2,4],'c':3}
  ```
-7.
+7. Python 3 中字典(Dictionary) `has_key(KEY)` 函数变为`__contains__(KEY)`
+
+8. request请求返回的string结果重构:
+```
+r=requests.get('XXXX',params=params)
+r_text=r.text[1:-1].split('{')
+if bool(r_text):
+    result.append(eval('{'+r_text[1]))
+```

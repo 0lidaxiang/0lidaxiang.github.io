@@ -47,12 +47,14 @@ for i in resultlist:
     querysetlist.append(Account(name=i))        
 Account.objects.bulk_create(querysetlist)
 ```
+> create()每保存一条就执行一次SQL，而bulk_create()是执行一条SQL存入多条数据，做会快很多！当然用列表解析代替 for 循环会更快。
+
 8. update 和 save 区别:update 可以结合 filter 一次更新多条数据，save一次只能更新一条数据。
 9. django获取某一个字段的列表:
 + values方法可以获取number字段的字典列表。
 + values_list可以获取number的元组列表。
 + values_list方法加个参数flat=True可以获取number的值列表。
-
+10. get_or_create(),之前文章中也提到过,有就获取过来，没有就创建，用它可以避免重复，但是速度可以会慢些，因为要先尝试获取。 返回数据是一个tuple两个值：(size, created)
 
 ## Django Signal
 信号也可以称为钩子。它可以在 model 某些操作之前或之后立刻执行某些命令。
