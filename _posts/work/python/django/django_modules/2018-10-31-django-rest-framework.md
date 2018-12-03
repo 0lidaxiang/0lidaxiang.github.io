@@ -79,8 +79,14 @@ urlpatterns = [
 ```
 当然，很多时候可以改用其他的 ViewSet 来运行，这样可以省略 mixins 搭配，例如 ModelViewSet 已经集成了相关的 mixins。
 
+minxis的类有5种，他们分别对应了对数据库的增查改删操作,使用它们的好处是不用重复写着相同的业务代码逻辑,因为每个mixins内部都写好了对应的逻辑,只需要设置一下queryset和serializer_class就可以了 :
+CreateModelMixin,ListModelMixin,RetrieveModelMixin,UpdateModelMixin,DestroyModelMixin
+
+ViewSet也有5种,分别是:
+ViewSetMixin,ViewSet,GenericViewSet,ReadOnlyModelViewSet,ModelViewSet
+
 ### 2.3 router
-这样，我们就将http请求方法与mixins方法进行了关联。那么还有更简洁的方法吗？很明显，当然有，这个时候，route方法注册与绑定可以更加简化。
+asview方法可以绑定url，并添加一些action。很明显，当然有，这个时候，route方法注册与绑定可以更加简化。
 ```
 from rest_framework.routers import DefaultRouter
 router = DefaultRouter() # 只需要实现一次
@@ -92,15 +98,95 @@ urlpatterns = [
 ```
 
 ### 2.4 Filters
-前面根据 serializers 和 viewset 我们已经可以很好的提供数据接口和展示了。但是有时候我们需要通过 url参数 来对数据进行一些排序或过滤的操作，为此，rest-framwork 提供了 filters 来满足这一需求（filters）。
+`pip install django-filter`, 然后把django-filter加到INSTALLED_APPS列表中
+前面根据 serializers 和 viewset 我们已经可以很好的提供数据接口和展示了。但是有时候我们需要通过 url参数 来对数据进行一些 **排序或过滤** 的操作，为此，rest-framwork 提供了 filters 来满足这一需求（filters）。
 
-### 2.5 Premissions
+### 2.5 自定义分页
+```
+from rest_framework.pagination import PageNumberPagination
+class UsersPagination(PageNumberPagination):
+    # 指定每一页的个数
+    page_size = 10
+    # 可以让前端来设置page_szie参数来指定每页个数
+    page_size_query_param = 'page_size'
+    # 设置页码的参数
+    page_query_param = 'page'
+class UserViewSet(mixins.ListModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
+    # 设置分页的class
+    pagination_class = UsersPagination
+```
+
+### 2.6 Permissions
 顾名思义就是权限管理，用来给 ViewSet 设置权限，使用 premissions 可以方便的设置不同级别的权限：
 + 全局权限控制
 + ViewSet 的权限控制
 + Method 的权限
 + Object 的权限
 
+```
+from rest_framework import permissions
+from rest_framework.permissions import IsAuthenticated
+class IsOwnerOrReadOnly(permissions.BasePermission):
+
+    def has_object_permission(self, request, view, object):
+        if request.method in permissions.SAFE_METHODS:
+            return True
+
+        return object.user == request.user
+permission_classes = (IsAuthenticated, IsOwnerOrReadOnly)
+```
+
+### 2.7 permissions - JWT
+
+第一步: `pip install djangorestframework-jwt`
+
+第二步: 在url.py中配置
+```
+from rest_framework_jwt.views import obtain_jwt_token
+urlpatterns = [
+  ...
+  url(r'^api-token-auth/', obtain_jwt_token),
+  ...
+]
+```
+
+第三步: 在需要jwt认证的ViewSet的类里面设置
+```
+from rest_framework_jwt.authentication import JSONWebTokenAuthentication
+from rest_framework.authentication import SessionAuthentication
+
+class XXXViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
+  authentication_classes = (JSONWebTokenAuthentication, SessionAuthentication)
+  //加上 SessionAuthentication 是为了在网站上调试方便
+```
+
+
+现在注册登录有两种方式:
++ 用户注册之后跳转到登录页面让其登录
++ 用户注册之后自动帮他登录了
+
+第一种情况的话我们无需再做其他操作,
+
+第二种情况我们应该在用户注册之后返回`jwt token`的字段给前台,所以要做两步:
++ 因为返回字段是`mixins`帮我们做好了,所以我们要重写对应的方法来修改返回字段。
++ 需要查看`djangorestframework-jwt`的源码找到生成`jwt token`的方法
+
+```
+from rest_framework_jwt.serializers import jwt_encode_handler, jwt_payload_handler
+class UserViewSet(CreateModelMixin, RetrieveModelMixin,UpdateModelMixin,viewsets.GenericViewSet):
+    # 重写create方法
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = self.perform_create(serializer)
+        # 在新建用户保存到数据库之后
+        tmp_dict = serializer.data
+        # 生成JWT Token
+        payload = jwt_payload_handler(user)
+        tmp_dict['token'] = jwt_encode_handler(payload)
+        headers = self.get_success_headers(serializer.data)
+        return Response(tmp_dict, status=status.HTTP_201_CREATED, headers=head
+```
 
 ## 3. ViewSet 和 APIView 的区别和联系
 ViewSet类型的类：可以直接用router引入后，不用具体指定每个view方法的url。url最后以方法名结尾。ViewSet类会在背后做很多权限认证之类的事情，一般用于实现一套的RESTful风格的代码。
@@ -112,6 +198,11 @@ APIView类型的类：可以用as_view方法引入，不用具体指定每个vie
 
 ## 参考列表
 [django-rest-framework(概念篇)——apiview&viewset](https://www.jianshu.com/p/2700ff413250)
+
 [利用 Django REST framework 编写 RESTful API（drf的filter）](https://www.cnblogs.com/xiaojikuaipao/p/6009882.html)
 
 [django-rest-framework解析请求参数](https://www.jianshu.com/p/f2f73c426623)
+
+[Django REST framework的关键技巧](https://www.jianshu.com/p/f3606a5def69)
+
+[django-filter](https://django-filter.readthedocs.io/en/master/)

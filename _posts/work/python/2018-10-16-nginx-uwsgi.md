@@ -93,4 +93,5 @@ vacuum = true # 当服务器退出时自动删除unix socket文件和pid文件
 
 ## 参考文档
 [解决nginx+uwsgi部署Django的所有问题](解决nginx+uwsgi部署Django的所有问题)
+
 [python 使用Nginx和uWSGI来运行Python应用](https://www.cnblogs.com/Erick-L/p/7066455.html)

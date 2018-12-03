@@ -41,7 +41,6 @@ git 分支分为集成分支、功能分支和修复分支，分别命名为 dev
 Commit message 的格式
 每次提交，Commit message 都包括三个部分：Header，Body 和 Footer。其中，Header 是必需的，Body 和 Footer 可以省略。
 
-
 Header包括 type（必需）、scope（可选）和subject（必需） :
 + \<type>(<scope>): <subject>// 空一行
 + \<body>// 空一行
@@ -96,9 +95,13 @@ about 72 characters or so. Further paragraphs come after blank lines.- Bullet po
 [git 删除本地分支和远程分支、本地代码回滚和远程代码库回滚](https://www.cnblogs.com/hqbhonker/p/5092300.html)
 
 [git reset soft,hard,mixed之区别深解](https://www.cnblogs.com/kidsitcn/p/4513297.html)
+
 [git 分支命名规范](https://www.cnblogs.com/yorkyang/p/9147309.html)
+
 [Git 提交的正确姿势：Commit message 编写指南](https://www.oschina.net/news/69705/git-commit-message-and-changelog-guide?from=20160110)
-[git commit配置模板](https://www.jianshu.com/p/19e3b1e891b4)
+
 [使用git进行团队合作开发](https://www.cnblogs.com/ShaYeBlog/p/5575852.html)
+
 [Git的Patch功能](https://www.cnblogs.com/y041039/articles/2411600.html)
-[](https://blog.csdn.net/jiangzd_yanzi/article/details/76573987)
+
+[git 生成 patch的命令](https://blog.csdn.net/jiangzd_yanzi/article/details/76573987)

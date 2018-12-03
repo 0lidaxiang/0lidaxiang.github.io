@@ -54,7 +54,21 @@ git push origin XXX
 4. push到远端自己的分支后，下一步是在图形化界面发起对master的merge request，指定master分支，指定review人员，请求管理员合并。
 5. 合并完成后，如果是bug修复或者不需要这个分支了，可以使用`git branch -d hotfix`命令删除本地这个分支。远端删除使用命令：`git push origin :branch_name`
 
-## Git fetch
+## Git Stash
+`git stash` 可以暂存目前工作区的变更，这样就可以进行切换分支之类的操作了。
+
+```
+git stash apply //在新分支应用最近一次储藏
+git stash apply stash@{2} //在新分支应用更早的储藏
+```
+
+`git stash pop` 来重新应用储藏，同时立刻将其从堆栈中移走
+
+`git stash branch XXX_NAME`，这会创建一个新的分支,检验你储藏的变更，检出你储藏工作时的所处的提交，重新应用你的工作，如果成功，将会丢弃储藏。
+
+`git stash drop` 移除储藏。
+
+## Git Fetch
 1. 把远端的代码同步下来，强制覆盖本地:  
 ```
 git fetch --all && git reset --hard origin/master && git pull
@@ -62,15 +76,30 @@ git fetch --all && git reset --hard origin/master && git pull
 
 2. `git fetch` 从服务器下载index区域，并放到新分支，不下载code。
 
-## git commit 正确用法
-#### git push 之前，合并式地本地提交多次commit，不应该每次用`-m`的参数零碎的提交:
+## Git Commit 正确用法
+#### 配置commit template
+配置commit template，每次commit 都记录本次修改的主要内容。
+一个举例：
+$ vim .commit_template
+Feature:/
+BugId:/
+Description:
+git config commit.template    .commit_template
+或者
+git config --global commit.template    .commit_template
+template 可以自行定义，也可以团队约定（建议）。
+
+
+#### 合并本地多次commit
+git push 之前，合并式地本地提交多次commit，不应该每次用`-m`的参数零碎的提交:
 ```
 git add XX -p //分每个修改处提交到index区
 git commit -m "" //提交一次新的commit
 git commit --amend //在没有push之前，在上次commit基础上继续增加commit内容，是合并了两次commit甚至以后多次
 ```
 
-#### 多次 git push 之后，应该合并一个功能分支的多个commit:
+#### 合并远端的同分支的多个commit
+多次 git push 之后，应该合并一个功能分支的多个commit:
 查看代码修改状态：
 ```
 git log
@@ -97,10 +126,10 @@ pick 7b16b28 update1
 6. 现在是返回了之前未 push 的状态，可以看一下`git status`是否所有代码都加入了index区域，然后直接再来一次push就可以了。
 
 
-## Git status
+## Git Status
 `git status` 查看目前代码的状态，哪些是冲突的，哪些已经被加入了index进入版本控制，哪些还在 workspace。
 
-## Git reset 本地回滚
+## Git Reset 本地回滚
 
 ```
 git log //本地列出所有commit_id
@@ -119,7 +148,7 @@ git reset 参数:
 + `--abort`    //会回到rebase操作之前的状态，之前的提交的不会丢弃；
 + `--skip`     //将引起冲突的commits丢弃掉；
 
-## Git pull 远端回滚
+## Git Pull 远端回滚
 当自动部署系统发布后发现问题后，需要回滚到某一个commit，再重新发布。
 
 原理：先将本地分支退回到某个commit，删除远程分支，再重新push本地分支。
@@ -136,7 +165,7 @@ git reset 参数:
 7、git push origin :the_branch_backup //如果前面都成功了，删除这个备份分支
 ```
 
-## Git branch
+## Git Branch
 #### modify branch name
 1. Rename your local branch:  
 ```
@@ -169,7 +198,7 @@ git fetch origin 远程分支名x:本地分支名x
 ```
 使用该方式会在本地新建分支x，但是 **不会** 自动切换到该本地分支x，也不会和远程分支建立映射关系
 
-## Git patch
+## Git Patch
 UNIX世界的软件开发大多都是协作式的，因此，Patch（补丁）是一个相当重要的东西，因为几乎所有的大型UNIX项目的普通贡献者，都是通过 Patch来提交代码的。
 
 个人理解：
@@ -213,7 +242,7 @@ IdentityFile ~/.ssh/COMPANY
 第三步是把.pub结尾的公钥文件里的全部内容，粘贴到对应的远端仓库服务里，比如GitHub的setting里可以加入ssh-key，   
 第四步是提交或pull测试。
 
-## Git remote 建立多个远端
+## Git Remote 建立多个远端
 `git remote add XXX` 增加远端头,可以一次推到多个远端
 
 ## 常出现的问题记录
@@ -239,12 +268,16 @@ git push origin master
 [git 删除本地分支和远程分支、本地代码回滚和远程代码库回滚](https://www.cnblogs.com/hqbhonker/p/5092300.html)
 
 [git reset soft,hard,mixed之区别深解](https://www.cnblogs.com/kidsitcn/p/4513297.html)
+
 [git 分支命名规范](https://www.cnblogs.com/yorkyang/p/9147309.html)
-[Git 提交的正确姿势：Commit message 编写指南](https://www.oschina.net/news/69705/git-commit-message-and-changelog-guide?from=20160110)
+
 [git commit配置模板](https://www.jianshu.com/p/19e3b1e891b4)
+
 [使用git进行团队合作开发](https://www.cnblogs.com/ShaYeBlog/p/5575852.html)
+
 [Git的Patch功能](https://www.cnblogs.com/y041039/articles/2411600.html)
-[](https://blog.csdn.net/jiangzd_yanzi/article/details/76573987)
+
+[git 生成 patch的命令](https://blog.csdn.net/jiangzd_yanzi/article/details/76573987)
 
 [Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)
 
