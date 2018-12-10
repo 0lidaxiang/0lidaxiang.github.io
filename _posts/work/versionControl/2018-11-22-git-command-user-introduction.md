@@ -76,6 +76,10 @@ git fetch --all && git reset --hard origin/master && git pull
 
 2. `git fetch` 从服务器下载index区域，并放到新分支，不下载code。
 
+## Git Add
+```
+git rm --cached . //移除错误add加入index区域的文件
+```
 ## Git Commit 正确用法
 #### 配置commit template
 配置commit template，每次commit 都记录本次修改的主要内容。

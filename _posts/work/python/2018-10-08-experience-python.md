@@ -24,10 +24,11 @@ dataArr = numpy.loadtxt('./data/data.txt')
 while ' ' in list1:
     list1.remove(' ')
 ```
-4. list 转换成 string：
+4. list 转换成 string，join会更快：
 ```
 ','.join(list1)
 ```
+
 5.  string 替换 replace，可以去掉多余的字符或者重复的字符：
 ```
 str.replace(old, new[, max])
@@ -36,7 +37,7 @@ new -- 新字符串，用于替换old子字符串。
 max -- 可选字符串, 替换不超过 max 次
 ```
 
-6. python dict 数据类型
+6. Python dict 数据类型
 ```
 a={'a':1,'b':[2]}
 a['c']=3
@@ -47,10 +48,16 @@ a['b'].append(4)
  ```
 7. Python 3 中字典(Dictionary) `has_key(KEY)` 函数变为`__contains__(KEY)`
 
-8. request请求返回的string结果重构:
+8. request请求返回的 string 结果重构:
 ```
 r=requests.get('XXXX',params=params)
 r_text=r.text[1:-1].split('{')
 if bool(r_text):
     result.append(eval('{'+r_text[1]))
 ```
+9. 用列表方式生成 list 会比for循环更快:
+```
+list=[value for value in XX_list]
+```
+10. 对 queryset 操作，用 `.count()` 获取长度比 `len()`更快
+11. 比较python里两个list **内容一致**,使用set: `set(list1)==set[list2]`
