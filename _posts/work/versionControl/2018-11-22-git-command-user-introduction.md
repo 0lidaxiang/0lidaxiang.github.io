@@ -202,6 +202,20 @@ git fetch origin 远程分支名x:本地分支名x
 ```
 使用该方式会在本地新建分支x，但是 **不会** 自动切换到该本地分支x，也不会和远程分支建立映射关系
 
+## Git 命令简写
+```
+git config --global alias.st  "status"
+git config --global alias.ci "commit"
+git config --global alias.co "checkout"
+```
+
+执行完上述命令后就可以使用以下简化命令了：
+```
+git st
+git ci -a -m 'msg'
+git co branch
+```
+
 ## Git Patch
 UNIX世界的软件开发大多都是协作式的，因此，Patch（补丁）是一个相当重要的东西，因为几乎所有的大型UNIX项目的普通贡献者，都是通过 Patch来提交代码的。
 
@@ -288,3 +302,5 @@ git push origin master
 [git拉取远程分支并创建本地分支](https://blog.csdn.net/zhangxiaoyang0/article/details/79286825)
 
 [git合并多个commit提交](https://www.jianshu.com/p/29bb983ec48a)
+
+[git alias 命令简写缩写](https://blog.csdn.net/wzz443777878/article/details/48830795)

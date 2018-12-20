@@ -61,3 +61,61 @@ list=[value for value in XX_list]
 ```
 10. 对 queryset 操作，用 `.count()` 获取长度比 `len()`更快
 11. 比较python里两个list **内容一致**,使用set: `set(list1)==set[list2]`
+12. Python3 实现日期加减一天:
+```
+import datetime
+now = datetime.datetime.now()
+date = now + datetime.timedelta(days = 1)
+```
+
+## list
+1. access: 通过index访问
+2. 删除：
+```
+lst = [1, 0, 2, 0, 0, 8, 3, 0]
+lst = filter(lambda x: x != 0, lst)
+print lst
+```
+3. 列表解析:
+```
+lst = [x for x in lst if x != 0]
+```
+
+4. 循环删除 :
+```
+for item in lst[:]:
+    if item == 0:
+        lst.remove(item)
+//加上[:]是表示倒序删除，如果不加而正序删除会有问题，如果有重复的连续元素只会删除第一个
+```
+
+5. 将一个list中的dict 按某个key分组，生成dict:
+```
+方法一：
+import collections
+s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+
+# defaultdict
+d = collections.defaultdict(list)
+for k, v in s:
+    d[k].append(v)
+
+方法二：
+output_dict = {}
+for item in input_list:
+    output_dict.setdefault(item['a'], []).append(item)
+
+//结果
+list(d.items())
+[('blue', [2, 4]), ('red', [1]), ('yellow', [1, 3])]
+```
+而且好处是当查找d[key]里的key不存在时，并不会报错而是可能返回默认值，比如里面的key是list类型则会返回[]。
+
+## 参考
+[Python 3 collections.defaultdict() 与 dict的使用和区别](https://blog.csdn.net/kyi_zhu123/article/details/80203118)
+
+[python中defaultdict的用法详解](https://blog.csdn.net/dpengwang/article/details/79308064)
+
+[python通过某个字段将记录分组](https://blog.csdn.net/zhousishuo/article/details/78391238)
+
+[Python语法糖——遍历列表时删除元素](https://segmentfault.com/a/1190000007214571)

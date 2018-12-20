@@ -49,7 +49,7 @@ Django的orm操作本质上会根据对接的数据库引擎，翻译成对应�
 12. 总共5位，其中有两位小数，DecimalField: `DecimalField(max_digits = 5,decimal_places = 2)`
 
 
-## 二、Django ORM 聚合
+## 二、Django ORM 聚合和分页
 
 聚合: SQL基本函数，聚合函数对一组值执行计算，并返回单个值。除了 COUNT 以外，聚合函数都会忽略空值。 常见的聚合函数有AVG / COUNT / MAX / MIN /SUM 等
 
@@ -66,6 +66,11 @@ models.Book.objects.all().aggregate(Sum("price"))
 ```
  msgS = MessageTab.objects.values_list('msg_status').annotate(Count('id'))
 ```
+#### 分页
+数据库分页只需要简单用[start:end]截取 QuerySet 的结果集就可以。
+但是这样分页拿不到所有符合条件的数据条数。
+
+[详情链接](https://www.cnblogs.com/inns/p/5516539.html)
 
 ## 三、Django 关于优化执行时间
 
@@ -87,7 +92,7 @@ author = blog.author # 再次访问数据库
 1. 拿到`queryset`后先用`if`判断一下是否为`None`，这样 django 会把 queryset 真正去`access Database`然后把结果放入`cache`。这样之后再去`for`循环读取这个`queryset`变量就不会重复`access Database`。
 2. 判断数据是否存在用`exists`而不是`len` 或 `count`
 exists = Blog.objects.filter(category='django').exists()
-3. 获取数据的数量使用`queryset.count()`而不是用`len(queryset)`获取长度:
+3. 获取数据的数量使用`queryset.count()` 而不是用`len(queryset)`获取长度。前者是 select count()语法，后者会返回整个查询结果集 :
 ```
 count = Blog.objects.filter(category='django').count()
 ```
@@ -214,3 +219,5 @@ pip install -r requirements.txt
 [Django中的信号及其用法](https://www.cnblogs.com/renpingsheng/p/7566647.html)
 [django中聚合aggregate和annotate GROUP BY的使用方法](https://blog.csdn.net/AyoCross/article/details/68951413)
 [Django 数据查询性能优化最佳实践](https://blog.csdn.net/Ahri_J/article/details/73610365)
+
+[QuerySet的分页和排序](https://www.cnblogs.com/inns/p/5516539.html)
