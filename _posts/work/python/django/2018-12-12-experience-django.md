@@ -30,16 +30,17 @@ tags:
 + 使用 MySQLdb 来连接数据库，并编写数据访问层代码
 + 业务逻辑层去调用数据访问层执行数据库操作
 
-4. Django ORM的优势：
-Django的orm操作本质上会根据对接的数据库引擎，翻译成对应的sql语句；所有使用Django开发的项目无需关心程序底层使用的是 MySQL、Oracle、sqlite....，如果数据库迁移，只需要更换Django的数据库引擎即可；
+4. Django 的优势：
+Django 的优势还有 Web 界面调试， 丰富的第三方库和文档，强大的ORM模块支持。Django的ORM操作本质上会根据对接的数据库引擎，翻译成对应的sql语句；所有使用Django开发的项目无需关心程序底层使用的是 MySQL、Oracle、sqlite....，如果数据库迁移，只需要更换Django的数据库引擎即可。 
 
 5. `Q()` 可以构造比 Django 自身函数更复杂的SQL查询条件和逻辑关系，然后Q对象可以直接传给filter。例如: `Q(status='COMPLETED', result='agree') | Q(status='RUNNING') `
 
-6. filter 和 get 的区别：
-表.objects.filter(id=2) ---[obj1,]  ，得到一个集合对象，集合里只有一个，跟上first（）或者【0】取到一个具体对象
-表.objects.get(id=2)---obj，得到一个单独的对象，确定能找到，可以用，如果找到多个或者没有的，都报异常错误。
+6. filter 和 get 的区别以及如何判断为空：
+`TABLE.objects.filter(id=2)`  ，得到一个集合对象，集合里只有一个，跟上 `first()` 或者`[0]`取到一个具体对象。判断是否为空使用 `if not XXX`。  
+ `TABLE.objects.get(id=2)[0]`，得到一个单独的对象，确定能找到，可以用，如果找到多个或者没有的，都报异常错误。等同于 `TABLE.objects.filter(id=2)[0]` 的用法。判断是否为空使用 `is None`。
 
 7. update 和 save 区别:update 可以结合 filter 一次更新多条数据，save一次只能更新一条数据。
+8. 排序 order_by(`field_name`) : 默认是是从小到大顺序，逆序则需要在 `field_name` 前加上减号`-`。
 9. django获取某一个字段的列表:
 + values方法可以获取number字段的字典列表。
 + values_list可以获取number的元组列表。
@@ -140,6 +141,8 @@ now = datetime.now().replace(tzinfo=cst_tz)
 
 ## 五、Django Signal
 信号也可以称为钩子。它可以在 model 某些操作之前或之后立刻执行某些命令。
+
+特别的是update方法没有信号量，需要自己写。
 
 Model_signals
 
