@@ -74,7 +74,24 @@ mysql> show variables like 'long_query_time%';
 执行`select sleep(2);` ，然后使用命令 `cat /usr/local/mysql/data/slow.log`查看是否生成慢查询日志.
 
 
+## 4. MySql Host is blocked because of many connection errors 问题(The host_cache Table问题)
+原因：　　同一个ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）中断的数据库连接而导致的阻塞；
 
+解决办法2种：
+1. 进入mysql控制台，执行：flush hosts;
+2. 根治办法：max_connect_errors修改，以及查出引起连接错误的地方
+
+## 5. MySQL 性能调优
+可以调优的关键指标包括： 
+1. IOPS：Input/Output operation Per Second, 每秒处理的IO请求次数。
+2. QPS：Query Per Second，每秒请求（查询）次数。这
+3. TPS：Transaction Per Second，每秒事务数。TPS参数MySQL原生没有提供，如果需要我们自己算，可以利用计算的公式：TPS = (Com_commit + Com_rollback) / Seconds
+具体内容可以看 [文章 - Mysql性能调优与测试](https://juejin.im/entry/59eee654f265da432a7ac432)
+
+5. 查看 MySQL 版本
+若没有连接到 MySQL 服务器，使用 `mysql\bin>mysql -V`
+若如果已经连接到了MySQL服务器，则运行下面的命令：`mysql> select version();`
 
 ## 参考文献
 [MySQL慢查询（一） - 开启慢查询](https://www.cnblogs.com/luyucheng/p/6265594.html)
+[The host_cache Table](https://dev.mysql.com/doc/refman/5.6/en/host-cache-table.html)
