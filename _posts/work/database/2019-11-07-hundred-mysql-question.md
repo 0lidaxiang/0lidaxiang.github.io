@@ -92,6 +92,35 @@ mysql> show variables like 'long_query_time%';
 若没有连接到 MySQL 服务器，使用 `mysql\bin>mysql -V`
 若如果已经连接到了MySQL服务器，则运行下面的命令：`mysql> select version();`
 
+6. MySQL时间函数 date_sub(), weekday(), curdate()
+   date_sub
+含义: 从日期减去指定的时间间隔.
+语法格式: SELECT DATE_SUB(date,INTERVAL expr unit)
+案例: select date_sub(curdate(),INTERVAL WEEKDAY(curdate())-26 DAY)
+
+日期表示: 年-月-日
+时间表示: 年-月-日 时:分:秒
+
+解读:
+select curdate();   #获取当前日期
+select WEEKDAY(curdate());   #WEEKDAY函数返回一个日期的工作日索引值，即星期一为0，星期二为1，星期日为6。
+select WEEKDAY(curdate()) - 26;
+select date_sub('2020-02-24', INTERVAL 26 DAY);  #当前日期减去26天的时间
+select date_sub('2020-02-24', INTERVAL -26 DAY); #当前日期减去负26天的时间,即加26天
+
+7. MySQL 查看表占用空间大小
+```
+1，切换数据库
+use information_schema;
+
+2，查看数据库使用大小
+select concat(round(sum(data_length/1024/1024),2),’MB’) as data from tables where table_schema=’DB_Name’ ;
+
+3，查看表使用大小
+select concat(round(sum(data_length/1024/1024),2),’MB’) as data from tables where table_schema=’DB_Name’ and table_name=’Table_Name’;
+```
+
 ## 参考文献
 [MySQL慢查询（一） - 开启慢查询](https://www.cnblogs.com/luyucheng/p/6265594.html)
 [The host_cache Table](https://dev.mysql.com/doc/refman/5.6/en/host-cache-table.html)
+[MySQL查看表占用空间大小](https://blog.csdn.net/qq_21683643/article/details/81003136?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
