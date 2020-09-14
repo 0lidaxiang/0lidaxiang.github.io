@@ -19,16 +19,16 @@ tags:
 |3 | Taiwan  | Taipei      | 台北| 2015-02  | 2 |     |
 |4 | Taiwan  | TaiZhong    | 台中| 2015-05  | 1 |     |
 |5 |  ZheJiang | HangZhou | 杭州 | 2014-8  | 1  |     |
-|6 | Taiwan  | Kaohsiung  | |          |   |     |
-|7 | Shanghai  | Shanghai | |          |   |     |
-|8 | ShanXi  | Xi'an      | |          |   |     |
-|9 | Beijing  | Beijing    | |          |   |     |
-|10| HeiLongJiang | Harbin     | |          |   |     |
-|11| SiChuan  | Chengdu    | |          |   |     |
-|12| Chongqing  | Chongqing  | |          |   |     |
-|13| XiZang  | Lhasa      | |          |   |     |
-|14| GuangDong  | Xinhui | |          |   |     |
-|15| HongKong  | HongKong | |          |   |     |
+|6 | Taiwan  | Kaohsiung  | 高雄 | 2017    |   | 匆匆而过    |
+|7 | Shanghai  | Shanghai | 上海|   2018 - 至今 |   |     |
+|8 | ShanXi  | Xi'an      | 西安 |          |   |     |
+|9 | Beijing  | Beijing    | 北京 |          |   |     |
+|10| HeiLongJiang | Harbin   | 哈尔滨 |          |   |     |
+|11| SiChuan  | Chengdu    | 成都|          |   |     |
+|12| Chongqing  | Chongqing  | 重庆|          |   |     |
+|13| XiZang  | Lhasa      | 拉萨 |          |   |     |
+|14| GuangDong  | Guangzhou | 广州  |          |   |     |
+|15| HongKong  | HongKong | 香港|          |   |     |
 |  |      |     |          | |   |     
 
 ## 2. Other parts of Asia

@@ -13,6 +13,8 @@ tags:
 以下应用是基于 Springboot 项目的监控，如果是 Springboot 2 版本，可以安装 mircrometer 组件来提供对 prometheus 的支持。
 <!---more--->
 
+prometheus 官方地址： https://prometheus.io/  
+
 ## Can use 4 kinds of metrics
 Prometheus 中提供了四种指标类型（参考：Prometheus 的指标类型），Counter、Timer、 以及直方图（Histogram）和摘要（Summary），后两者是最复杂和难以理解的.
 

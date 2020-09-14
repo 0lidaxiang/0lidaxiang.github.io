@@ -4,14 +4,15 @@ title: "About Me"
 permalink: /about_me_zh/
 ---
 
-> StartTime: 2016-11-28, ModifyTime:2018-02-27  
+> StartTime: 2016-11-28, ModifyTime:2020-09-13  
 > [English Version](/about_me_en/)
 
 ## 简介
+我现在是一家初创公司的软件工程师，帮助公司升级和实现智能化管理的厨房，帮助中小餐饮行业老板进入一流商圈开店。
 
-我喜欢按计划做事，探索新的世界，学习新的知识，同时也乐于助人、分享我的经验。兴趣：技术，开源，历史，古琴，音乐，中国文学。
+我喜欢按计划做事，喜欢探索新的世界，学习新的知识，同时也乐于助人、分享我的经验。
 
-我现在是台湾科技大学的计算机科系的学生，擅长前后端全栈式建构网站系统，对数据分析、文本分析检索、深度学习有一定了解和学习。
+擅长前后端全栈式建构网站系统，对数据分析、文本分析检索、深度学习有一定了解和学习。
 
 Github : [https://github.com/0lidaxiang](https://github.com/0lidaxiang)
 
@@ -22,16 +23,15 @@ Github : [https://github.com/0lidaxiang](https://github.com/0lidaxiang)
 |时间|类型|学校|
 |-   |-     |-   |
 |2016.9-2018.6|本科|台湾科技大学|
-|2015.2-2015.7|研修|台湾龙华科技大学|
 |2013.9-2016.6|大专|南京信息职业技术学院|
 
 ## 技能
 
 |类型|名称|
 |-   |-     |
-|Program Lanuage|PHP, Python, Base C++/C#/Java|
+|Program Lanuage| Python, Java|
 |Program Lanuage|HTML, CSS, JavaScript|
-|Others|MySQL, Base Linux, Git, SVN, Apache, Nginx|
+|Others| Git, MySQL, Base Linux, Nginx, Docker, Grafana, Prometheus|
 
 ## Research
 1. 2014年，[基于Andorid手机端的教室管理web系统]({{ site.baseurl }}/assets/research/classrooms-query-web-system-based-on-android.pdf)

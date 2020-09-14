@@ -43,7 +43,7 @@ plugins_dir:
 
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:     /:categories/:title
 
 # 首页显示的文章分页，每页数量
 paginate:       15

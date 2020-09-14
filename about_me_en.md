@@ -8,15 +8,11 @@ permalink: /about_me_en/
 > [中文版](/about_me_zh/)
 
 ## Introduction myself
+I like explore new world and learn new knowledge. I’m willing to help the disadvantaged and share my experience. I’m good at the whole stack construction website system.
 
-I started learning and using PHP to build a website since my sophomore year in 2015. During my junior year, I made an O2O dating website for Xuzhou Fanji Technology Co., Ltd. and published it as a specialist thesis. After that, I also used PHP to do other small projects.
+And now I work in a start-up compony  as a software engineer . My work will help to create and manage  intelligant kitchens.
 
-I like explore new world and learn new knowledge. I’m willing to help the disadvantaged and share my experience.
-I'm good at the whole stack construction website system.
-
-I am now a senior student in the Department of Information Engineering at Taiwan University of Science and Technology. Last year I learned and used Python to build a Git-based sharing authoring platform as an undergraduate graduation thesis. I also studied data analysis, text retrieval, and deep learning courses. I made some important algorithms and small special projects on deep learning and natural language understanding.
-
-When on holiday or weekend, I usually like to volunteer or read novels and play guqin. The volunteer projects includes the Nanjing Youth Olympic Games, Nanjing Olympic Museum, Midi Music Festival, TEDxnanjing, Taipei World Fortune, and Taipei 101 New Year's Eve environmental protection activities.
+For past, I used Python to build a Git-based sharing authoring platform as an undergraduate graduation thesis. I also studied data analysis, text retrieval, and deep learning courses. I made some important algorithms and small special projects on deep learning and natural language understanding.
 
 Interest : Technology, Opensource, History, Guqin, Music, Chinese literature.
 
