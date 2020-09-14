@@ -16,6 +16,7 @@ permalink: /contact/
 
 ## WeChat
 ID: ldx765514164
+加人请备注域名.
 
 ## Facebook
 [www.facebook.com/0lidaxiang](https://www.facebook.com/0lidaxiang)
