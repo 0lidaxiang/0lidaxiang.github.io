@@ -21,9 +21,7 @@ Interest : Technology, Opensource, History, Guqin, Music, Chinese literature.
 
 |Time|School|Type|
 |-   |-     |-   |
-|2016.9-2018.6|Undergraduate|National Taiwan University of Science and Technology|
-|2015.2-2015.7|Exchange student|Lunghwa University of Science and Technology|
-|2013.9-2016.6|Junior college student|Nanjing Vocational College of Information Technology(NJCIT)|
+|2016.9-2018.6|Undergraduate|National Taiwan University of Science and Technology| 
 
 ### Skills
 

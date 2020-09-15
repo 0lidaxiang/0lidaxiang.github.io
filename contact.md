@@ -4,7 +4,7 @@ title: "Contack Me"
 permalink: /contact/
 ---
 
-> StartTime: 2018-03-19, ModifyTime: 2018-03-19
+> StartTime: 2018-03-19, ModifyTime: 2020-09-15
 
 ## Mail
 <mailto:lidaxiang0@outlook.com>
@@ -15,8 +15,5 @@ permalink: /contact/
 [www.linkedin.com/in/lidaxiang](https://www.linkedin.com/in/lidaxiang)
 
 ## WeChat
-ID: ldx765514164
+ID: ldx765514164   
 加人请备注域名.
-
-## Facebook
-[www.facebook.com/0lidaxiang](https://www.facebook.com/0lidaxiang)
