@@ -12,7 +12,7 @@ permalink: /lifeOutline/
 
 {% for post in group.items %}
 {% if post.rootCate != 'work' %}
-  <a href="#{{ group_name }}" title="{{ group_name }}" rel="{{  group.items.size }}">{{ group_name }} ({{ group.items.size }}) — </a>
+  <a href="#{{ group_name }}" title="{{ group_name }}" rel="{{  group.items.size }}">{{ group_name }} ({{ group.items.size }}) </a>  
   {% break %}
   {% endif %}
 {% endfor %}
