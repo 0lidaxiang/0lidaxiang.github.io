@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Contack Me"
+layout: contact
+title: "联系我"
 permalink: /contact/
 ---
 
@@ -15,5 +15,5 @@ permalink: /contact/
 [www.linkedin.com/in/lidaxiang](https://www.linkedin.com/in/lidaxiang)
 
 ## WeChat
-ID: ldx765514164   
+ID: codedoctor<br>
 加人请备注域名.

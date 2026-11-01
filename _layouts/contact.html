@@ -1,0 +1,18 @@
+---
+layout: base
+---
+{% comment %}Read the original contact Markdown; presentation does not duplicate contact data.{% endcomment %}
+{% assign sections = page.content | split: '## ' %}
+<article class="page contact-page" aria-labelledby="contact-title">
+  <header>
+    <h1 id="contact-title" class="page-title">{{ page.title }}</h1>
+  </header>
+  <div class="contact-meta">{{ sections.first | markdownify }}</div>
+  <div class="contact-methods">
+    {% for section in sections offset:1 %}
+    <section class="contact-method">
+      {{ section | prepend: '## ' | markdownify | replace: '>Mail</h2>', '>邮箱</h2>' | replace: '>Linkin</h2>', '>LinkedIn</h2>' | replace: '>WeChat</h2>', '>微信</h2>' | replace: '>www.linkedin.com/in/lidaxiang</a>', '>查看 LinkedIn 主页</a>' }}
+    </section>
+    {% endfor %}
+  </div>
+</article>

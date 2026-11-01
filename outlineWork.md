@@ -5,38 +5,26 @@ permalink: /workOutline/
 ---
 
 {% assign groups = site.posts | group_by: "categories" | sort: "name" %}
-
-<div id='cat_cloud'>
+<nav class="archive-filters" aria-label="文章分类">
 {% for group in groups %}
-{% assign group_name = group.name | remove: '["' | remove: '"]'  %}
-
-{% for post in group.items %}
-{% if post.rootCate == 'work' %}
-  <a href="#{{ group_name }}" title="{{ group_name }}" rel="{{  group.items.size }}">{{ group_name }}  ({{ group.items.size }}) </a>
-  {% break %}
+  {% assign group_name = group.name | remove: '["' | remove: '"]' %}
+  {% assign count = 0 %}
+  {% for post in group.items %}{% if post.rootCate == 'work' %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
+  {% if count > 0 %}<a href="#category-{{ group_name | slugify }}-{{ forloop.index }}">{{ group_name }} <span>({{ count }})</span></a>{% endif %}
+{% endfor %}
+</nav>
+{% for group in groups %}
+  {% assign group_name = group.name | remove: '["' | remove: '"]' %}
+  {% assign count = 0 %}
+  {% for post in group.items %}{% if post.rootCate == 'work' %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
+  {% if count > 0 %}
+<section aria-labelledby="category-{{ group_name | slugify }}-{{ forloop.index }}">
+  <h2 id="category-{{ group_name | slugify }}-{{ forloop.index }}" class="hr-bottom">{{ group_name }}</h2>
+  <ul class="related-posts">
+  {% for post in group.items %}
+    {% if post.rootCate == 'work' %}{% include_cached components/post-list-item.html post=post format="%Y-%m-%d" %}{% endif %}
+  {% endfor %}
+  </ul>
+</section>
   {% endif %}
 {% endfor %}
-{% endfor %}
-
-
-{% for group in groups %}
-{% assign group_name = group.name | remove: '["' | remove: '"]'  %}
-
-<div style="width:120%;height: auto;margin-top:20px;">
-
-    {% for post in group.items %}
-      {% if post.rootCate == 'work' %}
-        <h2>{{ group_name }}</h2>
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    
-  	{% for post in group.items %}
-        {% if post.rootCate == 'work' %}
-    			<li><a href="{{ post.url }}">{{ post.title  }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
-          {% endif %}
-    		{% endfor %}
-  {% endfor %}
-</div>
-
-</div>

@@ -1,0 +1,128 @@
+// Site additions to the official Hydejack theme.
+body { overflow-wrap: break-word; }
+.page { line-height: 1.85; }
+.page > p, .page > ul, .page > ol { line-height: 1.85; }
+.post-title, .page-title { overflow-wrap: anywhere; text-wrap: balance; }
+pre { overflow-x: auto; }
+.page table:not(.rouge-table) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-inline: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+.post-date {
+  height: auto;
+  min-height: 2rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: .25rem .75rem;
+  font-size: .85rem;
+  font-weight: 400;
+  line-height: 1.65;
+}
+.post-date > .ellipsis {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
+  cursor: auto;
+  margin-right: 0;
+}
+.related-posts > li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .25rem 1rem;
+  align-items: baseline;
+}
+.related-posts > li > a { min-width: 0; overflow-wrap: anywhere; line-height: 1.5; }
+.related-posts > li > time { white-space: nowrap; }
+.page [id] { scroll-margin-top: 6rem; }
+.archive-filters { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0 2.5rem; }
+.archive-filters a { border: 1px solid var(--border-color, #8885); border-radius: .35rem; padding: .35rem .7rem; text-decoration: none; }
+.archive-filters a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.archive-filters span { opacity: .75; }
+// The counter makes the footer taller than Hydejack's reserved bottom space.
+// Keep it in document flow so it cannot cover author links or page content.
+#_main { padding-bottom: 2rem; }
+#_main > footer.content {
+  position: static;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  margin: 3rem 0 0;
+  padding: 0 0 2rem;
+}
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: .4rem 1.25rem;
+  font-size: .75rem;
+  line-height: 1.6;
+}
+.footer-meta > * { margin: 0; }
+.footer-meta .footer-credit { white-space: nowrap; }
+#_main > footer.content a::after { display: none !important; }
+.visitor-counter { margin: 1.5rem 0 1rem; }
+.visitor-counter a {
+  display: inline-block;
+  max-width: 100%;
+  border: 0;
+  text-decoration: none;
+}
+.visitor-counter a::after { display: none !important; }
+.visitor-counter img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  background: #fff;
+  border-radius: .25rem;
+}
+.contact-page { margin-bottom: 0; }
+.contact-meta { margin: 1rem 0 2rem; color: var(--gray); font-size: .8rem; }
+.contact-meta blockquote { border: 0; margin: 0; padding: 0; }
+.contact-meta p { margin: 0; }
+.contact-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 1rem;
+}
+.contact-method {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--border-color, #8885);
+  border-radius: .5rem;
+  font-size: 1rem;
+}
+.contact-method h2 { margin: 0 0 1rem; font-size: 1.15rem; line-height: 1.4; }
+.contact-method p { margin: 0 0 .6rem; line-height: 1.7; }
+.contact-method p:last-child { margin-bottom: 0; }
+.contact-method a { overflow-wrap: anywhere; }
+.contact-method a:not(.permalink) {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 44px;
+  padding-block: .3rem;
+}
+.contact-page .permalink { display: none; }
+.contact-page a::after { display: none !important; }
+@media (max-width: 42em) {
+  html { font-size: 16px; }
+  .post-title, .page-title { font-size: 2rem; }
+  .related-posts li { white-space: normal; }
+  .related-posts > li { grid-template-columns: minmax(0, 1fr); }
+  .related-posts > li > time { font-size: .85rem; line-height: 1.5; }
+  .contact-methods { grid-template-columns: minmax(0, 1fr); }
+  .contact-meta { margin-bottom: 1.5rem; }
+  .contact-method { padding: 1rem 1.25rem; }
+  .footer-meta { column-gap: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

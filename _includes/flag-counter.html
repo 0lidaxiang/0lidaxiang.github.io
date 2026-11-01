@@ -1,0 +1,11 @@
+{% assign counter = site.data.legacy_analytics.flag_counter %}
+{% if counter.id and counter.history_url %}
+<div class="visitor-counter">
+  <a class="external no-push-state" href="{{ counter.history_url }}" aria-label="查看历年访客统计（Flag Counter）">
+    <picture>
+      <source media="(max-width: 42em)" srcset="{{ counter.image_url | replace: '/columns_8/', '/columns_2/' }}" width="198" height="118">
+      <img src="{{ counter.image_url }}" alt="Flag Counter 历史访客统计" width="768" height="82" decoding="async">
+    </picture>
+  </a>
+</div>
+{% endif %}

@@ -1,0 +1,8 @@
+# Keep these identifiers: they refer to the original third-party history.
+flag_counter:
+  id: "6972"
+  history_url: "https://info.flagcounter.com/6972"
+  image_url: "https://s01.flagcounter.com/count2/6972/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_5/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
+universal_analytics:
+  property_id: "UA-91050128-1"
+  enabled: false

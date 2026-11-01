@@ -1,64 +1,52 @@
 ---
-layout: default
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+layout: base
 ---
-<style>
-	  table{
-	    border-left:1px solid #000000;border-top:1px solid #000000;
-	    width: 100%;
-	    word-wrap:break-word; word-break:break-all;
-	  }
-	  table th{
-	  text-align:center;
-	  }
-	  table th,td{
-	    border-right:1px solid #000000;border-bottom:1px solid #000000;
-	  }
-</style>
 
-<div class="post">
-	<h1 class="post-title">{{ page.title }}
+{% comment %}Jekyll Pages keep raw Markdown in page.content; use the rendered content slot for standalone pages. Post documents retain Hydejack’s original layout.{% endcomment %}
+{% if page.collection == "posts" %}
 
-    </h1>
-    <div class="post-info" style="font-size: 0.9em;">
-      <span>Written by</span>
-      {% if page.author %}
-          {{ page.author }}
-      {% else %}
-          {{ site.author.name }}
-      {% endif %}
 
-      {% if page.date %}
-        <span>on&nbsp;</span>
-        <time datetime="{{ page.date }}">{{ page.date | date: '%Y-%m-%d %H:%M:%S' }}</time>
-      {% endif %}
-    </div>
-  <div class="post-line"></div>
+{% assign version = jekyll.version | split:'.' %}
+{% assign major = version[0] | plus:0 %}
+{% assign minor = version[1] | plus:0 %}
+{% assign patch = version[2] | plus:0 %}
 
+{% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
+
+{% include components/dingbat.html %}
+
+{% assign addons = page.addons | default:site.hydejack.post_addons %}
+{% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
+{% for addon in addons %}
+  {% case addon %}
+  {% when 'about' %}
+     {% include_cached components/about.html author=page.author %}
+  {% when 'related' %}
+    {% include if-non-null try="components/related-posts.html" %}
+  {% when 'comments' %}
+    {% include body/comments.html %}
+  {% else %}
+  {% endcase %}
+{% endfor %}
+
+{% else %}
+<article class="page mb6" role="article">
+  <header><h1 class="page-title">{{ page.title }}</h1></header>
   {{ content }}
-
-</div>
-
-
-<div class="content" >
-  <div style="width: 100%;float:left">您如果觉得有用，觉得写得还不错，可以一元赞赏作者。</div>
-  <div >
-    <div style="width: 15%;float:left">&nbsp;&nbsp;&nbsp;</div>
-    <img src="/assets/images/pay/weixin.png" alt="微信捐赠图片" style="width: 26%;float:left"/>
-  <div style="width: 20%;float:left">&nbsp;&nbsp;&nbsp;</div>
-  <img src="/assets/images/pay/zhifubao.png" alt="支付宝捐赠图片" style="width: 24%; "/>
-  </div>
-  
-</div>
-
-<div class="pagination">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <a href="#" class="top">Top</a>
-</div>
-
-
+</article>
+{% endif %}

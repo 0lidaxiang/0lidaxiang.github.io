@@ -1,67 +1,120 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: 荒岛书生
+description: "程序员，文学、古琴、流行音乐、运动爱好者。"
+tagline: "程序 · 文字 · 生活"
+lang: zh-CN
+timezone: Asia/Shanghai
+url: "https://www.lidaxiang.cn"
+baseurl: ""
+theme: jekyll-theme-hydejack
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-# Site settings
-title:          荒岛书生
-description:    "程序员，文学、古琴、流行音乐、运动爱好者。"
-baseurl:        ""
-url:            "https://www.lidaxiang.cn/index/"
-# twitter_username: jekyllrb
-# github_username:  jekyll
-
-# Author
-author:
-  name:         荒岛书生
-  url:          https://www.lidaxiang.cn/index/
-  email:        lidaxiang0@outlook.com
-
-# Build settings
-markdown: kramdown
-# theme: minima
-
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-plugins_dir:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-
-
-# Permalinks
-permalink:     /:categories/:title
-
-# 首页显示的文章分页，每页数量
-paginate:       15
-
-# 文章摘要标识符
+# Keep the original post URLs and excerpt marker.
+permalink: /:categories/:title
 excerpt_separator: '<!---more--->'
+paginate: 15
+paginate_path: /page:num/
+markdown: kramdown
+highlighter: rouge
+
+# Use system fonts so the Chinese reading experience does not depend on Google Fonts.
+google_fonts: false
+font: 'system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif'
+font_heading: 'system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif'
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: '#4f7779'
+theme_color: '#193747'
+favicon: /favicon.ico
+apple_touch_icon: /assets/apple-touch-icon.png
+copyright: '© 2016–2026 荒岛书生。'
+
+author:
+  name: 荒岛书生
+  url: https://www.lidaxiang.cn/
+  email: lidaxiang0@outlook.com
+  about: "程序员，文学、古琴、流行音乐、运动爱好者。"
+  social:
+    github: 0lidaxiang
+    email: lidaxiang0@outlook.com
+    rss: https://www.lidaxiang.cn/feed.xml
+
+menu:
+  - title: 首页
+    url: /
+  - title: 技术
+    url: /workOutline/
+  - title: 生活
+    url: /lifeOutline/
+  - title: 标签
+    url: /tags/
+  - title: 联系
+    url: /contact/
+
+legal:
+  - title: RSS
+    url: /feed.xml
+
+# The UA identifier is archived in _data/legacy_analytics.yml.
+# Universal Analytics has been retired; it cannot collect new GA4 data.
+google_analytics: false
+
+hydejack:
+  post_addons: [about, related]
+  no_break_layout: true
+  no_breadcrumbs: true
+  no_search: true
+  no_push_state: false
+  use_lsi: false
+  cookies_banner: false
+  dark_mode:
+    dynamic: true
+    icon: true
+  offline:
+    enabled: false
 
 plugins:
+  - jekyll-feed
+  - jekyll-include-cache
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+sass:
+  style: compressed
+  quiet_deps: true
+  silence_deprecations: [import, global-builtin, color-functions, slash-div, if-function]
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: contact.md
+    values:
+      addons: []
+      hide_dates: true
+  - scope:
+      path: about_me_zh.md
+    values:
+      addons: []
+      hide_dates: true
+  - scope:
+      path: about_me_en.md
+    values:
+      addons: []
+      hide_dates: true
+  - scope:
+      path: donate.md
+    values:
+      addons: []
+      hide_dates: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CODE_OF_CONDUCT.md
+  - vendor
+  - scripts
+  - tests

@@ -1,0 +1,11 @@
+github:
+  name: GitHub
+  icon: icon-github
+  prepend: "https://github.com/"
+email:
+  name: 邮箱
+  icon: icon-mail
+  prepend: "mailto:"
+rss:
+  name: RSS
+  icon: icon-rss

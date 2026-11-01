@@ -1,0 +1,28 @@
+home: 首页
+posts: 文章
+pages: 页面
+navigation: 导航
+continue_reading: "继续阅读 <!--post_title-->"
+related_posts: 相关文章
+about: 关于作者
+posted: 发布于
+category_start: "分类："
+category_separator: " / "
+tag_start: "标签："
+tag_separator: "、"
+last_modified_at: 更新于
+breadcrumbs_home: 首页
+redirecting: 正在跳转…
+not_found:
+  title: 页面未找到
+  message: "这个链接没有对应的页面，可以从首页或分类目录继续查找。"
+search:
+  placeholder: 搜索文章
+separator: " · "
+colon: "："
+date_formats:
+  post: "%Y-%m-%d"
+  related_post: "%Y-%m-%d"
+  list_group_by: "%Y"
+  list_entry: "%m-%d"
+  last_modified_at: "%Y-%m-%d"

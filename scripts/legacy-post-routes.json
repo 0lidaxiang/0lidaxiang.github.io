@@ -1,0 +1,370 @@
+{
+  "_posts/work/tools/2015-04-15-eclipse-install-javaee-svn.md": {
+    "url": "/tools/eclipse-install-javaee-svn",
+    "source_sha256": "e89cf38460752364d96f5bbbddf2a08ca5dcd83979e344c86fc52655d3b63586"
+  },
+  "_posts/work/android/2015-04-22-android-quesions.md": {
+    "url": "/android/android-quesions",
+    "source_sha256": "f591c9b7d5a43c3c411a9f93af06e51460cd5ea17360ca34ed760bcb86387d85"
+  },
+  "_posts/work/java/2015-08-22-java-base.md": {
+    "url": "/java/java-base",
+    "source_sha256": "c484d6a7e692da85e3363e1c03df1493eb969f0ace04945b9332f88f0c570352"
+  },
+  "_posts/work/java/2015-08-23-java-set.md": {
+    "url": "/java/java-set",
+    "source_sha256": "edbc3b7837307ecf2479bc7b3386686297909fbd3bc36b02a6f0ac96c6fa38cc"
+  },
+  "_posts/work/java/2015-08-24-java-generics.md": {
+    "url": "/java/java-generics",
+    "source_sha256": "f55fbb6697774bf112721344ebc08e2c2066859bbfbfe0ed50ff0f45fa3a85b0"
+  },
+  "_posts/work/java/2015-08-25-java-el.md": {
+    "url": "/java/java-el",
+    "source_sha256": "f071a37685c9718a0d5bbc7cd42726726f5356f1cebc458fff2a024a495db8ca"
+  },
+  "_posts/work/java/2015-08-26-java-springMVC.md": {
+    "url": "/java/java-springMVC",
+    "source_sha256": "e46977fdfa8cc41496f2d248566972aa7406df6a58962f5b21ac7f293f6dcb74"
+  },
+  "_posts/work/others/2015-12-11-computer-questions.md": {
+    "url": "/others/computer-questions",
+    "source_sha256": "3988fad8d7298aa8317bb1a03a6fd2eda1a8a0f163dec48f7fa3cf221648b82b"
+  },
+  "_posts/others/2016-01-26-new-generation-younger-love.md": {
+    "url": "/others/new-generation-younger-love",
+    "source_sha256": "ea4e6595208916930bfd970d9ee52951d75c07c40af6a198e35bac59a4bd13fb"
+  },
+  "_posts/work/web_backEnd/2016-03-13-phonegap.md": {
+    "url": "/web_backend/phonegap",
+    "source_sha256": "40ca9a546c3804c4cd45124b1eeb7b713b20319c2f1a033fc5016d78f50ce66f"
+  },
+  "_posts/work/linux/2016-03-14-fedora-questions.md": {
+    "url": "/linux/fedora-questions",
+    "source_sha256": "a41136dbccfa2ef1f76fe407e4a287a68e019854dfb2be16695161f247937a4b"
+  },
+  "_posts/work/linux/2016-03-15-scp-ssh-server.md": {
+    "url": "/linux/scp-ssh-server",
+    "source_sha256": "5ab54dcfe0222d0af51725e5db09102c745a297822381d2026bf3cf3e774eaf6"
+  },
+  "_posts/books-notes/2016-10-01-shanHeZhiShu.md": {
+    "url": "/book-notes/shanHeZhiShu",
+    "source_sha256": "6f8d5789e85ae5b4265d797aa5799fdfbb5a4810a00f50a6c66830fec4f26953"
+  },
+  "_posts/literature/2016-10-22-impression-taipei.md": {
+    "url": "/literature/impression-taipei",
+    "source_sha256": "104e4e47c8fa75839eb246af77b06a6cb88cf47e5c1b317ee084bac591ca2817"
+  },
+  "_posts/philosophy/2016-10-22-live-for-what.md": {
+    "url": "/philosophy/live-for-what",
+    "source_sha256": "78378d98127f055eb2a4f5f39ff296891a24ec40f59c1d563522a14f44e0e4db"
+  },
+  "_posts/philosophy/2016-10-23-rebuild-faith.md": {
+    "url": "/philosophy/rebuild-faith",
+    "source_sha256": "2e0a093d77f66a1c4bf9eb378e1c99f19c33758effba6aad0c7e1de869527612"
+  },
+  "_posts/scenery/2016-11-17-on-the-road-to-taibei101.md": {
+    "url": "/scenery/on-the-road-to-taibei101",
+    "source_sha256": "d60171c9b7a8f15ecc39d39470646fd13e6399b862bbb43bcf731f3448c42d4d"
+  },
+  "_posts/others/2016-12-11-points-work-and-get.md": {
+    "url": "/others/points-work-and-get",
+    "source_sha256": "3d10b7468d027faed0dea8e03d418ffb25bd53f18c13e0633cd22e44bd62c43c"
+  },
+  "_posts/others/2016-12-11-some-points-for-internetWork.md": {
+    "url": "/others/some-points-for-internetWork",
+    "source_sha256": "180a3606bbd408edecdc1ac3f2995559367ce868eb7c58de14a5ffbb2683b823"
+  },
+  "_posts/books-notes/2016-12-22-advice-for-internet-novel.md": {
+    "url": "/book-notes/advice-for-internet-novel",
+    "source_sha256": "2a2126d22a5929efbf161520f0b822d5d3dddf84336c309ddbe6a6a723c5a0af"
+  },
+  "_posts/books-notes/2017-01-15-wiki-economic-book-notes.md": {
+    "url": "/book-notes/wiki-economic-book-notes",
+    "source_sha256": "fa5496c2cc60fb5544485097d782c6694788807e2ae138b6728f869422328365"
+  },
+  "_posts/books-notes/2017-02-02-fragmented-reading-notes.md": {
+    "url": "/book-notes/fragmented-reading-notes",
+    "source_sha256": "ea83af780cd1118267a0f30de0b9facb022e3c46a7d04f23f683bfb0cdde12b6"
+  },
+  "_posts/books-notes/2017-02-02-readbooks-notes.md": {
+    "url": "/book-notes/readbooks-notes",
+    "source_sha256": "4d79e0c3d7b9c56692ff97aa0c882a1c5e6291e924f40176ca9e97b8f354413d"
+  },
+  "_posts/work/points/2017-02-05-computer-of-future.md": {
+    "url": "/points/computer-of-future",
+    "source_sha256": "25a905ce9ee83bdcf6b5975953f8137609188f34345affefaecc2a22f0a6e93e"
+  },
+  "_posts/goals/2017-02-06-2017-my-read-book-list.md": {
+    "url": "/goals/2017-my-read-book-list",
+    "source_sha256": "5f9b5cd45b4805ea654a7acf20f29ad2128444a0ac9e23ac754f13942522f84e"
+  },
+  "_posts/goals/2017-02-06-2017_Goals.md": {
+    "url": "/goals/2017_Goals",
+    "source_sha256": "babb16d59cac19e7f7d835d1f4ca77a28652dff5387695712ea3152fcab44fde"
+  },
+  "_posts/scenery/2017-02-14-ntu-view.md": {
+    "url": "/scenery/ntu-view",
+    "source_sha256": "566ec5784613b17040921302b187a31360152890b6eaab6ed98bceeb85879073"
+  },
+  "_posts/scenery/2017-02-15-chinese-new-year-in-taipei.md": {
+    "url": "/scenery/chinese-new-year-in-taipei",
+    "source_sha256": "947c26341a1f9bcd2ac80b6e51c7e7deeec6dd9b56b6e699227c9437b5419ded"
+  },
+  "_posts/books-notes/2017-02-19-courage-annoyed.md": {
+    "url": "/book-notes/courage-annoyed",
+    "source_sha256": "bb42324f1e88b4319265834e89b554c9e266ee5f19e11750bf3de4968549fd7e"
+  },
+  "_posts/literature/2017-02-21-njcit-memory.md": {
+    "url": "/literature/njcit-memory",
+    "source_sha256": "47955e9f13c16a4ad9e0d7b9d26dc7a67c897f42e008c27f1e915ff47deae8c4"
+  },
+  "_posts/books-notes/2017-02-22-global-history-book-notes.md": {
+    "url": "/book-notes/global-history-book-notes",
+    "source_sha256": "b9554e0e78ee2d5250e623e6edcd2cd85121612bca49b9cb883387d44257234f"
+  },
+  "_posts/work/tools/2017-02-22-something-important-tools.md": {
+    "url": "/tools/something-important-tools",
+    "source_sha256": "bb9605f6f6dd84f49e23d9aff261c43f93bb0f1c0acf7f7cacddcd1434bf0265"
+  },
+  "_posts/work/web_backEnd/2017-02-23-apache-config-windowsServer.md": {
+    "url": "/web_backend/apache-config-windowsServer",
+    "source_sha256": "fa8f07afc74b71d2c76d5b1e3d0e7a60fcc03cb1a23fa4cbbc8b98eaacc245aa"
+  },
+  "_posts/work/web_backEnd/2017-02-25-Install-Apache2.4-PHP7-Mariadb-In-Fedora25.md": {
+    "url": "/web_backend/Install-Apache2.4-PHP7-Mariadb-In-Fedora25",
+    "source_sha256": "724e78f94edb7bd7b826e1bd05eff846f6c857a33f3cd5117538e40bbd0aa00e"
+  },
+  "_posts/books-notes/2017-02-27-import-history-to-2016.md": {
+    "url": "/book-notes/import-history-to-2016",
+    "source_sha256": "aca9083e4be7c28071a4d90b9a38ec2a624c24e508789c56390ce7d324353654"
+  },
+  "_posts/books-notes/2017-02-27-my-understanding-for-blockchain.md": {
+    "url": "/book-notes/my-understanding-for-blockchain",
+    "source_sha256": "733318b677f6c4c0ca98157a2a505e13824c8ea8137b6a4827a6977ed67bba82"
+  },
+  "_posts/books-notes/2017-02-27-simple-import-things-in-ecnomic.md": {
+    "url": "/book-notes/simple-import-things-in-ecnomic",
+    "source_sha256": "00391cf588cf7ac33b283b0ab3453cd9552aca713fc62ed7508ede8b16de706b"
+  },
+  "_posts/books-notes/2017-02-28-import-history-from-1-to-1000.md": {
+    "url": "/book-notes/import-history-from-1-to-1000",
+    "source_sha256": "5b4f44901a39f70c4d18336ccbb318ecfd36b01cf2af2cf9bd3d4d30d9edc7a7"
+  },
+  "_posts/books-notes/2017-02-28-import-history-from-1001-to-1499.md": {
+    "url": "/book-notes/import-history-from-1001-to-1499",
+    "source_sha256": "ebbf53cd7d498b8401030dac1e3af28d09eab96facf9ed0463279d72d783c7f2"
+  },
+  "_posts/books-notes/2017-02-28-import-history-from-1599-to-1899.md": {
+    "url": "/book-notes/import-history-from-1599-to-1899",
+    "source_sha256": "f553f322262b72b94d2ab026c3f26d063ff516aa414276468a4a74e27a1cc957"
+  },
+  "_posts/books-notes/2017-02-28-import-history-from-1901-to-now.md": {
+    "url": "/book-notes/import-history-from-1901-to-now",
+    "source_sha256": "06b3ea821cce99c9e0ee1354a96e6ed23f73207595b0c1aea2ed63ff39ba087e"
+  },
+  "_posts/work/linux/2017-03-14-install-fedora25-in-new-disk.md": {
+    "url": "/linux/install-fedora25-in-new-disk",
+    "source_sha256": "7b1c758f8ba062893e31a4117d2a1135fc4ce16cbaaa5925d3c589bdac7e3e60"
+  },
+  "_posts/scenery/2017-03-20-advice-for-taiwan-scenery.md": {
+    "url": "/scenery/advice-for-taiwan-scenery",
+    "source_sha256": "e9d8e2fda603b61db45c976d76eb8d034d58245b83c753bb5c4cd4a6dd3f9c53"
+  },
+  "_posts/work/python/django/2017-03-31-learn-django-demo.md": {
+    "url": "/python/learn-django-demo",
+    "source_sha256": "23a4789b3f5b8b051021adabc9cedd67a7b0452b7e5e2a40bdd218e9add8b96d"
+  },
+  "_posts/others/2017-04-01-senior-fear-for-future.md": {
+    "url": "/others/senior-fear-for-future",
+    "source_sha256": "2a2b9ee3922e6f950add9976b162310bdae416c20543acc39686d00fdfaf6fdf"
+  },
+  "_posts/work/points/2017-04-19-import-technoligy-work.md": {
+    "url": "/points/import-technoligy-work",
+    "source_sha256": "f4f7f9463757a9e9a7c86476d28c9f4d09c93076474cb383e3551be348158c27"
+  },
+  "_posts/work/web_backEnd/2017-05-22-Install-And-Use-Laravel-Framework-In-Fedora25.md": {
+    "url": "/web_backend/Install-And-Use-Laravel-Framework-In-Fedora25",
+    "source_sha256": "3acfdd3ffc4c6f94852dd92dde863cb96030afb14d0fc9fac0671d173a785f9a"
+  },
+  "_posts/work/editVideo/2017-08-01-lightworks-intro.md": {
+    "url": "/editvideo/lightworks-intro",
+    "source_sha256": "47462c9199c71c8ab7ea9267c70cf2207f9c47fa9c826e74754c98489cbff013"
+  },
+  "_posts/scenery/2017-08-02-notice-in-taipei.md": {
+    "url": "/scenery/notice-in-taipei",
+    "source_sha256": "ff2f4652609ed1d3982f1ad8785529ca1273ca875f91579475d3407138faf2b9"
+  },
+  "_posts/work/deepLearning/2017-11-17-keras_intro.md": {
+    "url": "/deeplearning/keras_intro",
+    "source_sha256": "a37f06fc96f1dd4f9e86e7be4d8aa4493d15b10aec3830d6a707eaba411547b7"
+  },
+  "_posts/work/database/2017-12-09-mysql-modify-password-questions.md": {
+    "url": "/database/mysql-modify-password-questions",
+    "source_sha256": "5d6420aed41caa4a5e4e43cabcdbadff61d81724596ee8bfea78cafb2a1c7656"
+  },
+  "_posts/goals/2017-12-10-where-want-to-see.md": {
+    "url": "/goals/where-want-to-see",
+    "source_sha256": "528c008a360b83750671a15edbe64ee4f3f89ac8e3e7c04aae35b1f61006e27e"
+  },
+  "_posts/philosophy/2017-12-10-about-where-best.md": {
+    "url": "/philosophy/about-where-best",
+    "source_sha256": "f29f2d9bac17b051bce3daf6c58cb560393774901ed93198d5f40578dee004e4"
+  },
+  "_posts/philosophy/education/2017-12-11-not-use-powerpoint.md": {
+    "url": "/philosophy/not-use-powerpoint",
+    "source_sha256": "8f53a251295e7aeec0ed29745b8d57a5f74b7fb2a62ef134dbbbfcb2a8fc4a16"
+  },
+  "_posts/philosophy/education/2017-12-11-why-live-not-fun.md": {
+    "url": "/philosophy/why-live-not-fun",
+    "source_sha256": "4c16c0eb16ae5081b41929aa1ebd12d5ea8c3e8a059fce487b2c9171d0b2e48b"
+  },
+  "_posts/work/web_frontEnd/2017-12-12-html-experience.md": {
+    "url": "/web_frontend/html-experience",
+    "source_sha256": "04d98f7ea3182363a48db721fdcfb0581a1bed51ba92205c473c9d270d10345f"
+  },
+  "_posts/work/web_frontEnd/2017-12-13-js-modify-css.md": {
+    "url": "/web_frontend/js-modify-css",
+    "source_sha256": "2bd27ff99aefd51489ed3c29c0077531fe4127cce8d7eb64dee0b5704157cb65"
+  },
+  "_posts/books-notes/2017-12-14-moon-and-sixpence.md": {
+    "url": "/book-notes/moon-and-sixpence",
+    "source_sha256": "c2833c14e2f10ac5944db0c4146cd15cb0cd486ce21d9bc87eb0899e6a2b074d"
+  },
+  "_posts/books-notes/2017-12-15-outliers-the-story-of-success.md": {
+    "url": "/book-notes/outliers-the-story-of-success",
+    "source_sha256": "13d5bd05db52414bf07932bfa93a70e027125dc4a64b431442a39f8b2cfcf8fd"
+  },
+  "_posts/work/linux/2017-12-17-bash-text-color-config.md": {
+    "url": "/linux/bash-text-color-config",
+    "source_sha256": "0e5c2c31a224308ddb98de70b618b1310eed6fd1915a750ddd7b39f9b70ce276"
+  },
+  "_posts/scenery/2017-12-21-mummy-exhibition-taipei.md": {
+    "url": "/scenery/mummy-exhibition-taipei",
+    "source_sha256": "13ca8eee0ec908beab9fd1faa1dd8f0c45e3510c669a2f3ecabe8130ad3c7377"
+  },
+  "_posts/literature/2018-01-02-for-a-white-hair.md": {
+    "url": "/literature/for-a-white-hair",
+    "source_sha256": "e497de5e07bf86060eecfb6b4d6e44bb3c7a5f73d536b1987f5b080fe4f2c15b"
+  },
+  "_posts/books-notes/2018-01-07-divine-comedy.md": {
+    "url": "/book-notes/divine-comedy",
+    "source_sha256": "c704c714aeac9cde808e8e5f37e029e1c0e52300acf4f0d899d2246517fa2769"
+  },
+  "_posts/work/linux/2018-03-11-after-install-ubuntu16-04.md": {
+    "url": "/linux/after-install-ubuntu16-04",
+    "source_sha256": "e684645c68d765bb3556acf03183dc9b31bb7055a770c310686da3ee3576179f"
+  },
+  "_posts/work/tools/2018-03-12-editor-tools.md": {
+    "url": "/tools/editor-tools",
+    "source_sha256": "d158efec84980eab1b8bd67a822a881267cdaaab8366ac297b067fc5f2e3b239"
+  },
+  "_posts/work/linux/2018-03-14-linux-helpful-commands.md": {
+    "url": "/linux/linux-helpful-commands",
+    "source_sha256": "c43feb35444b6ca90e8b1b47e4bd7d3e3be8fb9314c3360c33b3921e0010c1f5"
+  },
+  "_posts/philosophy/2018-04-19-why-we-should-word-hard.md": {
+    "url": "/literature/why-we-should-word-hard",
+    "source_sha256": "bfe841c87f71492a717e5c8fcc3e9b0c0d14f10d3d28c840a01d55ee3cd43102"
+  },
+  "_posts/experience/2018-06-01-notes-of-ntust-lectures.md": {
+    "url": "/experience/notes-of-ntust-lectures",
+    "source_sha256": "1c35079cd8f49c653413572f2aba453446b9e5e16ca9f5afb7f2ce2b6ad277b4"
+  },
+  "_posts/work/android/2018-06-18-install-and-try-flutter.md": {
+    "url": "/android/install-and-try-flutter",
+    "source_sha256": "8556b4d96013340aa45e1b46582338435345bc64cdec3431769de57ba5b22c65"
+  },
+  "_posts/literature/2018-7-1-graduate-photos.md": {
+    "url": "/literature/graduate-photos",
+    "source_sha256": "ebb5e07fa65fa893668ca9954b590dc769ffd1b4d0b6e2ed9af6f3ce120a9f11"
+  },
+  "_posts/literature/2018-7-7-summary-of-ntust.md": {
+    "url": "/literature/summary-of-ntust",
+    "source_sha256": "8abcc6fb4c4d68ba567419468ce7cff79947802ff764746d93e2e9e1b496463d"
+  },
+  "_posts/literature/2018-08-13-high-speed-rail.md": {
+    "url": "/literature/high-speed-rail",
+    "source_sha256": "67bc858d07961af89c7e0659acf16515d2154e80a1ac32a5f007800792417fdc"
+  },
+  "_posts/literature/2018-09-10-two-years-in-ntust.md": {
+    "url": "/literature/two-years-in-ntust",
+    "source_sha256": "356ebd3a63c8ddc73387879558d11d3f172b1edeb11f52abc5dc1b9858179fe3"
+  },
+  "_posts/work/python/2018-10-08-experience-python.md": {
+    "url": "/python/experience-python",
+    "source_sha256": "82a0d653bd98069c2780e7ad28e3067ab435726b09fdc27920861289c4affc42"
+  },
+  "_posts/work/web_backEnd/2018-10-10-experience-high-performance.md": {
+    "url": "/web_backend/experience-high-performance",
+    "source_sha256": "ac4e824d190831e9022d233f6bf7a1d5e2e20d4e50a4cab666d5c0b2a67a5d9f"
+  },
+  "_posts/work/python/django/2018-10-15-django-modules.md": {
+    "url": "/python/django-modules",
+    "source_sha256": "2ac9098ed49aa99fc0f3cc703d80ca16a0f6db32ffd44ee3a2ed08950a25dd3c"
+  },
+  "_posts/work/python/2018-10-16-nginx-uwsgi.md": {
+    "url": "/python/nginx-uwsgi",
+    "source_sha256": "bfcf11959638b9fd442d4c2c6ded2c2c218c9976ef1b7e6783f400504516d1b7"
+  },
+  "_posts/work/python/django/django_modules/2018-10-31-django-rest-framework.md": {
+    "url": "/python/django-rest-framework",
+    "source_sha256": "9097182875c70cfcfde009e09644f1a5ef269d1b413b726b7aacf5ef179b6c44"
+  },
+  "_posts/work/versionControl/2018-11-19-git-introduction.md": {
+    "url": "/versioncontrol/git-introduction",
+    "source_sha256": "c1cd9f349a211e8587c13749efd3858dc0880742bb981c9a2f1dcb95f31723ef"
+  },
+  "_posts/work/architecture/2018-11-22-user-permisstion-architecture.md": {
+    "url": "/architecture/user-permisstion-architecture",
+    "source_sha256": "9a8fce57e98900c98be211be75d9d16f980a3fbfc8751cddc478349540d2fbd7"
+  },
+  "_posts/work/versionControl/2018-11-22-git-command-user-introduction.md": {
+    "url": "/versioncontrol/git-command-user-introduction",
+    "source_sha256": "b2eea8b3fa6aca6c8a4fb655fabaa7675e5f7f68deff8ec757c3811fd095b7e1"
+  },
+  "_posts/work/python/2018-12-10-\bstring-datetime-convert.md": {
+    "url": "/python/string-datetime-convert",
+    "source_sha256": "d4616872d25c344a53659f4f10d824d2e98c753b5e48017735a824666a44f9b5"
+  },
+  "_posts/work/python/django/django_modules/2018-12-11-django-crontab.md": {
+    "url": "/python/django-crontab",
+    "source_sha256": "18ebc8aaafd642c3db24da0a299297ef7cf0d058b7393698742001c13586c4d5"
+  },
+  "_posts/work/python/django/2018-12-12-experience-django.md": {
+    "url": "/python/experience-django",
+    "source_sha256": "10e84aff3387a605329b6210db265d4c9596691c93cc1a3cab89ea1171ba3252"
+  },
+  "_posts/work/database/2019-11-07-hundred-mysql-question.md": {
+    "url": "/architecture/hundred-mysql-question",
+    "source_sha256": "c5e0aa70b339dcde234a706155e40158eee433f0b8b3cd6458ad0b62e87af438"
+  },
+  "_posts/work/database/2019-12-21-mysql-distributed.md": {
+    "url": "/architecture/mysql-distributed",
+    "source_sha256": "a9e0357e9233abee323da37cdd5a717448cbf5420f4df7116cb08e70b1cf3c64"
+  },
+  "_posts/work/architecture/2020-03-30-anyinfo-java.md": {
+    "url": "/architecture/anyinfo-java",
+    "source_sha256": "674b55d82b61eb69a4dac8e983818476d11d9ad7f3bfb740dc9f7796292f07c6"
+  },
+  "_posts/work/java/2020-06-20-prometheus.md": {
+    "url": "/architecture/prometheus",
+    "source_sha256": "c1db1165cdcfac7bd464110e8f1bdea9faef77c8fb81173c8729abd6b7b53ba0"
+  },
+  "_posts/work/linux/2020-07-18-firewalld-centos.md": {
+    "url": "/live/firewalld-centos",
+    "source_sha256": "27a6d003ee952367def3bf14426c48e7db127b09e4bef49546e8fbd1984700f7"
+  },
+  "_posts/work/docker/2020-09-12-how-to-use-docker-with-django.md": {
+    "url": "/architecture/how-to-use-docker-with-django",
+    "source_sha256": "a7c9055f4a1aa8082872d053f67f0c6c07e759e70e7ef70d106ca71bbfd4619f"
+  },
+  "_posts/work/monitor/2020-09-13-how-to-use-grafana.md": {
+    "url": "/architecture/how-to-use-grafana",
+    "source_sha256": "0ce9eb8a0c1731ee38fb7ff316926b9b02752a8f0e4dc6cbb3b88ae67c8199b7"
+  },
+  "_posts/work/coding/2020-09-20-improve-coding-use-conditionals.md": {
+    "url": "/codingskils/improve-coding-use-conditionals",
+    "source_sha256": "22f3bf634022edfcee30c556b4439741668656bed41efba7cc5e2ac3839b6a0e"
+  }
+}
