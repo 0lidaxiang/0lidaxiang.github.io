@@ -1,0 +1,9 @@
+// Keep toolbar geometry stable across Hydejack's root-font breakpoints.
+#_navbar > .content { max-height: 56px; }
+#_navbar .nav-btn-bar { height: 56px; }
+#_navbar .nav-btn { width: 48px; height: 56px; }
+#_navbar > .content::before {
+  height: 56px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .08);
+}
+#_main { padding-top: calc(56px + 2rem); }

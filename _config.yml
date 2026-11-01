@@ -6,6 +6,7 @@ timezone: Asia/Shanghai
 url: "https://www.lidaxiang.cn"
 baseurl: ""
 theme: jekyll-theme-hydejack
+logo: /assets/img/avatar-earth-cat.png
 
 # Keep the original post URLs and excerpt marker.
 permalink: /:categories/:title
@@ -22,12 +23,13 @@ font_heading: 'system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: '#4f7779'
 theme_color: '#193747'
-favicon: /favicon.ico
-apple_touch_icon: /assets/apple-touch-icon.png
+favicon: /favicon.ico?v=earth-cat-20261101
+apple_touch_icon: /assets/apple-touch-icon.png?v=earth-cat-20261101
 copyright: '© 2016–2026 荒岛书生。'
 
 author:
   name: 荒岛书生
+  picture: /assets/img/avatar-earth-cat.png
   url: https://www.lidaxiang.cn/
   email: lidaxiang0@outlook.com
   about: "程序员，文学、古琴、流行音乐、运动爱好者。"
@@ -59,6 +61,9 @@ google_analytics: false
 hydejack:
   post_addons: [about, related]
   no_break_layout: true
+  no_large_headings: true
+  # Local blog-template option; titles remain links to the full articles.
+  hide_read_more: true
   no_breadcrumbs: true
   no_search: true
   no_push_state: false

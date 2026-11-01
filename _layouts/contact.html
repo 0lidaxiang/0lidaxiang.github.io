@@ -8,6 +8,21 @@ layout: base
     <h1 id="contact-title" class="page-title">{{ page.title }}</h1>
   </header>
   <div class="contact-meta">{{ sections.first | markdownify }}</div>
+  <div class="contact-socials">
+    {% for account in page.social_accounts %}
+    <section class="contact-method contact-account" aria-label="{{ account.platform | escape }}">
+      <h2>{{ account.platform }}</h2>
+      <p class="contact-account-name">{{ account.name }}</p>
+      <a class="contact-qr-link" href="{{ account.qr | relative_url }}" aria-label="查看{{ account.platform }}二维码原图">
+        <img class="contact-qr" src="{{ account.qr | relative_url }}" alt="{{ account.name }}的{{ account.platform }}二维码" width="{{ account.qr_size }}" height="{{ account.qr_size }}">
+      </a>
+      {% if account.url %}
+      <p><a href="{{ account.url | escape }}" target="_blank" rel="noopener noreferrer">{{ account.link_label }}</a></p>
+      {% endif %}
+      <p class="contact-account-hint">{{ account.hint }}</p>
+    </section>
+    {% endfor %}
+  </div>
   <div class="contact-methods">
     {% for section in sections offset:1 %}
     <section class="contact-method">

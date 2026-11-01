@@ -1,0 +1,25 @@
+// Bound reading titles independently of Hydejack's wide-screen display scale.
+.content .post-title,
+.content .page-title {
+  width: auto;
+  max-width: 100%;
+  font-size: clamp(1.625rem, 1.4rem + .5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+// Lists need a quieter hierarchy than the heading of a full article.
+.content .post-list .post-title {
+  font-size: clamp(1.375rem, 1.2rem + .4vw, 1.75rem);
+  line-height: 1.4;
+  margin-bottom: .75rem;
+  text-wrap: wrap;
+}
+.post-list > .post { margin-bottom: 2.5rem; }
+.post-list > .post > header { margin-bottom: .75rem; }
+.post-list .post-date { min-height: 0; margin-bottom: .5rem; }
+.post-list > .post > p:last-child { margin-bottom: 0; }
+.post-list .read-more { font-size: .875rem; }
+.post-list .read-more .heading { font-weight: 600; }
