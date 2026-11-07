@@ -6,7 +6,7 @@ timezone: Asia/Shanghai
 url: "https://www.lidaxiang.cn"
 baseurl: ""
 theme: jekyll-theme-hydejack
-logo: /assets/img/avatar-earth-cat.png
+logo: /assets/img/avatar-earth-cat-360.webp
 
 # Keep the original post URLs and excerpt marker.
 permalink: /:categories/:title
@@ -29,7 +29,7 @@ copyright: '© 2016–2026 荒岛书生。'
 
 author:
   name: 荒岛书生
-  picture: /assets/img/avatar-earth-cat.png
+  picture: /assets/img/avatar-earth-cat-360.webp
   url: https://www.lidaxiang.cn/
   email: lidaxiang0@outlook.com
   about: "程序员，文学、古琴、流行音乐、运动爱好者。"

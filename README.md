@@ -39,13 +39,13 @@ JEKYLL_ENV=production bundle exec jekyll build --trace
 - 文章摘要分隔符仍为 `<!---more--->`，图片中的 Liquid 路径保持不变。
 - `/workOutline/`、`/lifeOutline/`、`/tags/`、联系、关于和赞赏等原页面网址保留。
 - `/index/`、`/indexlife.html` 和 `/tags_cloud/` 保留兼容跳转；首页分页仍为 `/page2/` 等原格式。
-- 侧栏与文章作者介绍共用地球猫头像，分别由 `_config.yml` 的 `logo` 和 `author.picture` 指定，图片保存在 `assets/img/avatar-earth-cat.png`；主题原生样式以圆形显示，原始方图保留。
+- 侧栏与文章作者介绍共用地球猫头像，分别由 `_config.yml` 的 `logo` 和 `author.picture` 指定，页面使用 360px 的 `assets/img/avatar-earth-cat-360.webp`（约 19 KB）；主题原生样式以圆形显示，原始方图 `assets/img/avatar-earth-cat.png` 保留。
 - 浏览器图标使用猫脸局部裁切，`favicon.ico` 包含 16/32/48/64px 四档尺寸；`assets/apple-touch-icon.png` 为 180px 触屏图标。图标 URL 带版本参数以更新浏览器缓存。
 - 导航、中文文案、字体与色彩见 `_config.yml`、`_data/strings.yml` 和 `_sass/my-style.scss`。
 - 关闭 Hydejack 的宽屏大标题；`_sass/_site-typography.scss` 分别约束列表标题（约 22–30px）与文章/独立页标题（约 26–34px），通过 `my-inline.scss` 和 `my-style.scss` 同时用于正式首屏和完整样式。`_layouts/blog.html` 保留官方列表逻辑，增加 `.post-list` 容器以区分列表排版。
 - 顶部工具栏通过 `_sass/_site-navigation.scss` 统一为 56px，按钮宽 48px，正文从工具栏下方 `2rem` 开始；首屏和完整样式共用，避免宽屏根字号导致高度变化。
 - 首页默认隐藏摘要后的“继续阅读”，点击文章标题进入全文。`_config.yml` 的 `hydejack.hide_read_more` 是本仓库通过 `_includes/components/post.html` 增加的开关，设为 `false` 可恢复主题入口；摘要显示保持不变。首页文章间距为 `2.5rem`，标题区到摘要为 `.75rem`。
-- 联系页顶部新增小红书与微信公众号卡片，账号名称均为“荒岛书生codedoctor”；配置位于 `contact.md` 的 `social_accounts`，二维码原图保存在 `assets/img/contact/`，显示宽度为 180px，可点击打开原图，小红书提供主页链接。宽屏并排，窄屏单列。
+- 联系页顶部新增小红书与微信公众号卡片，账号名称均为“荒岛书生codedoctor”；配置位于 `contact.md` 的 `social_accounts`，二维码原图保存在 `assets/img/contact/`，显示宽度为 180px，小红书使用 540px PNG 预览图（约 155 KB），公众号继续使用原图，可点击打开原图，小红书提供主页链接。宽屏并排，窄屏单列。
 - 联系页使用独立的 `contact` 布局，标题改为“联系我”，微信 ID 按用户要求更新为 `codedoctor`，其余联系方式保留；宽屏自动并排，手机单列。
 - 文章分类和标签完整换行；目录的长标题与日期分开排版；宽表格与代码块在自身范围内横向滚动。
 - `_plugins/legacy_image_paths.rb` 在构建时为 Lightworks 文章的两张图片生成原 `/images/work/lightworks/` 地址，从现有资产复制，文章里的链接不改。

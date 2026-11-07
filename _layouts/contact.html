@@ -13,7 +13,7 @@ layout: base
     <section class="contact-method contact-account" aria-label="{{ account.platform | escape }}">
       <h2>{{ account.platform }}</h2>
       <p class="contact-account-name">{{ account.name }}</p>
-      <a class="contact-qr-link" href="{{ account.qr | relative_url }}" aria-label="查看{{ account.platform }}二维码原图">
+      <a class="contact-qr-link" href="{{ account.qr_original | default:account.qr | relative_url }}" aria-label="查看{{ account.platform }}二维码原图">
         <img class="contact-qr" src="{{ account.qr | relative_url }}" alt="{{ account.name }}的{{ account.platform }}二维码" width="{{ account.qr_size }}" height="{{ account.qr_size }}">
       </a>
       {% if account.url %}

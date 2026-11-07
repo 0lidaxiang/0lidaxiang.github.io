@@ -7,8 +7,9 @@ social_accounts:
     name: 荒岛书生codedoctor
     url: https://xhslink.com/m/7mMhFIxAvCX
     link_label: 打开小红书主页
-    qr: /assets/img/contact/xiaohongshu-qr.png
-    qr_size: 1254
+    qr: /assets/img/contact/xiaohongshu-qr-540.png
+    qr_original: /assets/img/contact/xiaohongshu-qr.png
+    qr_size: 540
     hint: 用小红书扫码，或点击链接查看主页。
   - platform: 微信公众号
     name: 荒岛书生codedoctor
