@@ -1,0 +1,2692 @@
+{
+  "version": 1,
+  "photo_quality": 80,
+  "brands": {
+    "/assets/img/avatar-earth-cat.png": {
+      "source_sha256": "6679797fef9cd5a1d42581cbf89bf0e783f0840ca6e4e432a57c0d70f84dc0e9",
+      "source_bytes": 2116284,
+      "path": "/assets/img/avatar-earth-cat-360.webp",
+      "width": 360,
+      "height": 360,
+      "bytes": 19672
+    },
+    "/assets/img/contact/wechat-public-qr.png": {
+      "source_sha256": "a0bfa9fdf94a633248e454558ba367cdd1ad31bb1ebdbcaf3cfb5e5fd04ae9f4",
+      "source_bytes": 70364,
+      "path": "/assets/img/contact/wechat-public-qr.webp",
+      "width": 430,
+      "height": 430,
+      "bytes": 33964
+    },
+    "/assets/img/contact/xiaohongshu-qr.png": {
+      "source_sha256": "d7c10a90ccaae1da354fbddf04383dcec3143047780444d994c2a361e943b0e5",
+      "source_bytes": 1383909,
+      "path": "/assets/img/contact/xiaohongshu-qr-540.png",
+      "width": 540,
+      "height": 540,
+      "bytes": 158364
+    },
+    "/assets/img/sidebar-bg.jpg": {
+      "source_sha256": "f54d992d1e6e36fa3a7e663f27bcd5aa427e8c3f3c4010a91458193392738536",
+      "source_bytes": 156112,
+      "path": "/assets/img/sidebar-bg.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 21840
+    }
+  },
+  "photos": {
+    "/assets/images/literature/graduate-photos/dianli_all.jpg": {
+      "source_sha256": "c451ec9572b5a1846a07ee02322fc813e8b411c04735c394ebc51ec745c51c18",
+      "source_bytes": 2248195,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3a0d4fb3aba9e75c-640.webp",
+          "width": 640,
+          "height": 203,
+          "bytes": 33666
+        },
+        {
+          "path": "/assets/img/optimized/3a0d4fb3aba9e75c-1280.webp",
+          "width": 1280,
+          "height": 407,
+          "bytes": 92692
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_dianzi_flag.jpg": {
+      "source_sha256": "95ec74d501cd745c48a1fe47cce7432e3165881a1b535b8f9a52cf5d7d8416cb",
+      "source_bytes": 3973810,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fd437b3ce8a1cadc-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 35042
+        },
+        {
+          "path": "/assets/img/optimized/fd437b3ce8a1cadc-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 112114
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_four_lusheng.jpg": {
+      "source_sha256": "311f0da9506ce427c6d571520e33d8e460f675af1787a18adcd06540a9f3f919",
+      "source_bytes": 2039248,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/ff45d77c8fab6256-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 23648
+        },
+        {
+          "path": "/assets/img/optimized/ff45d77c8fab6256-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 54308
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_ji_me.jpg": {
+      "source_sha256": "d8ffb2eee951aca3cfd05ce3d1476c775d94165603fc5889acb21d7053cd2eb8",
+      "source_bytes": 947614,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/4101316772faba64-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 78438
+        },
+        {
+          "path": "/assets/img/optimized/4101316772faba64-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 215804
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_jiang_me.jpg": {
+      "source_sha256": "ea35c30f4e3edf92f06c02ae513f72fac983d7c18418897b0f6ebd86f442667a",
+      "source_bytes": 694009,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/939f22736fcee421-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 43000
+        },
+        {
+          "path": "/assets/img/optimized/939f22736fcee421-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 109234
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_me1.jpeg": {
+      "source_sha256": "2a71f9bd60ea130e7c7d3ee8a6139cfe6eb55726635988f16ff274866f4870b3",
+      "source_bytes": 900202,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/292aebebbf30e31d-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 55280
+        },
+        {
+          "path": "/assets/img/optimized/292aebebbf30e31d-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 166258
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_me2.jpg": {
+      "source_sha256": "19893f179f1abde0b0113d22185bfe3e35caec2335ed2da70a5b467bf751c1bf",
+      "source_bytes": 2484028,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/ad0a162f6c17f56f-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 25912
+        },
+        {
+          "path": "/assets/img/optimized/ad0a162f6c17f56f-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 62860
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_me3.jpeg": {
+      "source_sha256": "3e4442eed5f263876ef0ca7abaaee3441285143d8db3c675bb320b32ef5be4d4",
+      "source_bytes": 832347,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/2e54ed7b42154afd-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 80986
+        },
+        {
+          "path": "/assets/img/optimized/2e54ed7b42154afd-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 232732
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_play_music.jpg": {
+      "source_sha256": "5f52dc2a4b03e905e00cd4a52ddbb9914785a2341c49795a25a9253a9dba0e39",
+      "source_bytes": 4069298,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/d7057c42178eddcb-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 50344
+        },
+        {
+          "path": "/assets/img/optimized/d7057c42178eddcb-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 132688
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_start_music.jpg": {
+      "source_sha256": "b94a103475108a7a2fdf51f11c79e6bc4b23fbf3ed03c373ee860e78932011db",
+      "source_bytes": 4057821,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/59c0b1b3ff93cb1b-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 41332
+        },
+        {
+          "path": "/assets/img/optimized/59c0b1b3ff93cb1b-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 108590
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_weiting1.jpg": {
+      "source_sha256": "60bc4fb1a95e6b3026c4e95bf1f2ea19c258cee439da8173b56a6afed8f4b3a5",
+      "source_bytes": 1314574,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/b8ee693e6ec20249-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 67362
+        },
+        {
+          "path": "/assets/img/optimized/b8ee693e6ec20249-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 246402
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_weiting2.jpg": {
+      "source_sha256": "019bccb40c2118d905350b233fd05a21966d92000409eb27d5bf4a97d6bcbe64",
+      "source_bytes": 948795,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/cea319c5140ed0d1-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 69948
+        },
+        {
+          "path": "/assets/img/optimized/cea319c5140ed0d1-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 197146
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_xiaozhang_give.jpg": {
+      "source_sha256": "cd4ced77253aac5de2e3a3db9d51ba5fd2950a94c6be7a8df3b1443398b804df",
+      "source_bytes": 3848285,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/91db99577646676f-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 36310
+        },
+        {
+          "path": "/assets/img/optimized/91db99577646676f-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 95820
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/dianli_xieguanhong.jpg": {
+      "source_sha256": "668854d02ccc201f71859d42abd1fdf62c4661b46802b3292ab2afdb125255d4",
+      "source_bytes": 3331309,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3dac3dd249ae021f-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 31166
+        },
+        {
+          "path": "/assets/img/optimized/3dac3dd249ae021f-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 78006
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/pic101_me.jpeg": {
+      "source_sha256": "23303190aadb7db86ab47c00357ea3126d5e01877303107a98801784f386c610",
+      "source_bytes": 1250352,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/6b81e01150a8baec-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 68302
+        },
+        {
+          "path": "/assets/img/optimized/6b81e01150a8baec-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 251528
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/pic101_zhangji_me.jpeg": {
+      "source_sha256": "2fea6c05d1b8d4086cadabd677762985fccf7505d775c5e34075e8e0ca8c1cff",
+      "source_bytes": 98966,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/e05c99a30d4ed97f-640.webp",
+          "width": 640,
+          "height": 861,
+          "bytes": 42366
+        },
+        {
+          "path": "/assets/img/optimized/e05c99a30d4ed97f-992.webp",
+          "width": 992,
+          "height": 1334,
+          "bytes": 80376
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/pic101_zonghan_me.jpg": {
+      "source_sha256": "df5390450bf41e00240f84dacd68b6e8c49957eaeaff361c9f2b2f9d42f8dffa",
+      "source_bytes": 2215174,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1f14a5f6d75abbeb-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 66842
+        },
+        {
+          "path": "/assets/img/optimized/1f14a5f6d75abbeb-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 240038
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/songshan_four_people.jpg": {
+      "source_sha256": "0b1f0244c7369bb70bb23a0bfde571e305cc345541438791027742db1d79dd3a",
+      "source_bytes": 3390944,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/c35efaa6a050da59-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 61152
+        },
+        {
+          "path": "/assets/img/optimized/c35efaa6a050da59-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 212472
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/songshan_zhangji_me.jpg": {
+      "source_sha256": "52ca023a069c2c241bdce3440998f4de79c0cc626aeb7b87e86a099feb034ac8",
+      "source_bytes": 2543498,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/6cb324af434f2880-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 109762
+        },
+        {
+          "path": "/assets/img/optimized/6cb324af434f2880-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 425262
+        }
+      ]
+    },
+    "/assets/images/literature/graduate-photos/songshan_zhangji_zonghan_me.jpg": {
+      "source_sha256": "daddea25cd41662b2d54da890524806a141e60515e4e9abea31da9486d12fc75",
+      "source_bytes": 2470399,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3ac3da6784e18a6f-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 107500
+        },
+        {
+          "path": "/assets/img/optimized/3ac3da6784e18a6f-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 407618
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/2015-3-longhua-pingxi.jpg": {
+      "source_sha256": "18b61d30eadfb9eecdbd7d8468282275212b94b5715a4753709c7017965737ee",
+      "source_bytes": 74629,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f6efad712bef938c-540.webp",
+          "width": 540,
+          "height": 960,
+          "bytes": 41942
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_112848634.jpg": {
+      "source_sha256": "7eb4b248c1d6e85c11381a0d149588fc13751e17f22bb37adc87aa17422dc5f1",
+      "source_bytes": 424384,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/ea73a0721306a689-640.webp",
+          "width": 640,
+          "height": 1138,
+          "bytes": 75516
+        },
+        {
+          "path": "/assets/img/optimized/ea73a0721306a689-1280.webp",
+          "width": 1280,
+          "height": 2276,
+          "bytes": 211920
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_131736547.jpg": {
+      "source_sha256": "d454c1f9102b3aaa3469063ecf4dfe4617d6be96b975b001563c35b062e5cfc6",
+      "source_bytes": 390470,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/2c38404ce2e0320d-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 20458
+        },
+        {
+          "path": "/assets/img/optimized/2c38404ce2e0320d-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 54070
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_131930151.jpg": {
+      "source_sha256": "8863c166fbd8dbc7815418046137d166b4061de67921f76b846d83939efecebe",
+      "source_bytes": 420194,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f3a4a234236dda4a-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 35514
+        },
+        {
+          "path": "/assets/img/optimized/f3a4a234236dda4a-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 107916
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_170539771.jpg": {
+      "source_sha256": "eb32b52eecda52175e128b048bed0f1f7adda0c1da6184311bfb9a4462511c62",
+      "source_bytes": 649412,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/120ba3ef3d628129-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 39904
+        },
+        {
+          "path": "/assets/img/optimized/120ba3ef3d628129-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 127742
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_170553290.jpg": {
+      "source_sha256": "4fbc75fcb74e434c1e3e226294e6a8afd7d3ea8e284587987992aff40ab1a837",
+      "source_bytes": 444811,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/272c7062703f85d7-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 37908
+        },
+        {
+          "path": "/assets/img/optimized/272c7062703f85d7-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 93224
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_170610984.jpg": {
+      "source_sha256": "0b4dc8c2bc41c6d5ca44e1d544b191a8f0e04f9d0b42dd4fe600babe977e5cbe",
+      "source_bytes": 423834,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/c660afcd1205c52c-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 29558
+        },
+        {
+          "path": "/assets/img/optimized/c660afcd1205c52c-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 78222
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170127_173044144_TOP.jpg": {
+      "source_sha256": "f7c31e18531e9f8de52592bd1f6788f26345901cf00976a462e2c9617241592d",
+      "source_bytes": 461656,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/a4934488cbbae80d-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 30732
+        },
+        {
+          "path": "/assets/img/optimized/a4934488cbbae80d-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 82482
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170128_130124053_HDR.jpg": {
+      "source_sha256": "2c6d7bb8c26d690ea9d264faabb7b8d3866a3e485ca87780a798c2adaacecf4f",
+      "source_bytes": 1073797,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1df6958a3aed435a-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 76216
+        },
+        {
+          "path": "/assets/img/optimized/1df6958a3aed435a-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 280134
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170128_131745607.jpg": {
+      "source_sha256": "f18e26456bc5b8c63299cf291be79c3999166ff3fceaf989981a7068f135156c",
+      "source_bytes": 369818,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/d96328d714250498-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 26178
+        },
+        {
+          "path": "/assets/img/optimized/d96328d714250498-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 67516
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170128_174805569.jpg": {
+      "source_sha256": "61d8d7da8939e077eee560f387e51576dc3269a0fd959ce1fdebee8c19a9e5c3",
+      "source_bytes": 503509,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3c69f49952847435-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 45054
+        },
+        {
+          "path": "/assets/img/optimized/3c69f49952847435-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 111820
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170128_174811024.jpg": {
+      "source_sha256": "9f930094413c829e04f5a8a01d4f9cd85f56df330e1352bdd055d07d3001224d",
+      "source_bytes": 653027,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/275918ce637b2197-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 48552
+        },
+        {
+          "path": "/assets/img/optimized/275918ce637b2197-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 148090
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170128_175513444.jpg": {
+      "source_sha256": "344867924101b495d2a26cd4aef97037f840a1b8ff2aff106e86cae8e94560e4",
+      "source_bytes": 460697,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fe7d009e0eaaa61d-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 33794
+        },
+        {
+          "path": "/assets/img/optimized/fe7d009e0eaaa61d-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 88230
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_140933084.jpg": {
+      "source_sha256": "2eabdb4a76c5f9bbb8aaccb8351b24b4a7751d92e56b2943b518fdf84937beaf",
+      "source_bytes": 704378,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/42c9fe70711ef00d-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 76154
+        },
+        {
+          "path": "/assets/img/optimized/42c9fe70711ef00d-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 245844
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_141015934.jpg": {
+      "source_sha256": "3c8515915daa54cd38cafba3b420d9ebcc4c822b9a2b6a83d1e9a3ba84705aab",
+      "source_bytes": 845424,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/23b6b7c6ff89c529-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 70776
+        },
+        {
+          "path": "/assets/img/optimized/23b6b7c6ff89c529-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 224636
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_141145252.jpg": {
+      "source_sha256": "d1979f652174857760776848a7e52926cf25b339963d7d9c37eda4fba8fc7397",
+      "source_bytes": 1192049,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/871fe98acd8b1fc7-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 91438
+        },
+        {
+          "path": "/assets/img/optimized/871fe98acd8b1fc7-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 345154
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_141202869.jpg": {
+      "source_sha256": "16734c3fb6aaf3997e7d5714d256d9a8648da3bacea6bf9cf48a9f5b84505e04",
+      "source_bytes": 1566969,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/a2605cc15df77e55-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 191364
+        },
+        {
+          "path": "/assets/img/optimized/a2605cc15df77e55-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 715562
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_141211892.jpg": {
+      "source_sha256": "2cb24e0fc41fe6e988cb0826963fb668ee7c17f8a91e6f11bfec4ee71947af12",
+      "source_bytes": 1154914,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/58e9d55c37577545-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 101378
+        },
+        {
+          "path": "/assets/img/optimized/58e9d55c37577545-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 349996
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_153959704.jpg": {
+      "source_sha256": "3db4e23d4b2f02bb3b91c75ca8afd009a7aca200af15c735856f42d2cd6aa7a5",
+      "source_bytes": 676471,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/4490a38f11afadc7-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 65584
+        },
+        {
+          "path": "/assets/img/optimized/4490a38f11afadc7-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 186432
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_160354040.jpg": {
+      "source_sha256": "ee78b44f853eec6584d93d4a5f927cc83a04d2a40df99ade86fd453a6957a861",
+      "source_bytes": 502365,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/580857f3d5d82181-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 58702
+        },
+        {
+          "path": "/assets/img/optimized/580857f3d5d82181-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 193354
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_160354041.jpg": {
+      "source_sha256": "35fdd07995723a49f1b538ed5612702bc03fae8b89b7525155ad8ffbbd5865a4",
+      "source_bytes": 649512,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/073e343506a5a8b2-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 47422
+        },
+        {
+          "path": "/assets/img/optimized/073e343506a5a8b2-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 143068
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_162008468_HDR.jpg": {
+      "source_sha256": "f3744570eb0e9d02d016f0158abcd3c358d3c1a9b61140fac195d4dca4c0590e",
+      "source_bytes": 622554,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/033ca52f6f8ba04f-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 72108
+        },
+        {
+          "path": "/assets/img/optimized/033ca52f6f8ba04f-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 218168
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_162008470_HDR.jpg": {
+      "source_sha256": "9d76f95f009a2829742de4f9d794652fc7005baf7f2e2e0b8fc6d496a052b052",
+      "source_bytes": 1048521,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/0bb0a76160e763db-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 82004
+        },
+        {
+          "path": "/assets/img/optimized/0bb0a76160e763db-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 281884
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_162008471.jpg": {
+      "source_sha256": "991dc5af04138a5847f20407e02bb61cc4d98994cff43a39d0386389441bc9cd",
+      "source_bytes": 894658,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/b4696f59893c97d8-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 109402
+        },
+        {
+          "path": "/assets/img/optimized/b4696f59893c97d8-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 354120
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_162008472.jpg": {
+      "source_sha256": "36d53d2100cc0905a61aa6f815ba68d767f068260b6dee612fe29faac79147c0",
+      "source_bytes": 125617,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/e10a486d72be309c-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 73400
+        },
+        {
+          "path": "/assets/img/optimized/e10a486d72be309c-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 140850
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_165333407_TOP.jpg": {
+      "source_sha256": "d216ecf16841afb4077ccd3038075dfd546d24083f85448ec161e93fa2eb6ea5",
+      "source_bytes": 705990,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/576b883e5af3b660-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 60062
+        },
+        {
+          "path": "/assets/img/optimized/576b883e5af3b660-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 173630
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_165525791_HDR.jpg": {
+      "source_sha256": "bbaed986becb527c9bebf4d967bdfde107674769415bcb3c3100a9f6c4053d52",
+      "source_bytes": 738904,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/abaf0c1ed9afe8ca-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 98162
+        },
+        {
+          "path": "/assets/img/optimized/abaf0c1ed9afe8ca-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 296962
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_165651935.jpg": {
+      "source_sha256": "35f75f3c9fc87f3a2fd8d5eabde4827e8a627a920fc6f98f623988ace99239a0",
+      "source_bytes": 601448,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/340873741e2a16fd-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 44900
+        },
+        {
+          "path": "/assets/img/optimized/340873741e2a16fd-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 128462
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_165924388.jpg": {
+      "source_sha256": "a5ae3732222e37e875b06c746700a884ed94304667195db4c2d9b149ee181836",
+      "source_bytes": 1061661,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/b4cf873ae49053cd-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 154206
+        },
+        {
+          "path": "/assets/img/optimized/b4cf873ae49053cd-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 476746
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_165951218_TOP.jpg": {
+      "source_sha256": "6408032b92e2f1968d9f795ca7501ca0045827166b5ee480ec5f81fe977301e3",
+      "source_bytes": 428614,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/339e701ca5157266-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 36178
+        },
+        {
+          "path": "/assets/img/optimized/339e701ca5157266-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 119010
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_171841013.jpg": {
+      "source_sha256": "a2379a24ddcbce0ce4a2577ace32c0e65ac93663efba88ee32f246adf3224d59",
+      "source_bytes": 1300562,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/61fba1efa9e7185b-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 172510
+        },
+        {
+          "path": "/assets/img/optimized/61fba1efa9e7185b-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 580300
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_172213733.jpg": {
+      "source_sha256": "bc42aee1d5479542b5d0f754e95141ecc6a940cb4a15ac7bb9224a8b570f14cb",
+      "source_bytes": 780758,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/e50879c9a4f02427-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 62946
+        },
+        {
+          "path": "/assets/img/optimized/e50879c9a4f02427-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 199318
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_175625515_TOP.jpg": {
+      "source_sha256": "e8f0338aa61ca0e2c4fe441feb03488cdbb87f69fe53b9301f5a35f49d94bdd2",
+      "source_bytes": 311590,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/577fd8aac7799ad0-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 22698
+        },
+        {
+          "path": "/assets/img/optimized/577fd8aac7799ad0-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 63682
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_175829141.jpg": {
+      "source_sha256": "58be872eeba1ef97f5498e54cee2b18937f7b888c82eb755d875ce3e480ea462",
+      "source_bytes": 523858,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/b34fc0b8eec4cec2-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 34142
+        },
+        {
+          "path": "/assets/img/optimized/b34fc0b8eec4cec2-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 142858
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_180938033_TOP.jpg": {
+      "source_sha256": "d5c365ae44e6a3ac1e27d6c0ce4257bcadc0a4afcbac7c9ddd742f2aa1078c31",
+      "source_bytes": 360378,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/2cdfa09a0171bb30-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 18912
+        },
+        {
+          "path": "/assets/img/optimized/2cdfa09a0171bb30-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 54824
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_182049040.jpg": {
+      "source_sha256": "1e406e46a1c197c194f12dd87f60b67cf24581f67d64c6e1607efd622a4857f6",
+      "source_bytes": 479453,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/6fb2836b1eaa7cea-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 36670
+        },
+        {
+          "path": "/assets/img/optimized/6fb2836b1eaa7cea-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 131874
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_183023386.jpg": {
+      "source_sha256": "9cada70118cef3c6a4cb238054e0ae2c7585e2610c8971593eada240b5e00f62",
+      "source_bytes": 365597,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/0418be17c2e927db-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 37654
+        },
+        {
+          "path": "/assets/img/optimized/0418be17c2e927db-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 95406
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_183321668.jpg": {
+      "source_sha256": "58ef9b7a4461e9c60a23bd3697283de5c03a071c619a8ac8bf43c28eb037e204",
+      "source_bytes": 285846,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f0ba414c53189ebe-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 38600
+        },
+        {
+          "path": "/assets/img/optimized/f0ba414c53189ebe-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 99328
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_183321669.jpg": {
+      "source_sha256": "9a4d3ad0502913a839644a5c6d90dacfd0f5008e16dd522e9b23fcfd049ce6a9",
+      "source_bytes": 372929,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/8cd81fc4acdf8ac0-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 44800
+        },
+        {
+          "path": "/assets/img/optimized/8cd81fc4acdf8ac0-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 136084
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_183321671.jpg": {
+      "source_sha256": "276395045eeffa44611f405131c7348729eb55049bc0c5f1add6ef21702d4dcd",
+      "source_bytes": 266659,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/52d0837b16197229-640.webp",
+          "width": 640,
+          "height": 1138,
+          "bytes": 50892
+        },
+        {
+          "path": "/assets/img/optimized/52d0837b16197229-720.webp",
+          "width": 720,
+          "height": 1280,
+          "bytes": 59690
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_183321672.jpg": {
+      "source_sha256": "8819b5048b5e3c4f225deb8e104ab4d7412b807efb5749af104adbeb285fba0e",
+      "source_bytes": 27602,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/65c32e7923e81038-450.webp",
+          "width": 450,
+          "height": 800,
+          "bytes": 38164
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_193416538.jpg": {
+      "source_sha256": "1f6ff8ee25fda029383e4b8bb3e94d26985d6a068de16f9af65b0f1d04aa2cbc",
+      "source_bytes": 316896,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/14a2bd2a2848a201-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 16098
+        },
+        {
+          "path": "/assets/img/optimized/14a2bd2a2848a201-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 43212
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_194834553.jpg": {
+      "source_sha256": "0b19fb6895ba58d986a6c9671a949c77a5d0197bb2303e944ada461b4972a341",
+      "source_bytes": 370977,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/b85860fed4abefac-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 15452
+        },
+        {
+          "path": "/assets/img/optimized/b85860fed4abefac-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 51070
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_194958186_TOP.jpg": {
+      "source_sha256": "ce5362c15b86bfd09a29e36138693d2d0621074802a9e4ea0a2398c96083b000",
+      "source_bytes": 401549,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3493aa556dbfeed8-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 21880
+        },
+        {
+          "path": "/assets/img/optimized/3493aa556dbfeed8-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 62072
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_195009536.jpg": {
+      "source_sha256": "cfa76b01366de0b185c6fec8d2bd4df883bb9eb2e5a438da8902791e22ecdf36",
+      "source_bytes": 335455,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fc00c03d7c175143-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 20742
+        },
+        {
+          "path": "/assets/img/optimized/fc00c03d7c175143-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 66830
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_195509539.jpg": {
+      "source_sha256": "c828a3377e9f09a1a1c6d5b65a85b2834c4de82f115893af032856d8b8584513",
+      "source_bytes": 234391,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/7a459fcbf1e9b09c-640.webp",
+          "width": 640,
+          "height": 1138,
+          "bytes": 55598
+        },
+        {
+          "path": "/assets/img/optimized/7a459fcbf1e9b09c-1280.webp",
+          "width": 1280,
+          "height": 2276,
+          "bytes": 159108
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_201803322.jpg": {
+      "source_sha256": "67a4c45dcc4d6eeb7ae13b7f184c9aa0580a80efd5d0e7369cc783f7a22ca6b9",
+      "source_bytes": 213728,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/5c88d52baec23b90-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 26260
+        },
+        {
+          "path": "/assets/img/optimized/5c88d52baec23b90-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 64364
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_201803323.jpg": {
+      "source_sha256": "53823bc7fd8b1263ee9e39ba92f9c6b0b84f33a62c4ef6c97b9d6d8e058799b2",
+      "source_bytes": 550083,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/da4086b811d29fa7-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 59850
+        },
+        {
+          "path": "/assets/img/optimized/da4086b811d29fa7-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 173806
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_203231004_TOP.jpg": {
+      "source_sha256": "07f76cf76828bcb4802468f6d5003532c452a34ff1e6110a568b93f42ddc2963",
+      "source_bytes": 379725,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/85721c448db514f9-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 34990
+        },
+        {
+          "path": "/assets/img/optimized/85721c448db514f9-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 93034
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_203253276.jpg": {
+      "source_sha256": "02cf70453f4f52310e4f935fe49497b42c4f95d3d591571192009084ccf5a06a",
+      "source_bytes": 643240,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/23a8f7e57d81389f-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 62576
+        },
+        {
+          "path": "/assets/img/optimized/23a8f7e57d81389f-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 224394
+        }
+      ]
+    },
+    "/assets/images/scenery/chinese-new-year-in-taipei/IMG_20170211_235654229.jpg": {
+      "source_sha256": "fa119a3bed2ad4aa260a984fba5ef6acbd7890e9a1899e97b2536f51d70c674b",
+      "source_bytes": 66357,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/b07825425b5674df-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 24694
+        },
+        {
+          "path": "/assets/img/optimized/b07825425b5674df-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 60290
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_145102087.jpg": {
+      "source_sha256": "73b58ef67f2a55b4205af06f2fb36c5973a19260c7ff7f32fe4fcd7f1ded7ba5",
+      "source_bytes": 821912,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/ffdf69715019f6b5-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 119294
+        },
+        {
+          "path": "/assets/img/optimized/ffdf69715019f6b5-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 343930
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_152125456_HDR.jpg": {
+      "source_sha256": "8f3036c2a8485fe5e1fb8909c5ef832a94bca8b7b6d515b178f6768f4aaba23b",
+      "source_bytes": 633284,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/27161f56ffb6518d-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 78760
+        },
+        {
+          "path": "/assets/img/optimized/27161f56ffb6518d-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 228374
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_162138855_TOP.jpg": {
+      "source_sha256": "20583321df53f9692f94e2b5f9f91aa7e73c305d47ff2c1ca22fadbf29fc59bd",
+      "source_bytes": 917584,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/af1a2b204c9d8eb2-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 105610
+        },
+        {
+          "path": "/assets/img/optimized/af1a2b204c9d8eb2-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 385700
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_162352902.jpg": {
+      "source_sha256": "ddbd8fef2b3bdef8539fb536343fc3ccac4ca47946362c5a2f8dc6c4985816ad",
+      "source_bytes": 1037694,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/6cd2d510ffeb4bce-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 79100
+        },
+        {
+          "path": "/assets/img/optimized/6cd2d510ffeb4bce-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 270330
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_162455000_HDR.jpg": {
+      "source_sha256": "54f69350951bb1d93e2393c263958ed210af705dbe7080f2c717c1dbab09e51f",
+      "source_bytes": 958203,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/26a5a183a6275948-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 80080
+        },
+        {
+          "path": "/assets/img/optimized/26a5a183a6275948-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 259360
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_162543031.jpg": {
+      "source_sha256": "fb8f191ba2d29d10548315e28e3d68f10197f01dcdcce09734541068ee2c36f4",
+      "source_bytes": 1409322,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/cca19da5e0bb28db-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 105086
+        },
+        {
+          "path": "/assets/img/optimized/cca19da5e0bb28db-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 382808
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_162847393_TOP.jpg": {
+      "source_sha256": "b0de8b247ab2108f33c7b549f854fcf457701a7e7cb077420d4c3f3eaca7d719",
+      "source_bytes": 1000929,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/7341c246dd959d17-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 116106
+        },
+        {
+          "path": "/assets/img/optimized/7341c246dd959d17-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 415706
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_162937853.jpg": {
+      "source_sha256": "a4036f558fd612296fc4a9882e8f9ccb4cda4d0408c211e410397051a00bdd44",
+      "source_bytes": 968699,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/012a5d1f3cc738eb-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 106132
+        },
+        {
+          "path": "/assets/img/optimized/012a5d1f3cc738eb-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 394452
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_163356189.jpg": {
+      "source_sha256": "011552db0f024b5ae5b58e701e12b22b923d2b6fc15b3166546b53af7ccd9f9b",
+      "source_bytes": 873862,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/0201cf2423dea1cc-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 58626
+        },
+        {
+          "path": "/assets/img/optimized/0201cf2423dea1cc-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 211462
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_163606702.jpg": {
+      "source_sha256": "a3f1e6ade230568c32d2c4a6356885d7aa8453a9efc1bc84462f0cf81cc351c6",
+      "source_bytes": 1027715,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/c32c0beab2108123-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 114412
+        },
+        {
+          "path": "/assets/img/optimized/c32c0beab2108123-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 423988
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_163953757.jpg": {
+      "source_sha256": "a004597cd7197c092e54fd207652a897c53110ccc81ce03b62a44c572ccd0c8a",
+      "source_bytes": 786996,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3ceb659c01446b98-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 100852
+        },
+        {
+          "path": "/assets/img/optimized/3ceb659c01446b98-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 311274
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_164127177.jpg": {
+      "source_sha256": "5fe7d435fbd335d4e64b65966b5b593a0bd2742d378fb5da57d44fd4094d0c68",
+      "source_bytes": 860667,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/12cab89893b0b2bd-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 59010
+        },
+        {
+          "path": "/assets/img/optimized/12cab89893b0b2bd-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 199986
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_164149656.jpg": {
+      "source_sha256": "63d52902325746569d7abe39c04a78af3eb538fc5bc9230218b59803884e1a68",
+      "source_bytes": 673885,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/e17fce130f5803f6-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 69244
+        },
+        {
+          "path": "/assets/img/optimized/e17fce130f5803f6-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 240832
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_164651839.jpg": {
+      "source_sha256": "194f0ee9dc8b59a7c10044ab13f092008ecc5bf0949b6fb250ebc28545c3c814",
+      "source_bytes": 591682,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/429d0283c5a69a51-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 58172
+        },
+        {
+          "path": "/assets/img/optimized/429d0283c5a69a51-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 204118
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_164908275.jpg": {
+      "source_sha256": "5bd1a5eed4a43f91a82319eb1672a16d22e78be9f16add1bbbf353d03556f4a4",
+      "source_bytes": 945942,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f0bb3513410504cb-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 66298
+        },
+        {
+          "path": "/assets/img/optimized/f0bb3513410504cb-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 241068
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_164949832.jpg": {
+      "source_sha256": "0db9b96e7fb4b9361d3f9334c65e64f60a3b897cf657cb1eac0585b4b4f893a3",
+      "source_bytes": 731572,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/004386f922861733-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 43820
+        },
+        {
+          "path": "/assets/img/optimized/004386f922861733-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 166016
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_165005859.jpg": {
+      "source_sha256": "48b24e8a2c4dc00efd4b39bd266b52dda838c3816d8676ad3ae493b13f275ac0",
+      "source_bytes": 530557,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/0a9be7a2824fb663-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 32364
+        },
+        {
+          "path": "/assets/img/optimized/0a9be7a2824fb663-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 107474
+        }
+      ]
+    },
+    "/assets/images/scenery/ntu-view/IMG_20170117_165030552.jpg": {
+      "source_sha256": "33c9ee6c74953d653cdeaa779a083dd9b5401229602bed15610a9aeb5befdf18",
+      "source_bytes": 640799,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/15ef6d04f0b6d58d-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 38288
+        },
+        {
+          "path": "/assets/img/optimized/15ef6d04f0b6d58d-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 132740
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/1.jpg": {
+      "source_sha256": "86a0d94e1aee34ef9b3b241b0f74106eccec327981c0b7cf660322056ff6c6f5",
+      "source_bytes": 406980,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fa6bfcbb2a5c6e91-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 8822
+        },
+        {
+          "path": "/assets/img/optimized/fa6bfcbb2a5c6e91-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 28024
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/10.jpg": {
+      "source_sha256": "2c2d198aebec9e9872692c7460d666b18a1019199feddd24ef727278b5628370",
+      "source_bytes": 856074,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/5c4ce1cc44c771c7-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 32046
+        },
+        {
+          "path": "/assets/img/optimized/5c4ce1cc44c771c7-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 87356
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/11-1.jpg": {
+      "source_sha256": "a4a8becf400e91628332d26b209402d878dc16a9bc3ffe8691428a393cb0cc9f",
+      "source_bytes": 619672,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/431b9a9ce54e7481-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 41764
+        },
+        {
+          "path": "/assets/img/optimized/431b9a9ce54e7481-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 98414
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/11-2.jpg": {
+      "source_sha256": "144c384801761508c6b8091d17c64fc0c1a01fa0b64e00ab7ac4d5023adde3ca",
+      "source_bytes": 838545,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/456258945e9d49fc-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 37432
+        },
+        {
+          "path": "/assets/img/optimized/456258945e9d49fc-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 109986
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/11-3.jpg": {
+      "source_sha256": "77550b1a97d57b4e2a788dfc073b4cdeaacef51f59d1eb847759f5e63f5e00b6",
+      "source_bytes": 776262,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f625a3ab27fcaacc-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 33338
+        },
+        {
+          "path": "/assets/img/optimized/f625a3ab27fcaacc-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 87810
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/12-1.jpg": {
+      "source_sha256": "13e039ad947082f90001e84c9428ea51d4323141f55ab3d426e2f439c61850ba",
+      "source_bytes": 184152,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/11e959d19483048c-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 6704
+        },
+        {
+          "path": "/assets/img/optimized/11e959d19483048c-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 17326
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/12-2.jpg": {
+      "source_sha256": "51e2fe16f82e0fb4ce568c76f6dd8058710133b3eb95c955632796119ad4141b",
+      "source_bytes": 794984,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f5d1797388b07bd1-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 27838
+        },
+        {
+          "path": "/assets/img/optimized/f5d1797388b07bd1-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 74206
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/13-1.jpg": {
+      "source_sha256": "68ea14ad94db54fbc98da45a8984634dd2c0d3920eda945656bcee7480d18b17",
+      "source_bytes": 761853,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/066c04b1fcb55b15-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 21160
+        },
+        {
+          "path": "/assets/img/optimized/066c04b1fcb55b15-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 60216
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/13-2.jpg": {
+      "source_sha256": "7346fc3152becb0e736c9bec4fdd9e55889c9e6438ee08e9931c9d5d4ac3442d",
+      "source_bytes": 903112,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/4f4c6308616148a1-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 46630
+        },
+        {
+          "path": "/assets/img/optimized/4f4c6308616148a1-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 141780
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/14-1.jpg": {
+      "source_sha256": "108104e10f11f5261af30a493719d3d7ac91c2fedc30e52df3dd4b239d570850",
+      "source_bytes": 1165111,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/2facce358b932093-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 48286
+        },
+        {
+          "path": "/assets/img/optimized/2facce358b932093-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 162524
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/14-2.jpg": {
+      "source_sha256": "3d554049a00f19430d20e57d634536660d389a6eb6fbf2e6670f72812a287984",
+      "source_bytes": 701401,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/e70bdccc5a84e91c-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 41640
+        },
+        {
+          "path": "/assets/img/optimized/e70bdccc5a84e91c-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 100582
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/15.jpg": {
+      "source_sha256": "f19dfb7767b5882adad24a454638ef43f83b1a7a47c1fdc31d9ecc99df481549",
+      "source_bytes": 1040186,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f856791a2b5f755b-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 27848
+        },
+        {
+          "path": "/assets/img/optimized/f856791a2b5f755b-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 77174
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/16.jpg": {
+      "source_sha256": "9ffb4efdaaf9378027668fa30e3f0457469cfe336b007da408edb5c527e3d802",
+      "source_bytes": 1335155,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/2f61425f244f826d-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 40452
+        },
+        {
+          "path": "/assets/img/optimized/2f61425f244f826d-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 147474
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/17.jpg": {
+      "source_sha256": "a2bda2a25a3077f79b5ace3ba72de0b00e6b591820192f47c11f8d98a7fcc9b2",
+      "source_bytes": 1111551,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/2528bd83671123fb-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 25904
+        },
+        {
+          "path": "/assets/img/optimized/2528bd83671123fb-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 88794
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/18-1.jpg": {
+      "source_sha256": "7487626ecfc0215d78d06d604c361fd72a3e409c501ee94fc8ea85a538fce3d6",
+      "source_bytes": 1030352,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/a0c92e6e642fc2a1-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 70168
+        },
+        {
+          "path": "/assets/img/optimized/a0c92e6e642fc2a1-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 185558
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/18-2.jpg": {
+      "source_sha256": "5ce5fe1f9dbecf81ab49815b3545bb445d2e3fd487b48561765e641b6715da86",
+      "source_bytes": 1483982,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1035150bce143b43-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 41262
+        },
+        {
+          "path": "/assets/img/optimized/1035150bce143b43-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 126808
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/18-3.jpg": {
+      "source_sha256": "375e2bdb0c2eab09d09bcbd3980e408804d6f3768f5bb40d894ab9addac3373f",
+      "source_bytes": 906400,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f30dd31813b5895c-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 38224
+        },
+        {
+          "path": "/assets/img/optimized/f30dd31813b5895c-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 114158
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/18-4.jpg": {
+      "source_sha256": "923a7b820673a182f09c27417ecf301a93b13aa45f68cd096765cf185cf81084",
+      "source_bytes": 845992,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1c2e331cf982c705-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 46736
+        },
+        {
+          "path": "/assets/img/optimized/1c2e331cf982c705-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 144946
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/19.jpg": {
+      "source_sha256": "31310f010e7e99c1388b2a6fa918ae6c50d0658aeb7d82d5a49a0a49839b36a6",
+      "source_bytes": 1079560,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/c0539cf90dada748-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 25908
+        },
+        {
+          "path": "/assets/img/optimized/c0539cf90dada748-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 77778
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/2.jpg": {
+      "source_sha256": "a026bab00ad56b510e194bcfe90e577b94e1d8a92ed38b9220e02498406af9aa",
+      "source_bytes": 1336840,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/82d14a5e8119edcc-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 50628
+        },
+        {
+          "path": "/assets/img/optimized/82d14a5e8119edcc-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 157482
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/20.jpg": {
+      "source_sha256": "d68d5c47c643d0f0b0a3c613267fea8ff7d5a164e67e3ab8793fd7fb6bc73b34",
+      "source_bytes": 665337,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fe132342d7890554-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 50652
+        },
+        {
+          "path": "/assets/img/optimized/fe132342d7890554-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 124176
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/21.jpg": {
+      "source_sha256": "6ae8afea7caca766419c2a9aef510e762822495e98429cfe0a64dca9f3146142",
+      "source_bytes": 1432871,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/22de0f35f7b64e62-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 39408
+        },
+        {
+          "path": "/assets/img/optimized/22de0f35f7b64e62-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 152720
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/22.jpg": {
+      "source_sha256": "10770740c63ec8be15bd9807b976cd01834b75479bb70b31b2d4f4c8b4a8fc5f",
+      "source_bytes": 1532333,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fb26ff10baf00351-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 77766
+        },
+        {
+          "path": "/assets/img/optimized/fb26ff10baf00351-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 280398
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/23.jpg": {
+      "source_sha256": "0ec114b91306874e1f611bb4f04d7759fab2edab4d31b9250a6e894b6f4bbb2a",
+      "source_bytes": 1228457,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/5afdfb6c66e893ee-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 36124
+        },
+        {
+          "path": "/assets/img/optimized/5afdfb6c66e893ee-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 97990
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/24.jpg": {
+      "source_sha256": "1baf4c450a4b7f8aad3255a4ad7f40461967d7c064286b03d93a5c2e710f1ca1",
+      "source_bytes": 1005270,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/55ca447aa24d66d4-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 21658
+        },
+        {
+          "path": "/assets/img/optimized/55ca447aa24d66d4-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 57288
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/25.jpg": {
+      "source_sha256": "aebc9e585e8499710428578c2247f1f55b526fb3c478747477c3e8d936b1a61b",
+      "source_bytes": 1042156,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/93648d64ff65efd7-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 35918
+        },
+        {
+          "path": "/assets/img/optimized/93648d64ff65efd7-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 109462
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/26-1.jpg": {
+      "source_sha256": "98e0c36400059ebc5e0f8697fba874b0b059a73a18a2164f816f9e482c1b144e",
+      "source_bytes": 1674409,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/5ed00b099d35610b-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 60418
+        },
+        {
+          "path": "/assets/img/optimized/5ed00b099d35610b-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 231950
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/26-2.jpg": {
+      "source_sha256": "6224ffc05068b71922af65f092b579017b757f0d6d1eb3eb04110c5e0d4120ca",
+      "source_bytes": 993711,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/07beeb63a4577913-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 34554
+        },
+        {
+          "path": "/assets/img/optimized/07beeb63a4577913-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 103524
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/26-3.jpg": {
+      "source_sha256": "2dd103ba0775b012bdfa12b51567185214d8bc8c640a637d777873682952178e",
+      "source_bytes": 1767395,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/f705a0fcaf0bc10a-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 45388
+        },
+        {
+          "path": "/assets/img/optimized/f705a0fcaf0bc10a-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 174140
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/26-4.jpg": {
+      "source_sha256": "ac0538ce7fe765a7086fcbb5c38135552633b5d953f29344c29b1192c919eef2",
+      "source_bytes": 903796,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1ac98dc0db87c7bc-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 26690
+        },
+        {
+          "path": "/assets/img/optimized/1ac98dc0db87c7bc-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 70380
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/26-5.jpg": {
+      "source_sha256": "d6487c478173df2044012c5dc9b4531fdeaf0567bc0e4361558c2fd5d09ff807",
+      "source_bytes": 1194425,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/ff3fd51dcc858db3-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 37378
+        },
+        {
+          "path": "/assets/img/optimized/ff3fd51dcc858db3-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 137684
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/27.jpg": {
+      "source_sha256": "474fd1141843df275b917c37d07c0251f2a09579b848b7f6fc56d22dea654a17",
+      "source_bytes": 1636233,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/ca29cf74d5f4c0e1-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 62320
+        },
+        {
+          "path": "/assets/img/optimized/ca29cf74d5f4c0e1-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 249550
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/28.jpg": {
+      "source_sha256": "6dee4713b9c1b1561a3b3c5838beedd3c67b09c9893f00d0437261caf5ba0561",
+      "source_bytes": 945655,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/7c473390a8f88bf8-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 29760
+        },
+        {
+          "path": "/assets/img/optimized/7c473390a8f88bf8-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 77040
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/29.jpg": {
+      "source_sha256": "2858d3dadb8df47724d13b6fc96a0b41bfa9a4898212c89f68ad7c4695ae8cde",
+      "source_bytes": 746092,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/9fce326d7df0d98f-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 22936
+        },
+        {
+          "path": "/assets/img/optimized/9fce326d7df0d98f-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 61912
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/3.jpg": {
+      "source_sha256": "2877b8e45b9ac5beca530a4c211b0b63c49b76567d602525dccad99d1c3c3f71",
+      "source_bytes": 721049,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/8d0dfcceb22a6ad7-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 32912
+        },
+        {
+          "path": "/assets/img/optimized/8d0dfcceb22a6ad7-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 85572
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/30.jpg": {
+      "source_sha256": "d873549d3cb96f3082cbeebf14507c80e9d7c35d84eb412f64aa4e6d178ffc2c",
+      "source_bytes": 1462986,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/0997e6b98c723327-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 50336
+        },
+        {
+          "path": "/assets/img/optimized/0997e6b98c723327-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 172048
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/31.jpg": {
+      "source_sha256": "352dd8cd57da8fee5596bab0e50ee2673ef9d9a83da9b73898f975c5ecb6975e",
+      "source_bytes": 922685,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/dd8a1e17d2c8c8ac-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 15248
+        },
+        {
+          "path": "/assets/img/optimized/dd8a1e17d2c8c8ac-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 47320
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/32.jpg": {
+      "source_sha256": "63ffbe87e972cee6fa3461542ed1519cbd0aea3a0b27c7fce0e5d03eef3d1056",
+      "source_bytes": 650905,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/71f4d818471ddd7b-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 36440
+        },
+        {
+          "path": "/assets/img/optimized/71f4d818471ddd7b-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 94956
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/33-1.jpg": {
+      "source_sha256": "24242c6b3d5f86a24970a304415cc9db61ab821ac8052aaaf2fb4eaf9e4c26a3",
+      "source_bytes": 752459,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/728e199adee808a9-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 34824
+        },
+        {
+          "path": "/assets/img/optimized/728e199adee808a9-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 108542
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/33-2.jpg": {
+      "source_sha256": "bd535afb46c2629ebf8c26667ccb5f39a8f23120e2f0e2c7c6faa4c7b32d1a3d",
+      "source_bytes": 1600210,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/e06f574bd5986ee6-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 42596
+        },
+        {
+          "path": "/assets/img/optimized/e06f574bd5986ee6-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 168756
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/34.jpg": {
+      "source_sha256": "9fe8ea9ba73eff57e2d8f1e8e748b13648e3e2c9be8c1e5176baa38602996ed5",
+      "source_bytes": 1032099,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/3efa6f37b409d462-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 31500
+        },
+        {
+          "path": "/assets/img/optimized/3efa6f37b409d462-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 89812
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/35-1.jpg": {
+      "source_sha256": "9e2c6717afcddba615e56cec21f4872043cb52240000b883c7371232ffbe545d",
+      "source_bytes": 853215,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/57d238efa58da104-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 35080
+        },
+        {
+          "path": "/assets/img/optimized/57d238efa58da104-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 86694
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/35-2.jpg": {
+      "source_sha256": "051c271e278ae8ccace0fc7a2eb555f4388829cc2209df11aa394efb2b89f8e9",
+      "source_bytes": 1091741,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1c00d4429745b95c-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 37594
+        },
+        {
+          "path": "/assets/img/optimized/1c00d4429745b95c-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 106282
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/36.jpg": {
+      "source_sha256": "8fe7c475c9286f92bc1a21e1abc94ca33ac5dbdd4696e3638050e99b96c9fbf4",
+      "source_bytes": 1202339,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/bd6de511571608da-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 13520
+        },
+        {
+          "path": "/assets/img/optimized/bd6de511571608da-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 35932
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/4.jpg": {
+      "source_sha256": "388113377abdfce8d3c7bbe45830aa9da95dab26c658a9f593e98aff6537eb46",
+      "source_bytes": 1055418,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/820793cc1430c3f2-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 39108
+        },
+        {
+          "path": "/assets/img/optimized/820793cc1430c3f2-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 127522
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/5-1.jpg": {
+      "source_sha256": "37d0d210c6048d8257da57557c3e9f7987eac9aa62f99db0ef3bf6d9a82b3133",
+      "source_bytes": 591107,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1d1ad93db614d9e8-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 6208
+        },
+        {
+          "path": "/assets/img/optimized/1d1ad93db614d9e8-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 22706
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/5-2.jpg": {
+      "source_sha256": "ee9572e973042b37b1e19a807a9fd386472d2e836173873337c07d07da7673eb",
+      "source_bytes": 544899,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/4bc1e793a1eff956-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 24182
+        },
+        {
+          "path": "/assets/img/optimized/4bc1e793a1eff956-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 57874
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/6-1.jpg": {
+      "source_sha256": "698a337dfb468668178a04cf90b5255289cfa25f0681abd7ef559ab4427de57c",
+      "source_bytes": 820579,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/bc90e9b424888f4e-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 42694
+        },
+        {
+          "path": "/assets/img/optimized/bc90e9b424888f4e-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 115314
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/6-2.jpg": {
+      "source_sha256": "8ff9b6ce2c75abf29841f24897e96bf2f78f2a19e9fe6866ce0b7a3f3b91aea8",
+      "source_bytes": 1167658,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/fe61722ed6af25b4-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 41244
+        },
+        {
+          "path": "/assets/img/optimized/fe61722ed6af25b4-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 120336
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/6-3.jpg": {
+      "source_sha256": "8a604ce5c64ba44774e93226693ef992971aa92fed04390bc2dde6e2d10b82f8",
+      "source_bytes": 1170497,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/c7efad64b44a7e1c-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 47802
+        },
+        {
+          "path": "/assets/img/optimized/c7efad64b44a7e1c-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 155540
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/7-1.jpg": {
+      "source_sha256": "2971265bf3bcd45cb0f3eb8bdb28a316b45679a5cd9f9c790dcfe9ba35208b37",
+      "source_bytes": 887642,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/adc7173018ebdcdb-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 22708
+        },
+        {
+          "path": "/assets/img/optimized/adc7173018ebdcdb-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 61286
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/7-2.jpg": {
+      "source_sha256": "e3b73a9721f365598e6be966e10b13df3367f5b415af9b634702cf227572ddca",
+      "source_bytes": 989171,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/dff14f46a045b095-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 28412
+        },
+        {
+          "path": "/assets/img/optimized/dff14f46a045b095-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 92460
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/7-3.jpg": {
+      "source_sha256": "e1a8ae6290820fa71ec03bae71df907cde593445172916a9f333b85af7656a71",
+      "source_bytes": 1114573,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/1234b6480347ecf3-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 33832
+        },
+        {
+          "path": "/assets/img/optimized/1234b6480347ecf3-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 123856
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/8-1.jpg": {
+      "source_sha256": "57cec6dd4337f2fde363b25c455b991020ac25b0cd6d9315f0d41fe5c8ae251d",
+      "source_bytes": 966679,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/93fa2f30d58deb52-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 32860
+        },
+        {
+          "path": "/assets/img/optimized/93fa2f30d58deb52-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 104996
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/8-2.jpg": {
+      "source_sha256": "cfcdc27d796e28decb4a336019ea332ac788596ef6ef727bb7dbe962e0e4b401",
+      "source_bytes": 745564,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/80bdd579fe6fb246-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 52378
+        },
+        {
+          "path": "/assets/img/optimized/80bdd579fe6fb246-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 134362
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/8-3.jpg": {
+      "source_sha256": "91d0389d6359682be1c974632643be4eb4588f05cda9ba52ece794deab7fb80f",
+      "source_bytes": 925700,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/347664401f7a2ab5-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 15862
+        },
+        {
+          "path": "/assets/img/optimized/347664401f7a2ab5-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 45832
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/8-4.jpg": {
+      "source_sha256": "a101d408c4c9fdc9ccc8aaefa7abf7aa2434b7d1771a21425690862cdafa4db6",
+      "source_bytes": 900943,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/207e8eaa8475c5bd-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 51996
+        },
+        {
+          "path": "/assets/img/optimized/207e8eaa8475c5bd-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 140092
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/8-5.jpg": {
+      "source_sha256": "ccd0d85f0d003a0f790586421816d4159e506c34c2b0a427f6df1aef6cc38590",
+      "source_bytes": 952389,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/9e4a478c9d2502ec-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 37676
+        },
+        {
+          "path": "/assets/img/optimized/9e4a478c9d2502ec-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 121352
+        }
+      ]
+    },
+    "/assets/images/scenery/onroadto-taipei101/9.jpg": {
+      "source_sha256": "2a5ef2ea74526c18b90307bb7bcf4c5b9f87bb6ecd047190cc07510324dd78e3",
+      "source_bytes": 869603,
+      "variants": [
+        {
+          "path": "/assets/img/optimized/9d7a9dd441fef5cd-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 30188
+        },
+        {
+          "path": "/assets/img/optimized/9d7a9dd441fef5cd-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 81994
+        }
+      ]
+    }
+  }
+}

@@ -15,7 +15,8 @@ social_accounts:
     name: 荒岛书生codedoctor
     url: http://weixin.qq.com/r/mp/OCpbQ4TEq9nUrcAg938q
     link_label: 打开公众号
-    qr: /assets/img/contact/wechat-public-qr.png
+    qr: /assets/img/contact/wechat-public-qr.webp
+    qr_original: /assets/img/contact/wechat-public-qr.png
     qr_size: 430
     hint: 用微信扫码，或搜索公众号名称关注。
 ---

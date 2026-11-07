@@ -20,11 +20,11 @@ highlighter: rouge
 google_fonts: false
 font: 'system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif'
 font_heading: 'system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif'
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/img/sidebar-bg.webp
 accent_color: '#4f7779'
 theme_color: '#193747'
 favicon: /favicon.ico?v=earth-cat-20261101
-apple_touch_icon: /assets/apple-touch-icon.png?v=earth-cat-20261101
+apple_touch_icon: /assets/apple-touch-icon.png?v=earth-cat-20261107-opt
 copyright: '© 2016–2026 荒岛书生。'
 
 author:
