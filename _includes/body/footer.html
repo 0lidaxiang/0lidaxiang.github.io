@@ -2,6 +2,7 @@
 {% if site.copyright.size > 0 or site.legal.size > 0 or site.hydejack.advertise %}
 <footer class="content" role="contentinfo">
   <hr/>
+  {% include baidu-stats.html %}
   <div class="footer-meta">
   {% if site.copyright.size > 0 %}
     <span class="copyright">{{ site.copyright | markdownify | replace:'<p>','' | replace:'</p>','' }}</span>
@@ -15,7 +16,7 @@
     {% endfor %}
     </nav>
   {% endif %}
-    {% include flag-counter.html %}
+    {% unless site.data.baidu_analytics.available %}{% include flag-counter.html %}{% endunless %}
     <span class="footer-credit">Powered by <a class="external" href="https://hydejack.com/">Hydejack</a></span>
   </div>
   <hr class="sr-only"/>

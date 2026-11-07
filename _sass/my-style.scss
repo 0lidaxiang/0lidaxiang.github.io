@@ -67,6 +67,18 @@ pre { overflow-x: auto; }
 }
 .footer-meta > * { margin: 0; max-width: 100%; }
 .footer-meta .copyright, .footer-meta .footer-credit { white-space: nowrap; }
+.site-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .4rem 1.25rem;
+  margin: 1rem 0;
+  color: var(--body-color);
+  font-size: .8rem;
+  line-height: 1.8;
+}
+.site-stats > span, .post-pageviews { white-space: nowrap; }
+.stat-number { display: inline-block; min-width: 1ch; font-variant-numeric: tabular-nums; }
 #_main > footer.content a::after { display: none !important; }
 .visitor-counter { display: flex; align-items: center; }
 .visitor-counter a {

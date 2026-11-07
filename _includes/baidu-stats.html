@@ -1,0 +1,8 @@
+{% assign stats = site.data.baidu_analytics %}
+{% if stats.available %}
+<div class="site-stats" aria-label="网站访问统计" data-stats-date="{{ stats.date }}"{% if stats.updated_at %} title="百度统计，截至 {{ stats.updated_at }}（北京时间）"{% endif %}>
+  <span>累计浏览量 <span class="stat-number" data-stat-number>{{ stats.total_pv | default:'—' }}</span></span>
+  <span>今日浏览量 <span class="stat-number" data-stat-number data-stat-today>{{ stats.today_pv | default:'—' }}</span></span>
+  <span>今日访客数 <span class="stat-number" data-stat-number data-stat-today>{{ stats.today_uv | default:'—' }}</span></span>
+</div>
+{% endif %}

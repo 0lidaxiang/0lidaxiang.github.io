@@ -7,3 +7,5 @@ vendor/
 .DS_Store
 
 .migration-work/
+__pycache__/
+assets/data/baidu-analytics.json
