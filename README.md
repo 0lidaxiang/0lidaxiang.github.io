@@ -71,6 +71,20 @@ python3 scripts/verify_migration.py
 这是一项针对本次主题迁移的验收，使用改版前的 Git 提交 `7734176f35ee4e5ff3fce957b1a067c1b0ff4c17` 核对文章、图片和独立内容页；不是日后禁止修改文章的规则。
 路由清单为 `scripts/legacy-post-routes.json`，在改版前后用同一 Jekyll 读取原配置及新配置得到并比对。
 
+## 荒岛书生长文归档（2026-11-07）
+
+从原站当前公开 API 筛选迁入 20 篇长文，沿用 Jekyll 文章、`ai` 分类、标签和技术目录；保留原作者、首发日期、正文与来源说明。入选/排除理由、版本和新路径见 [迁移记录](docs/huangdao-migration.md) 与 [逐篇清单](docs/huangdao-migration.json)。两张榜单图已转换为静态图片及完整数据表，历史快照位于 `assets/data/huangdao/`，不依赖原站 API 或前端组件。
+
+生产构建后可执行本轮内容验收（仅使用 Python 标准库）：
+
+```sh
+python3 scripts/verify_huangdao_import.py
+python3 scripts/verify_migration.py
+git diff --check
+```
+
+第一项核对 20 篇正文哈希、原日期/作者、目录、首页分页/技术目录/标签入口、站内链接和图表数据；第二项继续核对原内容与历史网址。记录和临时核验目录不进入网站产物。可选的 `scripts/render_huangdao_figures.py` 使用本机 matplotlib 与 macOS 黑体重新生成图表，不是 Jekyll 构建依赖。
+
 ## 主题来源与许可
 
 - [Hydejack](https://hydejack.com/) / [官方源码](https://github.com/hydecorp/hydejack/tree/v9.2.1)：GPL-3.0，通过 gem 引用；保留页脚署名。

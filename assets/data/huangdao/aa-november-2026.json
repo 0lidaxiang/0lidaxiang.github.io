@@ -1,0 +1,77 @@
+{
+  "id": "aa-november-2026",
+  "version": "5.0.1",
+  "snapshotDate": "2026-11-05",
+  "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+  "evaluationUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+  "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+  "scope": "Eight selected configurations from the official Current table, not the complete top eight. Scores are displayed integers; row order follows the source table.",
+  "costUnit": "USD per weighted Intelligence Index task",
+  "scoreScaleMax": 65,
+  "rows": [
+    {
+      "name": "Gemini 4 Carbon (high)",
+      "creator": "Google",
+      "color": "#34A853",
+      "displayScore": 60,
+      "costUsd": 7.76,
+      "configurationNote": ""
+    },
+    {
+      "name": "Claude Opus 5.5 (max)",
+      "creator": "Anthropic",
+      "color": "#cc785c",
+      "displayScore": 59,
+      "costUsd": 10.04,
+      "configurationNote": "Default Fallback"
+    },
+    {
+      "name": "Gemini 4 Carbon (medium)",
+      "creator": "Google",
+      "color": "#34A853",
+      "displayScore": 58,
+      "costUsd": 6.59,
+      "configurationNote": ""
+    },
+    {
+      "name": "Claude Opus 5.5 (xhigh)",
+      "creator": "Anthropic",
+      "color": "#cc785c",
+      "displayScore": 57,
+      "costUsd": 6.05,
+      "configurationNote": "Default Fallback"
+    },
+    {
+      "name": "GPT-6 Astra (max)",
+      "creator": "OpenAI",
+      "color": "#1f1f1f",
+      "displayScore": 57,
+      "costUsd": 6.24,
+      "configurationNote": ""
+    },
+    {
+      "name": "GPT-6.1 Sol (max)",
+      "creator": "OpenAI",
+      "color": "#1f1f1f",
+      "displayScore": 55,
+      "costUsd": 1.27,
+      "configurationNote": ""
+    },
+    {
+      "name": "GPT-6.1 Terra (max)",
+      "creator": "OpenAI",
+      "color": "#1f1f1f",
+      "displayScore": 51,
+      "costUsd": 0.96,
+      "configurationNote": ""
+    },
+    {
+      "name": "DeepSeek V4.1 Flash 1017 (max)",
+      "creator": "DeepSeek",
+      "color": "#2243e6",
+      "displayScore": 33,
+      "costUsd": 0.6,
+      "configurationNote": ""
+    }
+  ]
+}
