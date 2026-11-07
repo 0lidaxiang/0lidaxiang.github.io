@@ -59,16 +59,16 @@ pre { overflow-x: auto; }
 .footer-meta {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
   gap: .4rem 1.25rem;
   font-size: .75rem;
   line-height: 1.6;
 }
-.footer-meta > * { margin: 0; }
-.footer-meta .footer-credit { white-space: nowrap; }
+.footer-meta > * { margin: 0; max-width: 100%; }
+.footer-meta .copyright, .footer-meta .footer-credit { white-space: nowrap; }
 #_main > footer.content a::after { display: none !important; }
-.visitor-counter { margin: 1.5rem 0 1rem; }
+.visitor-counter { display: flex; align-items: center; }
 .visitor-counter a {
   display: inline-block;
   max-width: 100%;

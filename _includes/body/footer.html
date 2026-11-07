@@ -2,7 +2,6 @@
 {% if site.copyright.size > 0 or site.legal.size > 0 or site.hydejack.advertise %}
 <footer class="content" role="contentinfo">
   <hr/>
-  {% include flag-counter.html %}
   <div class="footer-meta">
   {% if site.copyright.size > 0 %}
     <span class="copyright">{{ site.copyright | markdownify | replace:'<p>','' | replace:'</p>','' }}</span>
@@ -16,7 +15,8 @@
     {% endfor %}
     </nav>
   {% endif %}
-    <span class="footer-credit">Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.2.1</span></span>
+    {% include flag-counter.html %}
+    <span class="footer-credit">Powered by <a class="external" href="https://hydejack.com/">Hydejack</a></span>
   </div>
   <hr class="sr-only"/>
 </footer>
