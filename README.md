@@ -25,6 +25,10 @@ bundle exec jekyll serve
 JEKYLL_ENV=production bundle exec jekyll build --trace
 ```
 
+工作流使用支持 Node.js 24 的 `actions/checkout@v7`、`actions/configure-pages@v6`、`actions/upload-pages-artifact@v5`（内部使用 `upload-artifact@v7`）及 `actions/deploy-pages@v5`。这是 Actions 自身的运行时，不要求为 Jekyll 站点新增 Node.js 构建依赖；Ruby 继续使用 3.3。
+
+若部署失败，先区分 `build` 和 `deploy`：构建成功而 `deploy` 报 `Timeout reached, aborting!`，表示等待 Pages 部署结果超过默认 10 分钟，不能据此认定 Jekyll 构建或 Node.js 弃用警告导致失败。先检查后续运行是否成功；偶发超时可重跑失败的部署任务，持续失败再核查 Pages 状态、部署权限及产物，而非仅延长超时。
+
 主题版本和依赖由 `Gemfile.lock` 固定，锁文件包含 macOS ARM 和 Linux x86_64 平台。
 
 ## 内容和旧网址
