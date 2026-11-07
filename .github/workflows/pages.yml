@@ -4,8 +4,6 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
-  schedule:
-    - cron: '23 * * * *'
 
 permissions:
   contents: read
@@ -17,59 +15,23 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      ready: ${{ steps.gate.outputs.ready }}
     steps:
-      - name: Skip scheduled builds until API is configured
-        id: gate
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          BAIDU_API_KEY: ${{ secrets.BAIDU_API_KEY }}
-          BAIDU_SECRET_KEY: ${{ secrets.BAIDU_SECRET_KEY }}
-          BAIDU_REFRESH_TOKEN: ${{ secrets.BAIDU_REFRESH_TOKEN }}
-          BAIDU_ACCESS_TOKEN: ${{ secrets.BAIDU_ACCESS_TOKEN }}
-        run: |
-          if [[ "$EVENT_NAME" != schedule || -n "$BAIDU_ACCESS_TOKEN" || ( -n "$BAIDU_API_KEY" && -n "$BAIDU_SECRET_KEY" && -n "$BAIDU_REFRESH_TOKEN" ) ]]; then
-            echo 'ready=true' >> "$GITHUB_OUTPUT"
-          else
-            echo 'ready=false' >> "$GITHUB_OUTPUT"
-            echo 'Baidu API is not configured; skipping the scheduled deployment.'
-          fi
       - uses: actions/checkout@v7
-        if: steps.gate.outputs.ready == 'true'
       - uses: ruby/setup-ruby@v1
-        if: steps.gate.outputs.ready == 'true'
         with:
           ruby-version: '3.3'
           bundler-cache: true
       - uses: actions/configure-pages@v6
-        if: steps.gate.outputs.ready == 'true'
-      - name: Verify analytics contracts
-        if: steps.gate.outputs.ready == 'true'
-        run: |
-          python3 -m unittest discover -s tests -p 'test_baidu_analytics.py'
-          node --test tests/site-analytics.test.cjs
-      - name: Sync public Baidu analytics
-        if: steps.gate.outputs.ready == 'true'
-        run: python3 scripts/sync_baidu_analytics.py
-        env:
-          BAIDU_SITE_ID: ${{ vars.BAIDU_SITE_ID }}
-          BAIDU_API_KEY: ${{ secrets.BAIDU_API_KEY }}
-          BAIDU_SECRET_KEY: ${{ secrets.BAIDU_SECRET_KEY }}
-          BAIDU_REFRESH_TOKEN: ${{ secrets.BAIDU_REFRESH_TOKEN }}
-          BAIDU_ACCESS_TOKEN: ${{ secrets.BAIDU_ACCESS_TOKEN }}
       - name: Build
-        if: steps.gate.outputs.ready == 'true'
         run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
       - uses: actions/upload-pages-artifact@v5
-        if: steps.gate.outputs.ready == 'true'
         with:
           path: _site
 
   deploy:
-    if: github.ref == 'refs/heads/master' && needs.build.outputs.ready == 'true'
+    if: github.ref == 'refs/heads/master'
     needs: build
     runs-on: ubuntu-latest
     permissions:

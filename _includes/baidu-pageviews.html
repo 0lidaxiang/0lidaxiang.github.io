@@ -1,5 +1,0 @@
-{% assign stats = site.data.baidu_analytics %}
-{% if stats.available %}
-{% assign post_views = stats.pages[include.url] %}
-<span class="post-pageviews"{% if stats.updated_at %} title="百度统计，截至 {{ stats.updated_at }}（北京时间）"{% endif %}>浏览 <span class="stat-number" data-stat-number>{{ post_views | default:0 }}</span> 次</span>
-{% endif %}

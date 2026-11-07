@@ -8,4 +8,3 @@ vendor/
 
 .migration-work/
 __pycache__/
-assets/data/baidu-analytics.json

@@ -51,50 +51,15 @@ JEKYLL_ENV=production bundle exec jekyll build --trace
 - `_plugins/legacy_image_paths.rb` 在构建时为 Lightworks 文章的两张图片生成原 `/images/work/lightworks/` 地址，从现有资产复制，文章里的链接不改。
 - 四组历史相册使用640/1280px响应式 WebP 预览、原生延迟加载和点击原图入口；历史 Markdown 与原图保留。背景和触屏图标也已压缩，生成脚本、体积对比及验证方法见[图片优化记录](docs/image-optimization.md)。
 
-## 百度统计与页面浏览量
-
-本站接入百度统计标识 `a383a86366fe46b457c35c673e7c2777`，配置位于 `_data/baidu_analytics.json`。仅正式构建在本站域名下采集访问，本地预览不计入正式数据。
-`assets/js/site-analytics.js` 适配 Hydejack 的站内切页：首次加载、切换文章、返回各按路径发送一次 PV，目录锚点和重复加载事件不重复计数。百度统计后台的“启用单页应用数据统计”开关应保持关闭，避免与本站手动跟踪重复。
-
-数据 API 可用后，页脚自动改为累计浏览量、今日浏览量和今日访客数；文章详情页在标题下的日期栏显示该篇浏览量，首页摘要列表不显示单篇计数。
-目前账号后台要求昨日 PV 大于 100 才能开通数据导出服务。达到门槛并完成 API 授权前，继续展示原 Flag Counter，文章不显示空计数。
-
-数字由 `scripts/sync_baidu_analytics.py` 在构建时同步。工作流在推送、手动运行时构建，配置完整授权后还会在每小时第 23 分钟同步并发布；未授权时跳过定时构建，避免反复部署相同内容。
-“今日”按北京时间计算，百度报告本身也有计算延迟，页面数字不是实时计数。跨天后如果当日快照尚未生成，“今日”两项显示 `—`。
-累计与文章浏览量从百度统计站点的创建日期查询，不与 Flag Counter 旧数据混加；今日访客数直接使用百度的当日 UV。
-文章 URL 按本站域名、去查询参数、解码中文和去末尾斜杠后合并；受访页面报告按分页完整获取。
-
-### API 授权配置
-
-满足流量门槛后，在百度统计「管理 → 数据导出服务」开通普通百度账号的数据 API，并按[官方 OAuth 说明](https://tongji.baidu.com/api/manual/Chapter2/openapi.html)完成账号授权。
-进入[本仓库 Actions Secrets](https://github.com/0lidaxiang/0lidaxiang.github.io/settings/secrets/actions)，添加以下 Repository secrets：
-
-- `BAIDU_API_KEY`：数据导出服务的 API Key。
-- `BAIDU_SECRET_KEY`：对应的 Secret Key。
-- `BAIDU_REFRESH_TOKEN`：使用该百度账号完成 OAuth 授权后得到的 Refresh Token。
-
-脚本通过 Refresh Token 换取 Access Token。也支持仅配置 `BAIDU_ACCESS_TOKEN` 临时接入，但该令牌有效期为一个月，需要到期更新。
-如果账号里有多个对应本站的站点，可在 Actions Variables 中设置 `BAIDU_SITE_ID` 为后台网址里的数字站点 ID；通常脚本会按本站域名自动匹配。
-配置后手动运行 `Build and deploy Jekyll` 即可同步，无须再修改页面代码。
-
-API 密钥和令牌只在构建环境使用，前端只获得汇总数、页面路径和浏览量，不包含访问者明细。
-`_data/baidu_analytics.json` 是构建时的 Jekyll 数据，`assets/data/baidu-analytics.json` 是同时生成的公开快照，后者不提交到 Git。
-API 暂时失败时尝试沿用上次已部署快照，不把请求失败写成零；首次未授权或未取得数据时不启用百度数字展示。
-
-验证命令：
-
-```sh
-python3 -m unittest discover -s tests -p 'test_baidu_analytics.py'
-node --test tests/site-analytics.test.cjs
-```
-
 ## 历史访客统计
+
+网站已移除百度访问采集、API 同步和配套浏览量展示；不再为统计数据触发每小时构建。百度站长验证标签与验证文件继续保留，用于搜索引擎站点验证。
 
 继续使用原 Flag Counter **6972**，未创建新计数器，也没有修改、重置或导入计数数据。
 图片地址与历史统计链接保存在 `_data/legacy_analytics.yml`，通过 `_includes/flag-counter.html` 接入 Hydejack 页脚。
 历史数据由 Flag Counter 服务端保存，可点击页脚进入 https://info.flagcounter.com/6972 查看。
 
-百度 API 尚未可用时，本地预览与正式发布均使用原计数器的 `mini` 图片，仅显示总访问量（累计浏览次数 / pageviews），不展示国家、地区或国旗列表；访问仍按 Flag Counter 的规则参与计数。
+本地预览与正式发布均使用原计数器的 `mini` 图片，仅显示总访问量（累计浏览次数 / pageviews），不展示国家、地区或国旗列表；访问仍按 Flag Counter 的规则参与计数。
 `flags_0` 在迷你样式中表示显示累计浏览次数；宽屏与窄屏共用 160 × 20px 图片。
 页脚的版权、RSS、访问量与主题署名共用自适应排列：空间充足时同排显示，空间不足时自动换行；主题署名不显示版本号。
 Hydejack 的站内页面切换会替换正文和页脚，因此各页面均可显示原计数器；未启用离线缓存，也没有额外增加统计请求。
