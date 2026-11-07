@@ -1,11 +1,8 @@
 {% assign counter = site.data.legacy_analytics.flag_counter %}
 {% if counter.id and counter.history_url %}
 <div class="visitor-counter">
-  <a class="external no-push-state" href="{{ counter.history_url }}" aria-label="查看历年访客统计（Flag Counter）">
-    <picture>
-      <source media="(max-width: 42em)" srcset="{{ counter.image_url | replace: '/columns_8/', '/columns_2/' }}" width="198" height="118">
-      <img src="{{ counter.image_url }}" alt="Flag Counter 历史访客统计" width="768" height="82" decoding="async">
-    </picture>
+  <a class="external no-push-state" href="{{ counter.history_url }}" aria-label="查看总访问量历史统计（Flag Counter）">
+    <img src="{{ counter.image_url }}" alt="总访问量（累计浏览次数）" width="160" height="20" decoding="async">
   </a>
 </div>
 {% endif %}

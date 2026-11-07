@@ -49,11 +49,11 @@ JEKYLL_ENV=production bundle exec jekyll build --trace
 ## 历史访客统计
 
 继续使用原 Flag Counter **6972**，未创建新计数器，也没有修改、重置或导入计数数据。
-原始图片地址与历史统计链接保存在 `_data/legacy_analytics.yml`，通过 `_includes/flag-counter.html` 接入 Hydejack 页脚。
+图片地址与历史统计链接保存在 `_data/legacy_analytics.yml`，通过 `_includes/flag-counter.html` 接入 Hydejack 页脚。
 历史数据由 Flag Counter 服务端保存，可点击页脚进入 https://info.flagcounter.com/6972 查看。
 
-本地预览与正式发布均显示原来的国旗统计图片，访问会按 Flag Counter 的规则参与计数。
-窄屏通过同一计数器的 `columns_2` 图片显示两列国旗，宽屏保留原来的 `columns_8`；避免把整张宽图缩成难以阅读的小字。
+本地预览与正式发布均使用同一计数器的 `mini` 图片，仅显示总访问量（累计浏览次数 / pageviews），不展示国家、地区或国旗列表；访问仍按 Flag Counter 的规则参与计数。
+`flags_0` 在迷你样式中表示显示累计浏览次数；宽屏与窄屏共用 160 × 20px 图片。
 Hydejack 的站内页面切换会替换正文和页脚，因此各页面均可显示原计数器；未启用离线缓存，也没有额外增加统计请求。
 浏览器缓存、拦截扩展和服务方规则可能影响新增计数，历史记录仍由原服务管理。
 
