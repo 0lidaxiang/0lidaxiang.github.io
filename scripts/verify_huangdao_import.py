@@ -10,8 +10,22 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / "docs/huangdao-migration.json").read_text())
-selected = [a for a in manifest["selection"] if a["selected"]]
 errors = []
+baseline = [a for a in manifest["selection"] if a["selected"]]
+revision_path = ROOT / "docs/huangdao-article-revisions.json"
+revisions = json.loads(revision_path.read_text()) if revision_path.is_file() else None
+if revisions:
+    current = {a["id"]: a for a in revisions["articles"]}
+    if len(revisions["articles"]) != len(baseline) or set(current) != {a["id"] for a in baseline}:
+        errors.append("Revisions must cover exactly the existing imported articles")
+    for original in baseline:
+        latest = current.get(original["id"], {})
+        for key in ("slug", "post", "url", "publishedAt", "sourceUrl"):
+            if latest.get(key) != original[key]:
+                errors.append(f"Immutable import field changed: {original['slug']} {key}")
+    selected = revisions["articles"]
+else:
+    selected = baseline
 
 
 class Page(HTMLParser):
@@ -48,6 +62,23 @@ for a in selected:
     for key, value in (("title", a["title"]), ("author", a["author"]), ("date", a["publishedAt"])):
         if front.get(key) != value:
             errors.append(f"Metadata changed: {a['slug']} {key}")
+    if revisions:
+        expected = {"excerpt": a["summary"], "source_revision": a["revision"],
+                    "source_updated_at": a["sourceUpdatedAt"], "last_modified_at": a["sourceUpdatedAt"],
+                    "source_body_sha256": a["bodySha256"], "source_verified_at": revisions["checkedAt"],
+                    "source_category": a["sourceCategory"], "source_reference": a["sourceReference"],
+                    "categories": ["ai"], "rootCate": "work"}
+        for key, value in expected.items():
+            if front.get(key) != value:
+                errors.append(f"Revision metadata changed: {a['slug']} {key}")
+        if front.get("addons") == ["related"] and a["author"] == "荒岛书生":
+            errors.append(f"Personal author introduction still hidden: {a['slug']}")
+        if "<!-- source-note:start -->" not in source or source.index("<!-- source-note:start -->") < source.index("<!-- source-body:end -->"):
+            errors.append(f"Missing source note at end of article: {a['slug']}")
+        if "迁移核对：" in source:
+            errors.append(f"Obsolete migration introduction: {a['slug']}")
+        if a.get("editorialNote") and a["editorialNote"] not in source:
+            errors.append(f"Missing author-commentary identity: {a['slug']}")
     if datetime.fromisoformat(a["publishedAt"].replace("Z", "+00:00")) > datetime.fromisoformat(manifest["checkedAt"]):
         errors.append(f"Future article imported: {a['slug']}")
     body = source.split("<!-- source-body:start -->\n", 1)[1].split("\n<!-- source-body:end -->", 1)[0]
@@ -92,9 +123,9 @@ for row in data["rows"]:
     for value in (row["name"], str(row["displayScore"]), f'{row["costUsd"]:.2f}'):
         if value not in chart_html:
             errors.append(f"Missing chart table data: {value}")
-for private in (".migration-work", "docs/huangdao-migration.json", "backend", "content"):
+for private in (".migration-work", "docs/huangdao-migration.json", "docs/huangdao-article-revisions.json", "backend", "content"):
     if (ROOT / "_site" / private).exists():
         errors.append(f"Unexpected build input published: {private}")
 if errors:
     raise SystemExit("\n".join(errors))
-print(f"PASS: {len(selected)} imports; original bodies, dates/authors, TOCs, blog/archive/tag entries, local links/images and all 8 chart rows preserved.")
+print(f"PASS: {len(selected)} imports; current source bodies, original dates/URLs, revision metadata, TOCs, blog/archive/tag entries, local links/images and all 8 chart rows preserved.")

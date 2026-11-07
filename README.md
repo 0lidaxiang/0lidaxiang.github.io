@@ -82,6 +82,8 @@ python3 scripts/verify_migration.py
 
 从原站当前公开 API 筛选迁入 20 篇长文，沿用 Jekyll 文章、`ai` 分类、标签和技术目录；保留原作者、首发日期、正文与来源说明。入选/排除理由、版本和新路径见 [迁移记录](docs/huangdao-migration.md) 与 [逐篇清单](docs/huangdao-migration.json)。两张榜单图已转换为静态图片及完整数据表，历史快照位于 `assets/data/huangdao/`，不依赖原站 API 或前端组件。
 
+2026-11-07 按来源站已发布修订同步这20篇：更新正文、2个标题、10份摘要和8处署名，保留首发日期、分类、标签及原网址；来源说明移至文末，IPO文章保留作者评论身份。首次迁移清单继续作为历史记录，当前正文、修订时间和哈希由 [版本清单](docs/huangdao-article-revisions.json) 管理，改动范围见 [同步记录](docs/huangdao-content-sync-2026-11-07.md)。
+
 生产构建后可执行本轮内容验收（仅使用 Python 标准库）：
 
 ```sh
@@ -90,7 +92,7 @@ python3 scripts/verify_migration.py
 git diff --check
 ```
 
-第一项核对 20 篇正文哈希、原日期/作者、目录、首页分页/技术目录/标签入口、站内链接和图表数据；第二项继续核对原内容与历史网址。记录和临时核验目录不进入网站产物。可选的 `scripts/render_huangdao_figures.py` 使用本机 matplotlib 与 macOS 黑体重新生成图表，不是 Jekyll 构建依赖。
+第一项按当前版本清单核对20篇正文哈希、标题/摘要/署名/修订元数据，并锁定首次迁移的路径与首发日期；同时检查目录、首页分页/技术目录/标签入口、站内链接和图表数据。第二项继续核对原内容与历史网址。记录和临时核验目录不进入网站产物。可选的 `scripts/render_huangdao_figures.py` 使用本机 matplotlib 与 macOS 黑体重新生成图表，不是 Jekyll 构建依赖。
 
 ## 主题来源与许可
 
