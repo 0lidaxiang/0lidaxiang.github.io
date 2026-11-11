@@ -1,0 +1,82 @@
+{
+  "articles": [
+    {
+      "title": "我的 Agent APP 9 个开发经验总结",
+      "published_at": "2026-09-01T20:22:01+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485706&idx=1&sn=3b46a60828e17b66e5bebcd8c4d348f6&chksm=f960398bce17b09d8efdb3a524a7ff9d0c574772754ff258a0dcf1de7e0a1d91a892665c38a7#rd",
+      "path": "_posts/ai/2026-09-01-personal-agent-app-lessons.md",
+      "url": "/ai/personal-agent-app-lessons",
+      "body_sha256": "19c81da5cca8ee52fc2f908b6422ff5ebc8fada1a5f14336997495cc4dab98cd"
+    },
+    {
+      "title": "一个完全看不懂的GPU 老项目，Codex 居然真能救场",
+      "published_at": "2026-07-24T20:18:46+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485191&idx=1&sn=e6d0f3c6ffc805cac6255aa432496f07&chksm=f9603786ce17be903cc25203697796ad1eedf068a5420f42d887793ce438cc9f56b818153d0e#rd",
+      "path": "_posts/ai/2026-07-24-codex-gpu-legacy-project.md",
+      "url": "/ai/codex-gpu-legacy-project",
+      "body_sha256": "ad333dada26fc9adc9c6ecc9eeda07f4f0bde7ad94dd19bb4229b0595f0eb4e9"
+    },
+    {
+      "title": "AI 博主的 Obsidian 自媒体内容工作台设计分享",
+      "published_at": "2026-08-17T19:09:39+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485527&idx=1&sn=d92c18a7884cc889db5f1184c7068403&chksm=f96038d6ce17b1c09c24caaa226bea9269578f6a08490f9f493c3b4b399897bb8ef70e1db02f#rd",
+      "path": "_posts/ai/2026-08-17-obsidian-creator-workspace.md",
+      "url": "/ai/obsidian-creator-workspace",
+      "body_sha256": "8c640a00b1ce1a6327856198318d7592bf50d23d3d198dcc683a671c40bad28d"
+    },
+    {
+      "title": "提示词到底怎么写：从一句需求到可上线的 Prompt",
+      "published_at": "2026-08-06T20:59:15+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485362&idx=1&sn=a09bb06cac105560fa9dd087d78788c1&chksm=f9603733ce17be25bc15868eddc172290c07721ca01fa4a77efc67910222c2c83098cdb6340a#rd",
+      "path": "_posts/ai/2026-08-06-production-prompt-design.md",
+      "url": "/ai/production-prompt-design",
+      "body_sha256": "ebaea1d6c7db4da89c89234fdca1644985fd5df0f8a6e9e85d1b43140ed5e92f"
+    },
+    {
+      "title": "我们的 Codex 不一样，七个实用技巧让长任务执行表现更佳",
+      "published_at": "2026-08-20T20:50:53+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485566&idx=1&sn=5c5962b1c6bee9540a48dcb030c3c299&chksm=f96038ffce17b1e9f42509c0b55966cf07dc802be51c55a1f63d77261d6522f90ae37058fc3a#rd",
+      "path": "_posts/ai/2026-08-20-coding-agent-context-management.md",
+      "url": "/ai/coding-agent-context-management",
+      "body_sha256": "68e406d57541907bec6f3b2ffb7bf29f08a554ef8a6a84d0dc4967fca68de67e"
+    },
+    {
+      "title": "GPT 5.6 Sol 总是过度设计？一个关键词“消融实验”直接封神！",
+      "published_at": "2026-09-03T23:06:34+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485722&idx=1&sn=022ea0a05324a16b7b9524f59bea85d2&chksm=f960399bce17b08d59d1a567fec82f20164459dd05bd2d3a869fde82c72b832d93eb4ee66e4a#rd",
+      "path": "_posts/ai/2026-09-03-ai-code-overengineering.md",
+      "url": "/ai/ai-code-overengineering",
+      "body_sha256": "46588fdcc43c5e03d4af63de9688bc1279577f26feba5eb9f03c23b4d00200a2"
+    },
+    {
+      "title": "手把手教你开发 DeepSeek Harness 官方插件：从零到 GitHub 五星的完整实战",
+      "published_at": "2026-08-15T17:38:06+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247485492&idx=1&sn=2463ef8cd95e83e8d4ada37f60970c42&chksm=f96038b5ce17b1a3fb9387084d86cba0f3c651d9cda7325d51d5ffe9b2b12ac085b958552a39#rd",
+      "path": "_posts/ai/2026-08-15-deepseek-harness-plugin-guide.md",
+      "url": "/ai/deepseek-harness-plugin-guide",
+      "body_sha256": "338e5216ae655233cb07308dd235a0dab446df34d9ee930ab378daa21d4b9799"
+    },
+    {
+      "title": "每月花903美元用AI的人，到底在买什么？",
+      "published_at": "2026-10-09T18:45:26+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247486147&idx=1&sn=0a0d88203ed0bddf55c5f7e61f421af0&chksm=f9603a42ce17b35494fc80d89053b0683dcadf5e4cfbda52850b1c23fcb80e6c5e1bd2dd34a1#rd",
+      "path": "_posts/ai/2026-10-09-ai-consumer-spending-and-value.md",
+      "url": "/ai/ai-consumer-spending-and-value",
+      "body_sha256": "c0afc20506ee79952a21a073ee323dfd9696c3748011d51d54708db1a88d51c2"
+    },
+    {
+      "title": "AI 创业不要忽略一件事：认真做事的人，也该认真争取被理解",
+      "published_at": "2026-10-04T15:52:56+08:00",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzUxMjYzMzMyNg==&mid=2247486096&idx=1&sn=927b43310f0659d6ecf767b2d42e0610&chksm=f9603a11ce17b3074eb4e4ba38041290bfcef09e296e111d5fefa1c6384f47b208d676e3564f#rd",
+      "path": "_posts/ai/2026-10-04-product-value-and-understanding.md",
+      "url": "/ai/product-value-and-understanding",
+      "body_sha256": "4b1594ba7bd6292e5938853b51c0b7660a2a77b9e313d7423cde40fc9a6a984f"
+    }
+  ],
+  "source_directories": [
+    "/Users/daxiangli/Desktop/export_20260701_20260831",
+    "/Users/daxiangli/Desktop/export_510278346727305216_20260901_20261031"
+  ],
+  "date_policy": "发布时间取导出记录.csv，以内容链接 mid 匹配实际采用的截图；Asia/Shanghai。迁入日不作为 date 或 last_modified_at。",
+  "editorial_policy": "网页阅读版：导出截图与本地配套稿互校，修正 OCR、恢复结构、精简平台引导。插件教程用配套 HTML 恢复可复制代码及原始插图；不是像素级或逐字复刻。保留历史产品版本和数据口径，未重新实测历史教程或核验全部新闻事实。"
+}
